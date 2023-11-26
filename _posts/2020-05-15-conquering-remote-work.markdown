@@ -1,0 +1,537 @@
+---
+layout: article
+title: "Conquering Remote Work as a Digital Nomad"
+meta: "We discuss the values of remote work. We also cover the pros & cons of remote working, as well as share pro tips for conquering remote employment for tech companies."
+img: "https://i1.sndcdn.com/artworks-uZlVZzgTUey2kFA8-fPwUNA-t500x500.jpg"
+date: 2020-05-13
+permalink: journal/conquering-remote-work
+cat: "podcast" 
+class: "soundcloud"
+---
+
+<div class="img-bg-blur">
+  <img class="round-10" src="{{ page.img }}" />
+</div>
+
+<div class="my-1">
+  <iframe id="sc-embed" width="100%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/777202906&color=%230077ee&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</div>
+<style>
+  @media (max-width: 500px) {
+    #sc-embed {height: 300px;}
+  }
+</style>
+
+<hr class="dash mb-3 mt-3">
+
+##### Ken Blasko & Eli Brumley discuss Conquering Remote Work as a Lead UX Designer and Full Stack Software Engineer.
+
+In the ever-evolving landscape of the tech industry, the concept of remote work has taken center stage, especially with recent global shifts like the COVID-19 pandemic. In an engaging episode of the PlaidPixel Podcast, hosts Ken Blasko, a Lead UX Designer, and Eli Brumley, a Full Stack Software Engineer, dive deep into the world of remote work. They share their personal experiences and insights, painting a vivid picture of the remote work lifestyle, its challenges, and its rewards.
+
+Ken's journey into remote work began as a necessity following a move driven by his fiancee’s job change, while Eli transitioned into this mode more recently, about nine months ago. Both hosts highlight the critical elements that make remote working successful: the ability to adapt, effective communication, and a high degree of self-motivation. They emphasize the importance of creating a conducive work environment at home, noting that investments in quality equipment, like ergonomic chairs and standing desks, pay dividends in comfort and productivity. The conversation also touches on the benefits employers and employees enjoy with remote work, such as reduced company overheads and improved work-life balance for employees.
+
+However, it's not all smooth sailing. Ken and Eli candidly discuss the challenges of remote work, such as the potential for feeling isolated due to the lack of face-to-face interactions with colleagues and the need for strong self-discipline to stay productive. Despite these challenges, they agree that the flexibility and time saved from commuting make remote work an attractive option. From personal anecdotes to practical tips, Ken and Eli’s discussion is a treasure trove of information for anyone curious about or currently navigating the remote work landscape in the tech world. Their insights underscore a vital message: with the right approach, remote work can not only be feasible but also immensely fulfilling.
+
+<div class="my-1">&nbsp;</div>
+
+###### Transcript:
+<hr class="dash mt-0 mb-2">
+
+
+###### 00:00
+You're listening to the Plaid Pixel podcast with your host, Eli Brumley and Ken Blasco. Let's enter the world of web design, development and so much more. Hey all, welcome back to the Plaid Pixel podcast. 
+
+###### 00:22
+I'm your host Ken Blasco and with me always is Eli Brumley. Hey Eli. Hey Ken. Hello man. It's going really well. I'm so excited about this topic that we're going to touch on today. And not only is it something that's trending in the news because of the craziness of this COVID -19 coronavirus, but I think it's, you and I are both remote workers. 
+
+###### 00:46
+And we chose that lifestyle for the pros and cons of it. And I think I'm just so excited to talk with you on this topic and figure out what you struggle with and what you value of remote work. And in those listening, we have a ton of stuff we're going to dive into and we're going to have links in the show notes and all this stuff on resources and things to leverage. 
+
+###### 01:09
+If remote work is something that you have to do based on a health reason or if it's a lifestyle choice, which is awesome. And let's get into it. So Ken, how long have you been working remote? Yeah, so let's see. 
+
+###### 01:27
+It's been almost about two and a half years roughly. So I think it started 2018 and right now it's a little 2020. I think I started at the beginning of 2018. So the job I had at the time, I worked on site. 
+
+###### 01:43
+Primarily the entire time I worked there. I found out that my fiance, well, my girlfriend at the time, fiance now, she got a new job. Congratulations. Thank you. So we decided to move mostly because of her work and we kind of wanted to change. 
+
+###### 01:58
+And we wanted to get back out west. Our family is all out here. So anyway, my boss at the time said, hey, I'm moving. Luckily, he saw that I provided a lot of value and said, yeah, you can go ahead and work remotely for us. 
+
+###### 02:10
+It's totally fine. So that was kind of my first gig, remote. Yeah, I mean, it's been awesome, man. Like that first time coming out remote, it was a huge change, you know, totally different. I wouldn't trade it for the world. 
+
+###### 02:23
+Like flexibility is awesome. I mean, we'll obviously get into all that, the pros and the cons. So yeah, it's been awesome. That sounds awesome. So it seems like that was something you've always wanted to do. 
+
+###### 02:36
+And now you've been doing it for a little over two years and it seems like it's working out for you. No, so it's funny because I've always thought I've wanted to like travel and work remotely. And sure, I mean, now I'm working remotely, but not so much traveling. 
+
+###### 02:52
+But either way, point being is working from home has been so awesome. Yeah. So I've got a similar story. I mean, I didn't do as much, you know, moving across the country. I knew taking the leap of faith and going the remote route was definitely something that I struggle with. 
+
+###### 03:15
+But through just some of these tips and stuff that I've picked up on and talking to the people that are remote, it's been a lifestyle change for the better. And I've been doing it for eight, nine months now. 
+
+###### 03:29
+And, you know, I've always, I've always kind of worked, quote unquote, remote during the weekends, because I serve clients, you know, part time for, you know, applied pixel and Sure. Helping them with their company values, but, but online needs. 
+
+###### 03:44
+But really, it's, for me, it was, it was a struggle. And I wanted to talk a little bit about the things that I came in contact with and and help me through through the diversities of remote work and some of the things that I think people would would find useful, you know, right, right. 
+
+###### 04:03
+So I think the biggest thing that we had a few topics we'll touch on here. I think the biggest thing we could we could definitely kick off is, you know, where do you start with remote work? And I guess the first part of that is, do you are you in a technology space that allows you to do that? 
+
+###### 04:16
+Or, you know, a career space allows you to work remote for one. And if so, where do you go to find a job? Yeah, I mean, luckily for us, you know, we're in the software industry and that kind of blends very well to working remotely. 
+
+###### 04:32
+You know, if you have an internet connection, you can pretty much, you know, work wherever. But yeah, getting into remote work, I mean, you know, there's definitely different websites out there that you can go to that, you know, have, you know, all remote job listings. 
+
+###### 04:47
+Yeah, I've noticed a lot more job listings, even though it's not necessarily like all the ones that are specifically like remote work .com or, you know, whatever they are, and we'll link all those in the show notes below. 
+
+###### 04:59
+But I'm noticed a lot of, a lot of like traditional job listing sites, like Monster and all those, they now offer like a pretty hefty, like remote option whenever you're filtering for a career. Yeah, I feel like they're kind of, they're getting on that wave now. 
+
+###### 05:14
+And they're starting to see a lot more people searching for those things. Yeah. Nice. I didn't know that they, uh, I haven't been to the sites in forever. So that's, that's good to hear. Um, yeah, I know there's like a few sites out there. 
+
+###### 05:25
+There's remote okay .io. There's remote .io. There's so many. And yeah, like Eli said, we're going to link all these in the show notes. Um, I think one of the other important things about getting a remote job, if you're looking to get into that space is just networking and no people. 
+
+###### 05:42
+Um, sure. I mean, after I moved out here, I ended up getting a different job working remotely. Um, for a company that was actually still in Memphis, but only mostly because I knew a guy there from working at another job in Memphis. 
+
+###### 05:56
+So, you know, it's all, it's all crazy, but. Point is you know networking goes a long way and just another piece of that puzzle is if you know somebody and if they have Opportunities available where you can work remotely Then that that's a potential in in the drawer as well. 
+
+###### 06:10
+Yeah, so when I want to start to consider going remote if you typically Have a history of working an in -person job, which most of us have an in -office job It's it's a huge leap of faith for for not just the employee And to change that lifestyle but for for the employer and the company you're working for because there's there's a huge level of responsibility and being able to kind of let go of some of this initial control and and I think it takes a special personality and a certain skill set for For being able to work remote and some of the things that I picked up on as far as if you're looking for a job and your question Like is this right for me? 
+
+###### 06:49
+And the biggest thing is is do you kind of over do you over communicate do you communicate clearly on a frequent basis and You know is are you kind of a self -starter? Are you someone that takes initiative on task? 
+
+###### 07:03
+It doesn't have to be kind of necessarily quote -unquote micromanaged to get through the day and And most of these technology jobs, you know, they harness they harness technology as well So they have they have you know go -to meeting and and Google Hangouts and zoom and you know We have Slack which is kind of an all -encompassing tool. 
+
+###### 07:22
+What there's also like Microsoft teams and And so not only being able to be kind of a self starter and over communicate But but as well as leverage and and know the ins and outs of these pieces of software So there's no real learning curve and your productivity Hopefully hopefully goes up and you know, that's that's one of the reasons why employers look for remote work is One is typically cheaper you can hire you can hire outside of your zip code But when they look for that character trait the personality for someone to fill that role, they're really looking to some looking for someone that can take initiative over communicate and has a decent amount of technology understanding because there's a ton of technology that you have to leverage when you go remote. 
+
+###### 08:11
+So, Kendi, do you want to touch on some of the things that we use and would be helpful? Yeah, I mean, I think you definitely mentioned a few of them, you know, as far as software goes, but, you know, leveraging the proper technology in general, right? 
+
+###### 08:24
+I think it's, you know, very important that you kind of invest into whatever space that you're in, whether that's like your office, but especially like the internet, like your internet connection, you may want to have a wired connection instead of wireless. 
+
+###### 08:37
+Yeah, you definitely get what you pay for when it comes to internet. Yeah, no, exactly. Almost anything, right? Like even a desk, like maybe you want to invest in a nice standing desk. I know I have one, Eli, I know you have one. 
+
+###### 08:51
+You know, same with a great chair, you know, it's funny because I have a Herman Miller chair. My fiance gave me so much crap about spending all this money on a nice office chair. They're not cheap But I would I would buy it all over again. 
+
+###### 09:08
+I would do the same thing. I have no regrets. I used to have back problems. I Have no issues anymore. This chair is fantastic Yeah, so kind of investing not only in in your in yourself as far as technology goes but investing into supplies Typically those supplies of a good quality will will not only last you longer But but as you mentioned, we'll also give back to your health, you know, yeah Exactly, yeah, it's easy to you know, let that go Sometimes very very important to recognize that hey, you need to take care of yourself Yeah, there's so many things like when you're working in an office space whether it's you know, very corporate or more of a relaxed You know business casual environment. 
+
+###### 09:51
+There's so many things that that that company provides for you And I think more and more companies will start to see the benefits of remote work but also will start to see the amount of money that they save and You know and part of that is the the brick and mortar and and the the Wi -Fi costs utility snacks All these things that that companies have to have to have as far as overhead goes to keep their employees, you know happy and and kind of motivated in office space And and you know for those companies that are brave enough to take their company their employees and their brand remote It's a it's a bold move. 
+
+###### 10:27
+It's a it's a it's a yeah, it's it's a it's a crazy It's a crazy step and I think in the right direction and part of that is not only investing back into your people But investing into the technology. 
+
+###### 10:39
+So I'm hoping we'll see more companies step in and say hey You know, if you want to work remote we have these things But then give them some kind of kind of home and in home budget Whether it's quarterly or yearly to kind of invest into Equipment or you know, maybe an extra monitor or you know, thank you things that we just, we take for granted like dongles, if you have an updated MacBook Pro or adapters or even if it's something is like coffee, things like that are just so, we take advantage of if you're in the office, that you kind of take for granted. 
+
+###### 11:15
+And so it's, I'm hoping we'll see more of a push for that and employers and brands will see the value in investing that. Even if it's just little things, it's the things that build culture between you and your company you work for. 
+
+###### 11:29
+Right, well, I think that's one of the biggest things is you have to find a way to stay engaged, keep your remote employees engaged. And yeah, if that, and I think a lot of companies will let you like expend certain things that you need, Rob would hope so, right? 
+
+###### 11:47
+Or if you're doing your own business, there's like tax write offs you can get on certain things. No, I totally agree, Ken. You mentioned a minute ago about your health and investing back into, you know, feeling better with the chair. 
+
+###### 12:00
+One thing that you and I both invested in last year was a really high quality standing desk. Yeah. And that has made a world of a difference as far as, you know, motivation and posture and, and I know it's not, you know, you're not burning a significant amount of calories from sitting to standing, but just, you know, the posture and being able to kind of have a, have an option to, to adjust your desk at different levels and we'll link a few, actually link the ones that Ken and I have down below. 
+
+###### 12:30
+We really like the products and give them a free plug. But I know if you want to go to cheaper out, Ikea also has some, some standing desks that are, that are manual and they might even have some that have the motors that are more like kind of traditional hand crank. 
+
+###### 12:44
+But, but there's, there's options out there if you want to go, if you want to go cheap in that route. Yeah, yeah, there's definitely affordable options. Yeah, I still think like great chair, you know, if you need a mat for the standing desk, even, even good equipment, right? 
+
+###### 13:00
+If you like a good monitor, you know, keyboard, mouse, whatever, whatever you like, make sure you, you know, keep your office space the way you like it, keep it clean. And I think we're going to dive a little bit more into that with the, with the pros and the cons. 
+
+###### 13:14
+So I think the biggest one for me, especially as well, you don't really have to drive into where you're not stuck in traffic. Well, for sure. You're saving time, saving money. Yeah, imagine the amount of wear and tear that you put on your vehicle, gasoline, you know, ongoing manage for a car or having to invest into a, a reliable vehicle to get you somewhere. 
+
+###### 13:37
+I mean, that's, that's a car note by itself. If you, if you don't have the funds to buy a car, right? Which most people, you know, typically finance. So I mean, that's, that's just that cost alone is, is, is a huge, huge saver is money and time. 
+
+###### 13:52
+Right. And if you're a car owner, you know, you're not going to be able to go to a car service, you know, If you live in an area where you can walk to places, you may not even need to own a car. So there's always that. 
+
+###### 14:01
+Yeah, so I think that's a good point. Whenever we talk about remote, that doesn't necessarily mean that you work from home, right? Exactly, right? Yeah, that kind of gets into one of the other pros, right? 
+
+###### 14:12
+You can essentially work anywhere you want with an internet connection. You could totally be a digital nomad. You could go from coffee shop to coffee shop. Like I knew a guy who would do that and he would just travel to different cities, just shack up in an Airbnb. 
+
+###### 14:26
+Like you'd do that for months at a time. Sure, I actually don't even know where he lived. So I don't know if you're a nomad like that. I don't know if you can say you live somewhere or for you just visit, you know? 
+
+###### 14:40
+Right, but I think that's the other, you know, one of the other coolest parts. You can essentially, you kind of have flexibility to, work from anywhere essentially with an internet connection. And it kind of also like if you need to take some time to go, you know, do something somewhere else, you can still work from there and still do whatever you need to do. 
+
+###### 15:03
+Sure. You know, whether it's visiting family or whatever, right? Yeah, I think that's a huge point. If it's, you know, if you have a limited amount of PTO or you really value the PTO that your company gives you, you know, having a quote unquote remote job allows you to, as long as you work it out with your employer and your company, it allows you to do a little bit of traveling with occasional freedom. 
+
+###### 15:28
+And, you know, say you did a full week vacation, right? So in a traditional setting, you're going to burn 40 hours of PTO, which is a ton of time that a lot of people have to accrue or given. And, you know, in America, it's typically you have two, maybe even three weeks of PTO. 
+
+###### 15:46
+Some tech companies are investing into more, which is great. But typically you have two or three weeks if you've built up a lot of time. And at that point, you know, if you say you're traveling, you know, whether it's a planted car, you can go to that place as long as they have a reliable connection and work it out with your manager to work certain hours. 
+
+###### 16:06
+You know, maybe you don't burn a whole 40 hours, but you get up and you want to work like six to 11 or six to noon. And then you have the rest of your day on that on that PTO schedule and you're not having to burn a full 40 hours just to go visit family or something from out of town. 
+
+###### 16:21
+Exactly. Yeah. I visited a buddy of mine in Philadelphia and I took one day off and I worked the other two days because I think he had to work and yeah, it's just cool because, you know, you can do that kind of thing. 
+
+###### 16:33
+Yeah. Yeah. I know you mentioned saving time. I think something that we don't think of on the employer, the employer level. The employer is also benefiting quite a bit as far as your time management goes because you're very, you're very likely to be late for work, right? 
+
+###### 16:49
+I mean, you, you know. If you have a home office and you're within a minute or two after you grab a cup of coffee to be in the office, you know, and having an excuse of like, oh, I got stopped by a train or traffic or whatever, you know, things like that. 
+
+###### 17:05
+You don't have to worry about those things and so be able to have that freedom of that and to always kind of be on time and accountable for being on time for meetings and stuff. I think is bringing so much value to the employer as well. 
+
+###### 17:18
+I like that you say the value to the employer. That kind of, that hits a big topic as well, right? And I think it takes a good employer to recognize a good employee and the trust goes both ways, right? 
+
+###### 17:31
+And you need to have a boss to manage correctly, manage remote workers correctly. That's a whole other topic that we can probably get into you later on. Yeah, maybe we'll do another episode over like proper scrum or like what works for us and how to like. 
+
+###### 17:45
+stay accountable and on top of our task and the technology we used to do that. That's a great topic. Yeah, that'd be cool. Um, yeah. So something else that, that is, that we don't typically think of whenever you're working in a, in a nine to five is if you are working remote, the nice part about this is employers can hire outside of the area code. 
+
+###### 18:02
+So not only does that allow them as an employer standpoint to, to recruit better talent, you know, outside of their zip code, typically you can get cheaper talent because there's not a ton of overhead. 
+
+###### 18:12
+You don't have to pay massive amounts of, of money to, to relocate that person and their entire family and, uh, things like that. But from an employee standpoint, from a worker standpoint, you can work different time zones. 
+
+###### 18:26
+So if you'd like to wake up earlier, maybe you, maybe you live on central time zone, you know, the nice part about that is you can work kind of ahead and be able to work a different schedule, which allows you to get off work earlier in the day. 
+
+###### 18:38
+You know, time with your family, things like that. Absolutely. Yeah. I actually work central time zone. I'm West coast. So I'm right now I'm two hours kind of behind, but you know, it's kind of nice. 
+
+###### 18:49
+I pretty much, I get up super early, um, and then I'm off about around three o 'clock. So I think you're kind of similar, but you do what central, but you were I'm one hour behind, I guess. So I work one hour ahead. 
+
+###### 19:04
+Yeah. Yeah. Yeah. Which is nice. So you get off around three, I get off around four and it's, it's great, especially if you have, you know, if you want to have, if you value that time off work and have a good work -life balance, especially if you have kids or a family, it's, um, that, that time is so valuable. 
+
+###### 19:19
+And most people are, you know, they get off at five, they're trekking through traffic for 45 minutes to an hour. It's, it's a headache. Right. Um, something that brings me a lot of, uh, mental therapy is working from home is that I can work with my dogs in the room and the benefit of pets. 
+
+###### 19:37
+I know you have some dogs and some other animals. And I think not only is that just a, a cool thing to, to think about, but it also allows me to work with my dogs. you to have a, you know, pets bring you a sense of calmness and support and to be able to have those little guys, fur babies, you know, with your feet to keep you company. 
+
+###### 19:56
+You know, I think it adds a ton of value. I agree, man. I mean, you know, I pretty much walk all the dogs. I've got three dogs, so I'll take them on walks and it's perfect because I can just cut time out of my day and take them on a walk. 
+
+###### 20:10
+And I'm sure they appreciate it as well. Exactly. And I get cooped up. Right. And my fiance works pretty long days. If I had to work in an office, well, they'd be here maybe eight, nine hours a day, not sitting there. 
+
+###### 20:24
+So they're happy to have dad home, huh? Yeah. That's awesome. So I think before we get into the cons, I just wanted the, I think the biggest thing for me, the probably the biggest pro is the flexibility that you get from working remotely. 
+
+###### 20:40
+You kind of touched on this a lot already, but I mean, there there have been times where you know, I'll get a break in my day, I'll go to the grocery store, I'll go get a haircut, you know, you can do errands at random times, if you can cut out the time and, and that kind of goes back to, you know, building trust with your coworkers, your employer. 
+
+###### 20:58
+Or if you work for yourself, then you're good. But sure. I think that's the coolest part is there's there's you kind of almost set your own schedule in some sort of like context of, you know, whatever your schedule should be. 
+
+###### 21:12
+So I think that's great points. And, and a part of the whole saving time and money. And the nice part of about working from home is, is typically the lunches that you would spend so much money eating out on, you get to, you know, go make yourself a sandwich or, or bake something or things like that. 
+
+###### 21:28
+And you could, you could save so much time just in groceries and eating out. Which, which kind of is a good transition for cons. Because that's, that's one thing that I really miss being in office is that office culture, having lunches brought in on Fridays, you know, to just chat it up with folks and, you know, maybe play around a ping pong, things like that. 
+
+###### 21:47
+Right. So, yeah, so I think that's a, that's a good, that's, that's definitely something that, that I, I miss, which I guess would fall into the con category. But, but some of the other things that, that we, we, we miss being remote workers is you don't have that day to day kind of quote unquote water cooler talk. 
+
+###### 22:06
+So you miss, you miss that face to face conversation with coworkers and that, that does sense, that does tend to build a lot of trust in relationships with, with your employers, staff members and managers to kind of be in person and kind of be visible and, you know, I don't know if that's something that you've necessarily missed out on. 
+
+###### 22:29
+How do you feel about, you know, the, the, the lack of face to face interaction? Yeah, no, I totally agree. I mean, I do kind of miss some of the social interaction there that you get from, you know, being in an actual office space. 
+
+###### 22:42
+Sure. You know, the first, I think I was talking about the social interaction, you know, being in an actual office space. earlier, the first job that I had working remotely, I had worked on site the entire time I worked there, and I kind of, I moved, went remote, and I missed so much of that culture, right? 
+
+###### 22:56
+Like, that was, I actually wasn't sure if I wanted to keep working remotely because I had missed it so much. Right. So you had a bit of a withdrawal going to the extremes, huh? Yeah, yeah, exactly. I mean, and, you know, a lot of the people who worked there didn't work remotely. 
+
+###### 23:13
+There was like one guy who worked remote. And so nobody really did video chats, that wasn't really a thing. Whereas now, my company, I mean, I do video chats all the time with people. So I mean, you almost kind of get that face to face, but it's still not the same. 
+
+###### 23:26
+So yeah, it's totally something I miss. And, you know, I still miss it'd be nice to, you know, get some more face to face interaction throughout the workday. But yeah, I think I think part of that is like, it's definitely a con, like, it's definitely something that's kind of a culture shock. 
+
+###### 23:44
+You know, typically if you have if you have a lot of that engagement office, it's you definitely miss that right off the bat. I think that really comes down to leveraging the right technology, you know, and setting a setting a routine schedule for your team to, to take on the challenge of remote and, and not kind of be this outlier that this one person wants to be remote. 
+
+###### 24:00
+So they, they have to kind of work around, you know, certain, certain, uh, standards and limitations. But if, if your team is, is more remote than it is not remote, or if you have a large amount of team members that are remote, I think part of it is just, is leveraging a proper amount of technology and, and, and scheduled routine calls to, to do daily check -ins and things like that. 
+
+###### 24:21
+So that it's, you know, it doesn't feel so polarized. Yeah. I think you bring up a good point right there. The, you know, like leverage the technology, make the remote employees feel like they're still part of the team. 
+
+###### 24:34
+And I, I didn't feel like I got that too much from that, from the first job I was remote. So, um, but I think you also brought up a good point about like the culture. Um, and you kind of also miss out on the company outings, right? 
+
+###### 24:47
+So if, oh, that's huge. Yeah. Yeah. If you go out to lunch, uh, just small things, like say, you know, you have like a party or something like you typically probably won't, you probably will miss out on that unless you actually get the fly in or, you know, travel into wherever that is. 
+
+###### 25:04
+Um, right. Yeah. I think if, if, if you're an outlier and you're trying to go remote and the rest of your team isn't, you're definitely going to probably lose that benefit. But, but a lot of teams that are dedicated to the remote lifestyle, typically they like to do like a yearly retreat, which, which helps kind of build that in person and do something fun outside of the office. 
+
+###### 25:25
+So yeah. Yeah. And it's, it's a kind of all relative, right? It depends on who you work for the company. Um, I'd say the best company probably to get in with would be one that has a little bit of both, right? 
+
+###### 25:36
+Um, either full or a little bit of both of remote employees. Yeah. So, so with the rise of this coronavirus and, and kids. being forced to stay at home or parents having to be home with their kids during this kind of crazy time that we're going through right now is that's a constant struggle regardless if the kids are forced to come home or not. 
+
+###### 25:59
+Even if the kids are in school, they typically come home around two or three o 'clock and so setting those limits and enforcing certain rules on certain office spaces was a huge lesson for me to talk to the kids and say, hey, this is dad's office, you don't knock on the door, I'm in meetings, there has to be this certain very strict separation between office and home and that's not, even if you have kids or not. 
+
+###### 26:29
+We're going to get into that as we talk about these kind of pro tips and things that we have found to be so valuable when conquering remote work, but that is a constant constant struggle setting these certain barriers, you know, I've even thought like hey Like how do I like how do I need like a like a I'm recording light like Dad's in his office like It's it's a silly thing but like, you know You know being able to have Have your kids around is great for when you're taking lunches and stuff and having extra time for them in the evenings Because you don't have to travel so much and you know that strenuous drive to working back But yeah, I can imagine man having having kids running around and I can't really compare I mean the pets are or one thing. 
+
+###### 27:19
+I mean sure my dog can open my door now. So that's not great so I think one of before so we have to we want to get into like the pro tips for conquering remote work, but we uh, we also want to touch on I Well, sure and I think we kind of we touched on this briefly but pros and cons of employers and companies is is really setting that that relationship of trust and guidance and because there is there is no time to really quote -unquote micromanage so To being up being able to hire people that you trust is already a good thing regardless of if you're in the office or not So it kind of sets a kind of a hard a hard stop to those that that you don't trust with their arms reach and so being able to to just have those those certain standards and It really it really kind of cuts through those people that might necessarily not be a good fit for remote work. 
+
+###### 28:20
+Sure So so what do you think about the companies that? Require you to have like remote experience before Taking a remote position because I don't know if that's still a thing but yeah, I think I think it's I think it's huge It's it's something that you know companies don't want to hire people. 
+
+###### 28:38
+They don't have experience doing what they're trying to get them to do because it takes time and money out of that company's pocket to hire an onboard and to teach someone to be a remote employee. Part of that is, I think, just comes down to character traits regardless if you are in office or if you want to be a remote worker. 
+
+###### 29:01
+But it really comes down to, is this someone that is a self -starter? And can you give this person a set of tasks or to play their role and fulfill their role and not have to be constantly checked on or takes an issue on things? 
+
+###### 29:17
+I think that's just huge as far as a personality goes. And again, remote work is not for everybody. And I think it goes back to the industry as well. It really depends on the industry you're in and if that lends to being able to work remote, right? 
+
+###### 29:32
+We're fortunate that we're in the software industry, so we can work remote. But again, like Eli said, it's not really for everybody. You know, if you have a hard time staying motivated and focused, that could totally be a problem for you working remotely. 
+
+###### 29:51
+And that's why we're going to get into some of the pro tips for Conkin remote work, because we can give you some good tips on how to avoid those distractions. So kick it off. For sure. Yeah. Some of these tips and tricks are something that is, it's an ongoing trend to constantly monitor yourself and be kind of self aware of where you stand and your managers and your business' eyes. 
+
+###### 30:15
+And part of that is just, again, over communicating, being transparent, and having these conversations. You know, like, is this working out? Is how can I communicate better? Just, you know, being vulnerable and asking those questions, I think goes a long ways in a manager saying, oh, wow, this person really cares. 
+
+###### 30:32
+And they're not only are they asking the right questions that we can fulfill the answers, but I'm not having to tell them, hey, you need to communicate more. Hey, you need to reply faster to emails or be more involved in meetings. 
+
+###### 30:45
+But this person is a self starter. So managers love that. Oh, absolutely. Yeah. I mean, if you don't have to have a manager that's kind of micromanaging you, then yeah, you did a good job. I mean, it kind of goes with anything. 
+
+###### 30:59
+So as far as like, I think one of my biggest tips for starting remote work, if you're looking to get into it or you're just starting, I think it's very important that you get a good office space or get a good area of whatever location you want to work in and make sure that's a dedicated space for doing the work. 
+
+###### 31:18
+Make sure you define. I think dedicated environment is like so important. Yeah, absolutely, man. Set the boundaries. Make sure that if you have family living with you or just make sure that they know that this is your space, that it's you to find it specifically for work. 
+
+###### 31:38
+approach it from the standpoint of, hey, I'm going into my office today. Like that's how I look at it. Like, hey, I'm going into my office or, you know, when I leave my office, I usually set aside my work. 
+
+###### 31:50
+I'm usually done with work and sometimes I'll close the door. So I, you know, it feels that way. It feels like an office and I don't, so I don't go back in there to do something. Cause usually when I go into my office, I'm usually doing work and that's kind of how, that's how I've approached it. 
+
+###### 32:05
+Yeah. I think separation of environment and like setting these, these really strict boundaries for yourself and for the people that live in the same house as you is so vital to being a productive member of your team and still carrying on the same value and efforts that you would if you're in office. 
+
+###### 32:23
+And obviously like you, you miss the drive -in to work, not necessarily the time suck it takes, but the kind of mental, meditation that whenever you're driving in, maybe you're listening to some music or mental or a podcast and being able to mentally think through your day of, this is what I'm going to accomplish. 
+
+###### 32:40
+This is what I'm going to conquer today. Here's the things that are kind of on my to -do list. And here's the meetings that have coming up like that. That time is so valuable. So, um, you know, I think going to our next point routine is something that's going to be so vital to, to your environment and, and being able to segment the difference between, you know, what works and what doesn't. 
+
+###### 33:01
+As far as really pulling apart, this is my home and this is my office space versus my home office. I don't like to call it my home office, you know, cause I just lens to like, I'm at home. Yeah. I agree, man. 
+
+###### 33:13
+I, yeah, it's a good way to look at it. Home office. I don't think I actually have ever called it my home office either. Yeah. I think most people that have like a nine to five in a traditional brick and mortar building, they, they say, Oh, this is my home office. 
+
+###### 33:26
+Cause maybe they'll do some paperwork or something on the weekends. Um, but when this is your, when this is your, you're a quote unquote nine to five, you know, you're 40, 45 hours a week. It's, you know, it becomes a kind of a sacred space to, to, to limit and, and set those certain boundaries and, and routines is, is so important. 
+
+###### 33:45
+So like I said, with driving into work and you, you miss that, especially with the detox of getting off work and you're, you know, you're taking that drive home and you can kind of reflect, I think those things are still relevant. 
+
+###### 33:55
+And so being able to like, you know, maybe you get a cup of coffee in the morning and, and you have a certain routine that, that works for you. And, and for me, it's like, it's, it's, it's getting the kids out the door for school and having 15, 20 minutes just as a, as a quiet house. 
+
+###### 34:10
+I think it's so vital to get me kind of a good headspace. Yeah. And so, you know, if that's getting a cup of coffee or making a, you know, my, my, my guilty pleasure right now is a cinnamon chai latte. 
+
+###### 34:21
+Oh man. Speaking of my language. Yeah. I love, I love them. Um, maybe I had a shot of espresso. too deep. Yeah, it'd have been time how much sleep you could have guessed the night before. But having that time to get a cup of coffee and go through emails and go into the office, a bit of the computer, check your Slack or your communication channels to see where the team's at, look over your tasks for the day. 
+
+###### 34:52
+And I think those things are just so important to kind of prepare yourself for a successful day of work as you're a remote employee. No, I totally agree. I mean, the routine is so important. I mean, you mentioned yours, I kind of do the same thing. 
+
+###### 35:05
+I get up, make my coffee, I have to take all the dogs out, I feed the pets. You know, I'll usually roll into my office and start looking at emails. Well, I think the same thing goes when you're getting off work, right? 
+
+###### 35:18
+So, you know, typically just things that work for me is when I get off, I'll kind of shut everything down instead of like jumping straight from my computer into kind of being dad or... or being a supporting spouse is taking, even if it's just five minutes, just to kind of look out the window and detox and reflect back on your day and things that went well, things that you could have done better. 
+
+###### 35:43
+And, you know, and kind of whether you want to call it meditation or not, just kind of that detox time is I think is so vital to that in your routine that that's that for me has been has been very beneficial. 
+
+###### 35:56
+Yeah. And something we can definitely touch on and I want to hear about your daily routines and reminders, but setting like setting daily reminders and things and like recurring events, even if it's silly is like setting a timer that reminds you to do these things, I think is is so key to feeling like you have a very productive and successful workday. 
+
+###### 36:19
+You know, I think you and I both own Apple watches and, you know, you'll, you'll be in a stressful situation, but you'll get a little, you'll get a ding on your watch and it's like, hey, you should probably breathe or you should probably, you should probably stand up. 
+
+###### 36:34
+And, you know, like those are reminders, regardless of whether they came from Apple or, or like you, you tell yourself, hey, I'm going to set a reminder that every day I'm going to go to my office, and I'm going to do the first 15 minutes, I'm going to set it on my calendar to do this, and just carve it out in a calendar, do these certain things, even if it's before the other employees come online. 
+
+###### 36:56
+You know, even things like, you know, every day I'm going to set a set reminder at 1030 or 11am to send me a notification telling me to stand up just as a reminder. So if you have a standing desk, you know, hit that, that preset button, the desk rises, and then you kind of get in the routine of standing, you know, hopefully an hour or two a day. 
+
+###### 37:17
+Yeah. No, and if you have those sort of mental cues, at some point, it's going to come, it's going to be routine to loop back to routine. But, you know, it's just going to be something that you'll do without needing the reminder. 
+
+###### 37:29
+at some point. But I think you're totally right. Like having the reminders available, like setting some time aside to, like detox, I really agree with you there. Because I think you hit some points earlier about, you don't get to drive home, you don't get to listen to a podcast. 
+
+###### 37:45
+So it's kind of nice to take like that, like 20 minutes after work, maybe just sit on your couch and chill, you know, listen to this podcast. Exactly. Yeah, one thing that I thought was so interesting, that I've tried to do over the last few days, when if you read any blogs or anything about remote work, is they try they tell you to implement the 2020 rule. 
+
+###### 38:07
+And I think it's, again, it's one of those things that's like easy to remember. And so you sit to remember like what it what it means and then a reminder to implement it. And so the rule of 2020 is for every 20 minutes, you take 20 to 30 seconds to break away from your screens and to kind of refocus on something that's at least 20 feet away from you. 
+
+###### 38:27
+And part of that is the concern of eye strain. So, you know, obviously if you're working remote, you're constantly glued to a monitor, whether if it's a laptop or an external monitor and those things is glaring blue rays into your eyes, which can cause, you know, over time can cause significant damage. 
+
+###### 38:44
+And part of that is just again, routine, right? So trying to just break out of like sitting here and doing this, but also like it kind of gets you to to snap out of like what you're doing and, you know, refocus, I guess. 
+
+###### 38:59
+And sometimes it's good to just take a break and look at something far away or look out the window. No, I think one of my favorite things is, you know, having natural light in my office, right? Like I think that's a huge tip is make your office space, you know, inviting, have good lighting, have natural lighting. 
+
+###### 39:18
+You don't want to make it like a dungeon, right? Like you don't want to hate going into your office every day, right? Yeah, you should make your office your own kind of space. And obviously, you know, if you're gonna be, if you're gonna have a webcam open, be professional, you know, dress the part, you know, put on a nice shirt, maybe even set something in the background that's visually interesting. 
+
+###### 39:38
+So you're not just staring at a white wall. It looks like you're kind of in a weird third world country prison cell. Yeah, and even your laptop, right? Like I would argue, like have your laptop propped up so it's a good angle. 
+
+###### 39:54
+Like don't have like a double chin thing going on where you're just staring down at your laptop. You know what I mean? Exactly. It's those small things that they do make a difference, right? Yeah. And I think you brought up a point about like, you know, dress nice and that's a huge one, man. 
+
+###### 40:08
+Like maintain your hygiene, you know, take a shower every day. It's very important that you don't lose like, you know, a track of the menial things that you kind of, you used to always do when you'd go into an office. 
+
+###### 40:23
+It's different when you're working from home because, you know, you can easily just, just get out of bed and go straight to your office and just zone out. You know, but it's very important that you have those reminders and the routine going back to that that. 
+
+###### 40:38
+Well, speaking of, uh, you know, routine and setting reminders, something that has been so helpful for me is I call them culture convos and come whatever you want. But basically they're just little, little daily micro meetings that, that have no agenda, uh, but to build relationships, uh, you know, trust and transparency with your coworkers. 
+
+###### 40:58
+And, you know, whether you're doing scrum calls or if you're a software developer or if you have like kind of daily kind of standup calls with your team, having, having those little meetings, even honestly, if they're five, 10 minutes, you know, three or four times a day with, with people that you work with. 
+
+###### 41:13
+Literally the agenda is nothing except for avoid talking about work. You know, cause that's that, that's that quote unquote water cooler talk that, that it was a con on our list that you typically miss out on. 
+
+###### 41:24
+But, um, you know, being able to, being able to just set up these meetings and, you know, put a terminal video, build build personality, these people talk about your family and friends and what you're doing, what you did over the weekend, things like that. 
+
+###### 41:37
+I think it's just so valuable. Man, I totally agree. Like, and that also helps when so say, for instance, you have to travel and meet up with your co workers, that also helps in that sense, right? Like, if you guys find out that you have a hobby that you like together, then you guys can go hang out and go do that once you actually meet up in person. 
+
+###### 41:55
+Sure, it'll happen, you know, like what beard are you like? What are your kids doing? Yeah, exactly. You like hockey? Let's go to a game. Yeah, for sure. I mean, I've been to so I travel for work and every city that I've gone to I'll go with my co worker to a hockey game. 
+
+###### 42:12
+We'll try to find a game and just go. That's awesome. We're there. Like, let's do it. So yeah, right. Take advantage of it. Exactly. But that's a that's a good good point, man. I think it's really important just to have those video calls stay, like, you know, stay involved with the personal lives of your coworkers, even if you don't see them every day, even if you don't see them face to face, I think that that just keeps everybody kind of healthy, you know, yeah. 
+
+###### 42:38
+Cool. So Eli, I wrote down some rapid fire questions for you. So the first one, what's your best tip on minimizing distractions? Oh, that's a that's a good one. So a pro tip that has helped me out a lot is if you are on Mac OS, doing the the do not disturb on your OS devices or on your computer has been a lifesaver for me. 
+
+###### 43:06
+And it has really helped me with kind of focusing, even if it's like finding a podcast or or I or putting on like a Spotify channel that's like a, it's called like brain focus or something like that. 
+
+###### 43:18
+And it's honestly, it's just like ambient noises. But that allows me to just really focus in and, you know, when I'm working from home, and maybe there's, there's, you know, kids around the hall or the neighbors moment is grass. 
+
+###### 43:34
+If I have those things kind of in my head, it allows me to really focus in. Yeah, dude, that's a really good point about the Mac. Yeah, dude, not disturbed. Yeah, I use that actually a good bit. I love it. 
+
+###### 43:48
+All right, so next one, man. So would you ever go back to working in an office full time? Wow. That's a loaded question. I think that there's so much value when it comes to remote working. It took me probably six to eight weeks to really dive in and find my routine and my flow of remote work. 
+
+###### 44:11
+But it would be a huge ask to get me back into office, honestly. Yeah. Yeah, now that you've tasted the sweetness of remote work and all the time and money you save that comes with it. Yeah, it's it would be a it would be a pretty hefty ask to get me back into an office. 
+
+###### 44:32
+Honestly. Yeah, I'm with you, man I'm 100% with you. Yeah. All right, my last one for you. There's not too many this time. So do you think That more companies or teams are seeing the benefits of going remote nowadays Benefits yeah, I think that companies move very slow and It's a big ask for companies that have been on the block for several Years to consider remote but we're companies that are up and rising They're moving a lot faster and part of that is that they are taking on these remote these remote Lifestyles and being able to recruit better talent and and putting more trust into their employees and in return that employee is gonna Is going to reciprocate that trust and build a better product for you and your company It's a good way to put it Yeah, and I really hope you know this this coronavirus stuff blows over but you know And hopefully people find value in the tips that we have as far as remote goes But you know, it's a crappy situation to have to go through to be forced to go remote So I can't imagine what people are having to go through to just you know Have this certain routine of going in the office and stuff and now you're kind of you kind of in this awkward stage of learning how to do that fully remote and leveraging the technology that maybe you're not so comfortable with but Hopefully as as as bad as the situation is Companies can you know after weeks of people working remote start to see the value in it, you know, right? 
+
+###### 46:02
+And I think you brought a good point saying that companies are slow Of course that'll that'll depend on the company but You know, I think probably startups, you know smaller companies definitely gonna be more towards the hey, let's go Let's go remote, you know sure So I'm hopeful that more companies and I you know, like you said, it sucks what's going on right now with COVID -19, but hopefully you know, if one good thing can come out of it, maybe more companies will let their employees work remotely more often. 
+
+###### 46:34
+I've got a rapid fire question for you, Ken. Do companies really see the value of this or do they think that employees just see it as a trendy word? That's a really good question. I feel like it could go both ways. 
+
+###### 46:52
+I think like the trend is, I think it's trending that way, going remotely. But I think a lot of companies are kind of apprehensive. But in and also, I think it also goes back to what industry are you in, right? 
+
+###### 47:08
+I mean, some companies, it literally just doesn't make sense for anybody to work from home. Yeah, if you're an electrician, you can't really do that from home. Yeah. But even like software, I mean, I'm sure there's companies out there that... 
+
+###### 47:21
+You know, they follow a very like rigid standard of style and you have to go into the office, right? Like traditional standard. Yeah. Yeah, traditional, right? Cool. That's awesome. I think that was a super valuable rapid fire that, you know, did you want to touch on a little bit of closing statements here, which is maintaining that work -life balance moving forwards? 
+
+###### 47:43
+Yeah. So, you know, I think one of the, again, going back to kind of a pro, one of the biggest pros about working remotely as well, the flexibility, but with that comes maintaining a good work -life balance as well. 
+
+###### 47:55
+I think it's very easy to get caught up in your work. And I'm sure in our industry, there's a lot of side projects that you could potentially do. So it's, it's very important to realize when, you know, it's time to cut off the work. 
+
+###### 48:09
+And go do like something healthy and, and maybe it is, you know, doing more programming or more design work. Maybe that's like, you know, that's totally fine. But I think it's also very important to, you know, go do some workouts or go running, just stay healthy. 
+
+###### 48:26
+Make sure you keep your work in check and don't let it kind of overtake you as far as, you know, when you get the ability to work from home. Yeah. Being a remote employee, that's definitely something that is easy to slip back into is, you know, I'm just going to go into my office where I'm going to take my laptop or my computer outside of the office. 
+
+###### 48:45
+I think that, that is, is a slippery slope when it comes to that segregation between home and office. And for me, that's, for me, it's just constantly self -monitoring and trying to figure out what works for me, what routines I need to adjust. 
+
+###### 49:01
+Don't get comfortable and, and just constantly ask questions through, through people you work with and, and, and push to over communicate for sure. Awesome. Well, I really do hope you all found this episode insightful. 
+
+###### 49:17
+We're probably going to do way more episodes on just remote working in general, because that's Obviously what we're both doing. I think this episode was so value rich, like just had so many topics we touched on and like so much stuff. 
+
+###### 49:30
+And I think we want to like really break down a few blog posts and some really detailed show notes for this stuff. So it's a constant reminder, you know, for you guys to read it and go back on it, maybe even share it out to people that are looking to go and promote or even like send this to your employer so they can hear some of the values of some of the remote work and things that they should consider as a company. 
+
+###### 49:52
+Absolutely. Awesome. So with that, I think we're going to sign off, Ken. I appreciate you taking the time to talk remote work with us and we're going to have a few special guests coming on next week. 
+
+###### 50:02
+So look forward to that. If you haven't already, please subscribe to the podcast. We are on so many platforms now. We'll link all the platforms who are on appliedpixel .io. And if you would like to come on the podcast or if you have a topic you want us to cover, then please email us. 
+
+###### 50:16
+It's podcast. at platpixel .io. Thank you all. Thanks Eli. Peace. ["Pretty Biggie"] 

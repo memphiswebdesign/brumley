@@ -1,0 +1,14 @@
+<div id="mobile-menu">
+	<div class="container">
+		<ul class="mobile-nav list-clear">
+			{% for item in site.data.menu %} 
+			<li {% if item.link == page.url %} class="active"{% endif %}
+			><a href="{{item.link}}">{{item.title}}</a></li>
+			{% endfor %}
+		</ul>
+		<div class="btn-grp mobile-cta">
+			<a class="text-link"href="/contact">Contact me  <span class="ar">></span></a>
+			<a href="/assets/eli-brumley-resume.pdf" target="_blank" class="text-link">Latest Resume <span class="ar">></span></a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,23 @@
+<section id="hero" class="default">
+	<div class="container center">
+		{% if page.title %}
+		<p class="hero-tag fog flex fx-align-center fx-just-center">
+			<span class="blue dot-accent pre">:</span>
+			<span class="sub-title pre">
+			  {{ page.title }}
+			</span>
+			<span class="blue dot-accent pre">:</span>
+		</p>
+		{% endif %}
+		{% if page.subtitle %}
+		<h1 class="hero-sub-title">{{ page.subtitle }}</h1>
+		{% endif %}
+	</div>
+	<div class="animate-fx">
+		<div class="orbs">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</section>

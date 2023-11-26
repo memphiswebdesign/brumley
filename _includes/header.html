@@ -1,0 +1,38 @@
+<header>
+	<div class="container center white">
+		<div class="flex fx-just-apart fx-align-center">
+			<div id="logo">
+				<a class="logo-link" href="/"> 
+					<div class="memoji unselectable">
+						<img class="headshot" src="/assets/eli-memoji.png" alt="Eli Brumley" />
+						<img class="thumb" src="/assets/miemoji-thumbsup.png" alt="Thumbs up" />
+						<img class="wave" src="/assets/miemoji-wave-right.png" alt="Wave" />
+					</div>
+					<span>Eli Brumley</span>
+				</a>
+			</div>
+			<nav class="mobile-hide">
+				<ul>
+					{% for item in site.data.menu %} 
+					<li {% if item.link == page.url %} class="active"{% endif %}
+					><a href="{{item.link}}">{{item.title}}</a></li>
+					{% endfor %}
+				</ul>
+			</nav> 
+			<div class="social">
+				<a class="social-item" href="{{ site.x_url }}" target="_blank">
+					{% include_anywhere assets/x-icon.html %}
+				</a>
+				<a class="social-item" href="{{ site.linkedin_url }}" target="_blank">
+					{% include_anywhere assets/linkedin-icon.html %}
+				</a>
+			</div>
+			<div class="cta mobile-hide">
+				<a class="btn" href="/contact" >Let's Chat</a>
+			</div>
+			<button class="hamburger mobile-show">
+				<span></span>
+			</button>
+		</div>
+	</div>
+</header>

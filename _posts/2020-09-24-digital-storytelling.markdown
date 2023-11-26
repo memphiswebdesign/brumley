@@ -1,0 +1,627 @@
+---
+layout: article
+title: "Storytelling through rich media w/ Trent Erwin"
+meta: "Dive into importance of brand storytelling, tips & tricks of creating content & how to pick the perfect social platform for your demographic & company goals."
+img: "https://i1.sndcdn.com/artworks-LzzbTigeu6nIWHLT-npbXMw-t500x500.jpg"
+date: 2020-09-24
+permalink: journal/storytelling-through-rich-media
+cat: "podcast"
+class: "soundcloud"
+---
+
+<div class="img-bg-blur">
+  <img class="round-10" src="{{ page.img }}" />
+</div>
+
+<div class="my-1">
+  <iframe id="sc-embed" width="100%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/775220875&color=%230077ee&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</div>
+<style>
+  @media (max-width: 500px) {
+    #sc-embed {height: 300px;}
+  }
+</style>
+
+<hr class="dash mb-3 mt-3">
+
+##### Ken Blasko & Eli Brumley discuss Conquering Remote Work as a Lead UX Designer and Full Stack Software Engineer.
+
+The podcast episode from the PlaidPixel Podcast hosted by Eli Brumley and Ken Blasko features guest Trent Erwin, a digital marketing expert with a passion for storytelling through video. The discussion delves into various facets of digital marketing, video production, and the impact of storytelling in brand building.
+
+Trent Erwin's background in journalism and digital marketing shapes his approach to storytelling. He emphasizes the importance of capturing the essence of a narrative in a way that resonates with the audience, drawing parallels between journalistic principles and effective brand storytelling. Erwin's journey started with writing for diverse online brands, which honed his skills in creating compelling content. This eventually led him to explore the realm of video production, starting with wedding videos and gradually moving towards brand storytelling.
+
+A significant portion of the discussion focuses on the technical and creative aspects of video production. Erwin talks about the affordability and accessibility of high-quality video equipment and software, making it easier for individuals and small businesses to produce engaging content. He highlights the importance of understanding the basics of camera operation, lighting, and audio quality to create visually appealing and impactful videos. The conversation also touches upon platforms like Adobe Cloud for video editing and the importance of music licensing in enhancing the emotional appeal of videos.
+
+The conversation shifts towards the impact of video content on digital marketing and SEO. Erwin emphasizes the power of platforms like YouTube and Instagram in brand promotion and audience engagement. He discusses YouTube's role as a major search engine and a platform for long-term content strategy, underscoring the need for consistency and patience in building an audience. For Instagram, he points out the effectiveness of stories and IGTV in reaching audiences, highlighting the importance of authenticity and regular engagement.
+
+In summary, the podcast episode offers a comprehensive look into the world of digital storytelling through video. It covers the journey from journalism to digital marketing, the practical aspects of video production, and the strategic use of platforms like YouTube and Instagram for brand building and audience engagement. Erwin's insights demonstrate the growing importance of video content in the digital space and the opportunities it presents for brands and individuals alike.
+
+<div class="my-1">&nbsp;</div>
+
+###### Transcript:
+<hr class="dash mt-0 mb-2">
+
+###### 00:00
+You're listening to the Plaid Pixel podcast with your host, Eli Brumley and Ken Blasco. Let's enter the world of web design, development and so much more. And welcome back to the Plaid Pixel podcast. 
+
+<h6 class="mb-0">00:20</h6>
+We are so excited for today's guest. With his passion for video and experience in digital marketing, Trent is crafting brands through storytelling and rich media. It's Trent Arwin. Trent, thanks for coming on. 
+
+###### 00:31
+How are you? Man, thank you guys so much for having me. I'm so pumped to talk about this. I love video. I love integrating that with marketing. So whenever I get an opportunity to talk about this, and I was so excited, you asked me to do it because I haven't been I haven't been able to have the chance to do like stream of consciousness about this topic. 
+
+###### 00:49
+So I'm super excited. Podcast platform is the best way to do that. Yeah, let's get into it. I'm so excited. Cool. So a few a few topics just to kind of warm you up. You know, if you want to dive into how you got into video, what drives you to video and what what you're most excited about in 2020? 
+
+###### 01:07
+For sure. Yeah, I think this is foundational for some of the other stuff that hopefully we'll cover in this. I got started in video through my background in journalism. So I studied journalism in college, which really revolved around good storytelling and good writing. 
+
+###### 01:23
+So in journalism school, they're all about how to write and tell a good story. Obviously, it's, you know, fact, fact based and it's not in terms of business or marketing, but it was really about just how do you capture the essence of what's going on and share that in a way that people are actually going to want to consume it. 
+
+###### 01:39
+So I got really good at writing and I was doing a ton of digital marketing at the time, just just to kind of get my chops in the space. And so I was, I was writing just article after article after article for different online brands. 
+
+###### 01:54
+I was doing everything from, gosh, plastic surgery. to treats for dogs, to just like the most random crap. I was doing so many articles, but what it taught me was just how to create really quick, good content, how to do really good research and then put it in a way that could be posted like on a blog or it could be done in like searching and optimization. 
+
+###### 02:20
+So I was just really learning how to just produce content which really is foundational in the video space as well. So I got really good at just writing and telling things. And during journalism school, we messed around with cameras and I thought cameras were interesting, but I didn't know anything about cameras. 
+
+###### 02:38
+Like I didn't know what shutter speed was. I didn't know what the iris was. Yeah, all this stuff. I didn't know what it was. I was just like, whoa, like megapixels, cool. And I can, you know. Yeah, point and shoot. 
+
+###### 02:51
+There's lenses and like shallow depth of field, this thing they call Bokeh. So that just kind of got me intrigued. intrigued and so the writing kind of carried me and got me going as far as like a career was concerned because that led into like you said digital marketing and so I was doing SEO and doing blog posts for clients. 
+
+###### 03:10
+But on the side I was like really most intrigued by video and creating that and so I was just dabbling in it trying to shoot things here and there as I could honestly I got into doing weddings first, which is where a lot of videographers get started. 
+
+###### 03:25
+Because yeah people are getting married all the time there's always somebody getting married. Friends and family, whomever is getting married and at the time I actually got paid for my first wedding that I did but it was off of the backs of off the back of another friend who was also kind of dabbling a video and he's like hey do you think we could do a wedding video together and I'm like heck why not you know like I think us together we could pull it off and sure and what was crazy was that first wedding video that we did was actually not bad at all it was really good. 
+
+###### 03:56
+So that got me super pumped was like dang like we just got paid for this this is a really good video. I was so furiously passionate at that point because like I created something kind of on my first strike that was that was pretty good. 
+
+###### 04:13
+And something that I would even go back to and point now and be like you know like yeah I can see the things that I didn't didn't do well but just looking at it from that perspective would just be like man like that was a good piece of work. 
+
+###### 04:23
+Even on my first try and so wedding videos led me into considering how I could use video and storytelling for brands. Obviously there are massive production companies you know there's a massive production company in here by the here in the area called Running Pony and I kind of was always looking up to that. 
+
+###### 04:40
+You know and they charge day rates of like $10 ,000 or $15 ,000. Yeah I mean just crazy amounts of money and I'm like there's got to be a place in the market here in Memphis for you know for brands that don't want to spend that much money for video but they want to have video content. 
+
+###### 04:59
+sure, you know who we're gonna spend $1 ,000 $2 ,000 maybe $5 ,000 and I'm like I I think I could touch in that space you know I think I could really fill a void that exists here and that's that's kind of what led me to you know Eli where you and I met working at speak I kind of just pitched myself as like hey you know I would love to come bring a new service to this organization and luckily I got hired there and that really just like snowballed into a whole lot of things and just really opened me up to more clientele and new projects and just getting my chops cut again and like just learning so much more about video and how to tell that and just getting down and dirty with all these different projects and some of them were great some of them not so great there's some work that I'm not proud of or you know it wasn't horrible but just things that I just wasn't super proud of and then things that I was really really proud of part of that part of going into into the agency space is this you know, regardless of how fast paced it is, you really get to to build a portfolio and you get to dabble in so many different areas of the market. 
+
+###### 06:06
+And it's it typically don't get to do that when you're working for a large 4 ,500 corporate agency or company. And, you know, you're really in that instance, you're focused on kind of one brand, one vision. 
+
+###### 06:17
+So you're kind of creatively blocked. And so an agency is just like run and gun, you know, you just run and go go go fast pays all the time. And so in that sense, I hate it. But in that sense, it was really helpful for me to to be able to be running and gunning in so many different spaces with different clients, because I really kind of started to learn like what was working for clients and what wasn't, which really kind of helped me when I decided to leave that and go out on my own. 
+
+###### 06:45
+You know, I learned I figured out what does the sales process look like? I know how do I execute on doing sales? How do I execute on planning a project? You know, so that was something that I really learned while I was at speak was how do I plan effectively and communicate that? 
+
+###### 06:59
+I already kind of knew how to shoot, but I really got way better at shooting stuff. I learned like what equipment I really needed and which equipment was more just kind of dazzle, razzle dazzle. So things like that I learned at an agency and like, like I said, like I'm very thankful for that. 
+
+###### 07:16
+But then I also realized like, wow, I was doing a lot by myself there and I can do that myself. Yeah, so you touched a little bit on obviously storytelling, having your background in journalism, which I think is just the foundation of anything when it comes to building a brand and and doing, you know, a strategic push for for digital, you know, online presences is having that having that brand and that consistent voice across all your platforms, regardless of the media type. 
+
+###### 07:45
+If it's blog posting, if it's just copy on a website or even if it's, you know, full blown video production, having that consistent voice is obviously what people fall in love with. And that's why you follow brands and you buy from those brands because it's that it's that feeling you get. 
+
+###### 08:00
+It's that that emotion that it that it strikes because of the experience that you might have had with that person's product or right, right. Digital presence. Storytelling is the term is such a buzzword these days, you know, I wish it wasn't necessarily a buzzword because it is a good word. 
+
+###### 08:16
+um, telling a story is so found. I mean, it's from the foundation of time, really, the existence of humanity is like telling stories. Uh, you know, whether you're around a campfire in a cave, um, to, you know, telling a story on YouTube now, um, it's so foundation for the way that we communicate and the way that we relate. 
+
+###### 08:34
+Like, uh, and I think that's a big thing that people have to understand is like social media is about relation and relationships. And so video and telling stories is how we connect, um, the actual content. 
+
+###### 08:46
+Like storytelling is the content. And that's, so when you're not telling story and you're just speaking at people, well, you feel like you're at like a political rally or something, you know, or just something, uh, mundane, you know, or like you're, you're like, you know, you're in a lecture hall in school, you know, like your, your professors just speaking at you. 
+
+###### 09:05
+It's not engaging. Something that resonates. Yeah. Yeah. Building something that resonates. Um, I know, like when I've gone to, to hear somebody speak, it's always when they first start with like a story, whether it's hilarious or it's dramatic or it's, um, you know, Tinder, hearted or whatever it is. 
+
+###### 09:23
+Like if they start with a story, then they typically capture your, your attention. Yeah. Plus it's a good icebreaker. Yeah. Oh yeah. Yeah. So you don't, I mean, you don't have to go to journalism school to learn how to tell a good story. 
+
+###### 09:34
+Really. Like it just comes down to beginning, middle and end, you know, like, and it doesn't have to be a long story. It doesn't have to be a complex story. You just need to get the, the, the beginning, the middle, on the end. 
+
+###### 09:45
+You need to establish it. You need to establish who the characters are, what the problem is. Um, because the problem is like what's going to create the conflict. And so you need conflict. Yeah, exactly. 
+
+###### 09:56
+You need conflict and then you need resolution. And so a lot of times marketing is on the resolution. And so, uh, marketing is speaking to the problem that somebody's experiencing. You know, like you have dirty clothes. 
+
+###### 10:08
+And you need laundry detergent, you know, so like we're going to, we created a clean laundry detergent that's going to make your clothes, you know, not be full of chemicals. and it's going to smell awesome. 
+
+###### 10:18
+So marketing a lot of times is about that resolution. So you can't have good resolution without good conflict. And again, that's just storytelling. It's just beginning, middle and end characters, conflicts and resolving that conflict and trying to as a brand when you're marketing showing people how you can resolve and help them in that conflict for them through the product and services that you offer. 
+
+###### 10:39
+Cool. This is awesome insight into the market and obviously anybody that's looking to get into the rich media side of the world as far as digital marketing and telling stories. I know you touched on storytelling as key, the background of why you should story tell, proposing a problem and telling a story through a solution to sell a product or or to become engaged. 
+
+###### 11:04
+I want to get it down into the rudimentary level of the tools that you're using on a day to day, you know, music, audio, editing, what does that look like, and how can someone's interested in even dabbling in this or wants to get into the industry? 
+
+###### 11:18
+How are those things so vital to your portfolio and your kind of your tool belt? Right, right. Yeah. So for me now, you know, doing full time video production and photography, the great news is that it's more affordable than ever. 
+
+###### 11:33
+You know, that's what I tell people all the time is that like, it doesn't mean that you have to charge so much less. I mean, you typically do charge less unless you're one of those massive companies and you have a full production crew. 
+
+###### 11:44
+But right now in 2020, it's the cheapest that it's ever been and it's probably going to continue to get cheaper just because the technology is cheaper and the ability to do it, the tools and what you do it are just easy and cheaper to have access to. 
+
+###### 11:58
+So yeah, I mean, everything from I use Adobe cloud for all the stuff, you know, Premiere Pro, After Effects, Illustrator, things like that. It just works really well. I know the programs and then I know a lot of designers and other creatives are using Adobe, so it just integrates really well. 
+
+###### 12:14
+Then like music licensing, like that has gotten so much better in the last five years. There are so many platforms now that offer good music, you know, at a good rate so you can pay a subscription and get good good music. 
+
+###### 12:28
+So that's obviously key to editing and having a really good video is whatever kind of mood you're conveying through the music. So that's music and then cameras, you know, cameras, there's so many different brands these days. 
+
+###### 12:44
+I mean, Sony, Canon, Blackmagic, you have all these different brands that are just competing so hardcore to make a great camera with great specs and like, again, they're making it cheaper and cheaper. 
+
+###### 12:56
+So, I mean, you can really get started with a quality camera, probably around $700 to $1 ,000. And, you know, even some of the stuff that I shoot on, it's not all that great. always like $10 ,000. It can be more in the like $3 ,000 to $4 ,000 range. 
+
+###### 13:12
+But you can certainly shoot something good on a $1 ,000 camera or a $700 camera. And then it just comes down to kind of the lenses that you're using. So the thing, the appeal in good video is depth of field. 
+
+###### 13:27
+And again, going back to things that I didn't understand, depth of field is controlled by your aperture and your aperture is determined by the lens in which you use. So lenses that have a greater aperture are going to be more expensive. 
+
+###### 13:40
+There are some cheaper versions. Like I have a Canon 100 or no Canon 50 millimeter here on my shelf that I started out with. It was like 200 bucks. And it gave me great depth of field and was allowed me to have that cinematic feel. 
+
+###### 13:57
+So I mean, you can totally do these things on a budget these days. You just have to be willing to put some money forward. Obviously, I tried to tell people not to go into debt, but if you are willing to maybe want to finance a few things, B &H Photo is the best place for you to get gear. 
+
+###### 14:15
+And B &H Photo offers a kind of a credit card where you can actually do financing. And so if you can get approved for that, then, you know, if money is really a problem for you to get going, I actually have one of those credit cards because it allows me to get some gear, test it out, and I can actually finance it with no interest for a little while. 
+
+###### 14:33
+So a little plug for B &H because they're awesome. Show some love. Yeah, but I'm just saying, like, you know, if you don't have the cash right away, I am a believer in that if you have a dream and you feel like you are equipped and you have skills, like sometimes you just need a little bit of financial boost and that can help you. 
+
+###### 14:50
+I'm not saying go crazy and, you know, buy a red camera that's going to cost 15 to 20 grand and just put it on a credit card. But I'm saying if you don't have $1 ,000 laying around, but you know this is what you want to do, test that out, try it out, go and get something and, you know, give it your whole heart and your whole effort. 
+
+###### 15:08
+But it's cheaper than ever, which is awesome. So if someone doesn't maybe want to go down the full spectrum of gear and lenses and all that stuff, you know, I mean, with everybody owning a smartphone now that has really complex 4K cameras, you know, all these things are getting more kind of, quote, depth of field. 
+
+###### 15:27
+A lot of that is digital, depth of field versus actual lenses, but you're getting similar results. You know, something that I think is so fascinating about the area. Right. Again, people get caught up in specs, you know, and we get caught up in specs of like the new iPhone, you know, is that 4K? 
+
+###### 15:44
+Is it going to have 6K? Is it going to have 8K? You know, with frame rates. So people get so caught up in specs and I get caught up in specs because specs are flashy, you know, they help sell something. 
+
+###### 15:53
+But you don't even have to shoot. I don't even shoot 4K all the time. I still shoot 1080 on a lot of stuff. Again, it comes down to if you can have like, if you have like an iPhone 10 or an iPhone 11, or even an iPhone 8, you know, you can shoot good quality video. 
+
+###### 16:09
+Then it really comes down to some major aspects like audio. You know, if you're across the room from an iPhone and you're trying to talk to the iPhone, your audio is going to sound like crap. You're going to sound like you're in a massive space. 
+
+###### 16:21
+And, you know, people aren't going to people aren't going to be able to hear it very well. So invest in a decent microphone. You know, if you're just filming yourself at your desk or at a table and there's microphones that you can plug into your phone, there's microphones that you can plug into your computer. 
+
+###### 16:36
+Very cool. I know so many YouTubers and stuff like that who actually just use a like a USB mic like what I'm recording on right now. And they just plug that in and then they'll use maybe a camera or they'll use a phone and just record. 
+
+###### 16:50
+And then in post, they'll just sync it up, you know, because quality audio. can really make the difference in a video. And then beyond that, quality lighting, you know, really makes the difference. So you don't always have to have a nice big softbox lights put up, but just position yourself in a room or position yourself at home in the right way to where the light is on you. 
+
+###### 17:11
+Like don't have all these crazy shadows, don't be in a super dark room. There's just things like that that you have to learn in terms of good composition, good imagery. And again, it doesn't matter whether you're capturing it on an iPhone 11 or, you know, a red camera. 
+
+###### 17:26
+If you get those things wrong, it's gonna look terrible on both. So just understand lighting, understand you need good clean audio and that doesn't cost a whole lot of money. Like I think the microphone I'm using right now costs like a hundred bucks. 
+
+###### 17:39
+You could probably get one for $50 on Amazon and just plug it in. And then, yeah, you're gonna have to figure out how to sync up that audio with your camera audio. But again, there's just things that you're gonna have to learn. 
+
+###### 17:50
+But there's things like that. Like, yeah, you don't have to spend a whole lot of money. You just maybe go get, spend a little bit of money on like a Udemy course and learn from some, or go to YouTube, honestly, and just do it for free. 
+
+###### 18:02
+And like search Peter McKinnon or somebody like that and learn how to do good composition and that you can do killer stuff on an iPhone. So I know you mentioned YouTube and something that I was so excited to dive into on the podcast is what is YouTube doing for brands and SEO in general? 
+
+###### 18:21
+I mean, why is that such a, why is video production and telling stories through rich content so important now than ever? Right, right. Well, I mean, get this, like people watch over a billion hours of video on YouTube every single day. 
+
+###### 18:37
+Every single day. I mean, there's a billion users, or roughly a billion users on YouTube, which is about a third of the internet. YouTube is the second largest search engine next to Google and Google owns YouTube. 
+
+###### 18:49
+So in terms of search engine optimization, Google is not gonna say that they're gonna say gonna give you higher priority or more credibility if you have a YouTube channel or if you have YouTube videos. 
+
+###### 19:00
+But I mean, it's pretty clear. Like if they own YouTube, they're gonna want you to be on YouTube. Right. Except for Google Plus. Yeah. Yeah. Well, that's dead. Thank God. Thank God. So yeah, I mean, it's kind of like a no brainer if you're considering video content. 
+
+###### 19:16
+Just go to YouTube. It's free. It's the second largest search engine. So many people are consuming it. Like having a channel on YouTube literally doesn't cost you anything. You just need to create a Google account. 
+
+###### 19:30
+If you don't already have one, if you have a Gmail, then boom, you already have it and just go set up YouTube. But I will say, as far as like YouTube is concerned, like it's pretty clear. You have to be in it for the long game, you know? 
+
+###### 19:41
+It's like with SEO, it's like searching and optimization. You can't just post something on your blog and be like, ah, come on, people, like, come read it. You know, why am I not number one on searching? 
+
+###### 19:50
+So it's like something- My message is very important. Yeah, read, read, read, read it. So like, you have to be in it for the long game. It's definitely not a sprint. Like I've heard other YouTubers who are wildly successful now say that they did YouTube for a whole year. 
+
+###### 20:05
+And, you know, maybe only had 150 subscribers, you know? And then in that second year, then they reached like maybe 20 ,000 subscribers, you know? So you have to just be willing with like subpar results in that first year or just really terrible results that first year, knowing that it's the long game and it's the consistency that's gonna get you somewhere. 
+
+###### 20:24
+So if you're not willing to do the long game, then I honestly just say, just don't do it yet. Because if you're not ready to commit to it, then it's not gonna be beneficial for you. I really wanna start a YouTube channel with my wife and my family, cause we're about to have another child. 
+
+###### 20:39
+And I think- That's fun. Being able to do, yeah, being able to do video, I think there's a way that we could integrate those things of like having a family and being parents and just sharing a message with people and reviewing things. 
+
+###### 20:51
+Like I really wanna do it. But in the back of my mind, I keep telling myself, like you have to be committed to this. Like if you're not gonna be committed to this for at least one year, then just don't even start, honestly. 
+
+###### 21:01
+So I don't tell that to people to scare them away. I'm just saying that like, if you think that YouTube could be a marketing driver for you, whether you have an existing brand, or whether you want that to be your brand, you gotta be in it for the long game. 
+
+###### 21:17
+And just go ahead and commit from day one that like if you only get like 10 views on that first video, that's not a loss. You know, you didn't lose. Like you won because you put a video out there. You know? 
+
+###### 21:29
+You probably learned something about the craft in the process. Oh, for sure. Yeah, I mean, it literally just- Each video's gonna get better and better and better. Yeah, just make videos, make videos, make videos. 
+
+###### 21:39
+Like I have to remind myself even that even while I'm making videos for clients now I'm like if I want to make content for myself or just things like passion projects I just have to remind myself just like just make just make just make because otherwise Yeah, I mean you just know as a creative like you just get in your own mind and you're like what if this is gonna be you know complete crap So I mean like just yeah, just don't get in your own mind as far as like just just make just put it out there People are gonna tell you like one thing or another and you're gonna learn you're gonna kind of find your way Like once you once you get into several videos You will find your way and kind of find how you like saying and telling things and that'll kind of become your own style Like you may not know your style in the beginning, but trust me like after several videos You'll start to realize like I like doing this and I don't like doing this and you'll find you'll start to find your style So something Trent that I think is so fascinating. 
+
+###### 22:31
+I think YouTube's obviously is the kind of king of video king of media because I mean There's a reason why Google bought it for billions of dollars and it continues to invest into Showing those those kind of video snippets and SEO results You know versus having to actually read a detailed article step by step to yeah to accomplish something But something that I think is is is on the horizon and you know, and I want your opinion on this is Instagram You know, obviously there's Facebook video. 
+
+###### 22:55
+There's all these other social media platforms But you know, how do you utilize this storytelling with the smartphone straight to Instagram telling stories? You know filling your feed and and just being engaging me What what's something besides Google that's this that's a reward to spend your time on those platforms? 
+
+###### 23:13
+Yeah, man What's what's kind of what's crazy right now is this whole tick -tock thing? Honestly? I don't even know what's going on with tick -tock This is nuts, but again, it just shows you that like video content is is like what everybody is craving You know, it's this weird platform where there's dance videos and there's all these things going on So like yeah, tick -tocks and something I haven't even explored But it just kind of gives you a glimpse of the future because I feel like in some ways that is kind of like a future platform But yeah, Instagram you have stories, you know now it took that from Snapchat and just kind of made it cleaner and better Yeah, yeah, yeah, I mean it just took it got rid of a lot of the junk on Facebook And now you have IGTV which is kind of like a competitor to YouTube in a lot of ways because it's for the longer form content I think IGTV which is just you know longer videos for anybody who doesn't know what that is on Instagram It kind of crashed and burned in the beginning. 
+
+###### 24:10
+I didn't really know what it was It was kind of like, you know this weird odd child that Instagram had and so it finally kind of found its place When people realized like oh, you know I want to be able to share something longer than one minute and then started being able to put that on IGTV and then put it in their feed Yeah, Instagram. 
+
+###### 24:29
+Instagram has certain video caps, right? So they have like short, short storytelling or like, quick post that expired for 24 hours is going to be your story. Yeah, going to profile, you might get a little lengthier duration of video, which goes on your profile. 
+
+###### 24:43
+And then anything beyond that needs to be an IGTV post. Yeah. So I mean, luckily now with IGTV, you can put it on IGTV. And then you can also have the option to be able to put it on your feed. So it'll start automatically playing for people, like in their feed when they're going through. 
+
+###### 25:00
+And then once it gets to that one minute cap, then it'll pause it and it'll give you that option to continue on IGTV. So that's kind of where IGTV is now is that it exists in it. It is very seamless and how it moves into your feed so that you can post that longer content. 
+
+###### 25:16
+Like I do that for a client right now, you know, and sometimes they have content that's 15, 20 minutes that we're putting on YouTube. And then they also want to put it on Instagram so then it can live on IGTV, but then they can instantly, easily seamlessly bring it into their feed and make sure that people aren't going to miss out on it there as well. 
+
+###### 25:32
+Yes, stories. Stories is is an interesting thing. I think maybe for some brands, honestly, they're going to get more engagement on stories, especially because this is the very top of the feed and it has this concept of 24 hour expiration. 
+
+###### 25:45
+So you right as a follower, you want to absorb that content before it goes away and you don't have a the what were they calling it FOMO fear of missing out. Yeah, yeah, fear of missing out. And yeah, you like I said, it's at the top of your feed when there's a new one, it's kind of highlighted in the Instagram, you know, pallets. 
+
+###### 26:03
+And so it's like, oh, you know, it stands out. I find myself when I open Instagram, sometimes I just watch stories and then I close out Instagram and I realize like I never even looked through the feed, you know, exactly. 
+
+###### 26:13
+So I think that's just interesting user behavior that we have to pay attention to. Obviously, I think there's other things that like Instagram stories has over any of the platform, because there's there's engaging tools like polls and questions and like reactions that you can't get on other platforms that they've utilized and seen that like, okay, you can like a post, you can go and get the watch time. 
+
+###### 26:36
+Or, you know, maybe a few comments on like a IG TV story. But if you want like, quick replies, like yes or no, you know, polling and questions, I think that's just a it's a huge, it's a huge tool man other platforms. 
+
+###### 26:51
+And what's crazy too is like, so obviously there's there's ads and stories now, like, I think brands are being pretty clever with how they're doing ads and stories. I'm not only even mine and maybe 75% of the ads that are in stories, as long as it's like targeted toward me, like a lot of times those ads are pretty good, you know, and in like, the company or the brand has really thought through like how they want to share that. 
+
+###### 27:13
+So I think that's interesting for brands is like, if you're going to run ads, and you're going to run them in stories, like, make sure that it's not disrupting the user, but it's like adding to their experience. 
+
+###### 27:22
+And again, it's a good story. It's a good presentation. because I have, you know, swiped up to go look and see, you know, what that, what that product or what that service is, because there was a compelling ad. 
+
+###### 27:35
+So, you know, that's really interesting to me is like ads and stories, you know, like it's to me, it's not that intrusive all the time, you know, and so it's just an interesting way of how you can, you know, get yourself out there if you are a brand. 
+
+###### 27:51
+But then yeah, if you're just doing organic stories, like it's it is crazy like one of the brands that we work for right now, the lady who has gotten up to a million followers. She really I think she she she worked so hard. 
+
+###### 28:07
+So, so Ryan and Rose. A baby product company that worked for has awesome stuff. Great company and great people. She is, Lindsay has literally built her company in a lot of ways because of her Instagram stories and what she was doing on Instagram early on has one million followers and she just posts a ton every single day. 
+
+###### 28:33
+And that's all organic. Yeah, it's all organic. You know, and she's just doing it off of her iPhone. It's not, it's not off of some nice camera. It's off of her iPhone. And again, it just comes down to that piece on consistency, like, you know, be in it for the long game, be in it for that daily consistent consistency. 
+
+###### 28:49
+Like I struggle with it sometimes too. It's like on a day you might be like, well, I'm just sitting on my desk doing, you know, edits. I don't know what to post about. So I'm just not going to post anything. 
+
+###### 29:00
+And so like, obviously, Lindsay has figured it out and luckily, you know, now she has a big enough brand in a, in a nice headquarters where she can walk around and show things off you know, but it's in those early days where you're like, what do I post? 
+
+###### 29:12
+I don't know. I don't know what you need to post, but you just need to post. Yeah, if you ever wanted some inspiration or some motivation on, oh, I need to post more or do I have you question, you know, do I post too much too little? 
+
+###### 29:23
+Just go check out Ryan and Rose stories. They are literally posting dozens of times a day. I mean, 30, 40, 50 posts in a day. It's incredible to see. Yeah. I mean, luckily now she has a team, you know, who is doing awesome work all across social media, but yeah, I mean, like, if you don't know what else to do, just, just talk to the camera, share things, you know, screenshot things, like just anything that's like simple, but might be worthwhile and helpful for somebody else. 
+
+###### 29:49
+Like you typically like when I typically sometimes get the best engagement when I just screenshot something and I'm just like, Hey, go check this out. This is really cool. I'm into this. I'm into this music or I'm doing this or that, you know, it's not even the stuff that I'm like, I sat down and I like, uh, in Premiere Pro, I had a sequence that was set for portrait and then I made this awesome like video sequence. 
+
+###### 30:10
+and put it in a story and I'm like, ah, you know, this is gonna get a lot of, this is gonna get a lot of engagement and views. Like sometimes yes, sometimes and a lot of times, not necessarily. It can be just the weird stuff that you just screenshot and you just share and like, hey, check this out. 
+
+###### 30:26
+So just, yeah, just think simply, like you don't have to go out and, you know, climb the tallest building and stick your legs out and take an awesome photo looking down, you know? I'm like, woo, like I'm this influencer. 
+
+###### 30:37
+You should photoshop it. Yeah, yeah. Yeah, so that's your desk at Photoshop. Yeah. So like, just like think simpler, like what can you just share consistently? And again, like, I think it just comes down to just the fear of like sharing yourself, you know, and putting yourself out there. 
+
+###### 30:57
+I think that's the fear and I think that's like, Somehow somehow Lindsay just conquered that she just conquered that fear of like I don't care I'm gonna be on stories every day. I'm gonna say stuff I'm gonna share my life and the reality is is like when we share our lives on social media You're obviously you're gonna get criticism You're gonna get people who are gonna hate on you But I think more than people hating on you you're good people are gonna feel that connection to you into your brand So if you're a brand listening and not an individual like people want to see behind the scenes BTS stands for behind the scenes people want to see behind the scenes So like just do as much behind the scenes content as you can and I promise like people are gonna eat it up It's more personal, you know, it's people Yeah, it's yeah, yeah, it removes the curtain, you know, I think that's the cool thing about stories Is like we can follow all these big -time influencers are these big -time stars like they're doing stories in their home Are they're doing stories in their car? 
+
+###### 31:55
+You know, it literally has like pulled back the curtain to being like When we would see like a professional video, we'd be like, oh, I want to see from that angle Or I want to see this over in this corner and all of a sudden stories has allowed us this opportunity to see All of these different parts of like people that, you know, we would never see that Um, so I mean, I think that is so crucial is like what can you do to pull back the curtain on your brand? 
+
+###### 32:18
+And reveal things to people and engage with people and interact and you're right. It is going to be scary It's going to feel awkward and weird For the first couple of weeks, maybe the first couple of months that you do it But building those connections is is what is going to bring more meaning and more value to your brand or even just yourself Right, great advice. 
+
+###### 32:37
+I know you I know you mentioned, uh, you mentioned tiktok and brands and stuff. I mean tiktok My opinion on it. I think tiktok is interesting for for certain Uh, a certain group a certain demographic. 
+
+###### 32:49
+I don't know if tiktok sells. I think Could could have influencers that push brand recognition, but again, I've never bought anything because a TikTok person or an influencer tweeted it out. I just I never have, you know, typically I'll go to Amazon, read reviews, do my own thorough research on it before I spend a decent amount of money on something that someone has said, Hey, this is a good product because I know that endorsement is solely paid for and has no real, no real value behind it. 
+
+###### 33:18
+And so I think I think brand influencers in that space are interesting and how they're approaching it and hats off to them for for blowing up and all these influencers making boo -coos of money to plug brands. 
+
+###### 33:30
+But for me, for me, it's it really comes down to if a brand came to me and says, what do I need to do? How do I tell a story? What platforms are going to be on? I think it really comes down to demographic, right? 
+
+###### 33:41
+Right. Yeah. It's like, where are your people hanging out? Where are the people that like for, you know, to go back to Ryan and Rose, like Lindsay knew that moms were hanging out on Instagram. So it just makes sense for her to pull over time and effort into Instagram. 
+
+###### 33:54
+So, you know, if you know or can find out, if your people are hanging out on YouTube, Or, you know, obviously if you're a photographer or videographer, you're hanging out on YouTube. I hang out on YouTube all the time, you know? 
+
+###### 34:04
+Tons of us follow influencers on YouTube. Um, obviously also on Instagram because it translates really well. Um, but yeah, I mean, if you're marketing and, and doing stuff for an older demographic, they're probably on Facebook, you know, older demographics, probably there. 
+
+###### 34:19
+If you're doing for kids, they're probably on TikTok or Instagram. Um, so I think it's just understanding where are the, where are the people that you're trying to reach? Where are they hanging? Where are they hanging out? 
+
+###### 34:27
+And that's where you need to hang out as well. And it doesn't mean that you need to be all things to all people. Um, and be on Facebook and be on Instagram and be on TikTok and be on, because, because there might be one person on TikTok, you know, that could purchase. 
+
+###### 34:38
+Like, no, don't go down that, that rabbit hole. Just like find where the majority of the people are and hang out on that network and own it. And then if you want to consider going to other platforms, then do it, do it later, but just focus on one platform where the majority of the people are. 
+
+###### 34:52
+Yeah. And a very similar model that I've seen time and time again work is, is people that want to sell stuff that are very crafty. Um, typically they don't just start a website like a Shopify or a, or a Squarespace site and start selling stuff. 
+
+###### 35:04
+And they're not typically successful unless they already have like a huge following. A lot of times they'll, they'll start on Instagram just to start doing their advertising and building like brand loyalty and getting the messaging out there. 
+
+###### 35:15
+Uh, and then they'll also throw everything on Etsy because that's where people are. And you know, you're not going to ABC, uh, you know, baby, baby bottles .com, you know, to search for the latest and greatest baby bottle. 
+
+###### 35:28
+You're going to like Amazon, you're going to Etsy, if you want something handmade, Right. At that point, you, you know, you, you have a platform to read reviews and customers like that. Cause they get, get a sense of, they get a sense of security that they know they're getting a good product versus going to, you know, XYZ, baby bottles .com or whatever. 
+
+###### 35:46
+Yeah. Oh yeah. For sure. For sure. I think niche market, um, is so big and so crucial right now. Like I was just talking to my wife about it the other day. It's, it's crazy. Like I think we've had these massive jumps in history. 
+
+###### 35:58
+Obviously. you know, like with the invention of the car and then the invention of the internet, like we're just going through like a massive time right now where you can literally do anything and be anybody online. 
+
+###### 36:09
+So I mean, like my wife just ordered literally like, like fondant stuff to go on a cake for my for my two year old's birthday party. So like somebody who just crafts like little things that'll go on on cake, like bought that off of Etsy, like it's just you can be the most niche specialty thing and still have a market based on whatever you're good at. 
+
+###### 36:30
+So like, you know, it just it just comes down to like whatever you're passionate about, passionate about whatever you're good about, if you're already within a brand or something like that, like what what you're really good at doing. 
+
+###### 36:41
+So if you're somebody who's like, you know, who can share a story or can show behind the scenes, you know, just trying to relate this back to video content, like if you're somebody like that on your team who's like has a knack for that, and you guys aren't already doing that. 
+
+###### 36:56
+then I would highly recommend that you propose that and you be the one who leads the charge on that because I just see so many companies and so many brands who are like, well, we gotta be on social media, so we gotta be out there. 
+
+###### 37:07
+What does that mean? It's just to be on there. And if you go to some of their profiles, it's terrible. I'd rather for you not to be on here. Yeah, it's full of stock photography with a caption that says, what do you think? 
+
+###### 37:21
+I mean, you have to be, I don't wanna be so superficial and your feed has to be completely tailored, but there is something to be said for like, when you go to somebody's feed, you know what you're gonna get. 
+
+###### 37:34
+So I think that's- I think that's tried and true. If you look at any brand online that's regardless of which social platform they're on, if they have a sense of personality that resonates, then people wanna follow it regardless of if it's- Oh, for sure. 
+
+###### 37:45
+If it's because they love the product or it's because it's entertaining. Yeah, I think that's a great word, personality. Inject your personality. Don't try and be somebody else. Don't try and be another influencer. 
+
+###### 37:55
+Like do what comes naturally to you and let that personality shine. Because at the end of the day, what's gonna be easiest is for you to be yourself and to be your personality and who you are. And then just throw that out there for the world to have and not try and steal from somebody else's personality because it's gonna be fake. 
+
+###### 38:12
+It's not gonna be true to you or true to your brand. Yeah. That's awesome. So I wanna touch a little bit on accessibility if we have time and then in this segment with some rapid fire questions just to have some fun and of course I wanted to allow you to have time to plug your stuff and for people to be able to figure out where to find you online. 
+
+###### 38:32
+Because I think you constantly post good material regardless if it's blogging or checking out your video work just to get inspired about how you shoot stuff and how you edit things and you have your own style to it. 
+
+###### 38:47
+So we'll just end this. I'll just plug here, not for myself, but I'll just say like I'll just be honest. Like I struggle with posting just as much as everybody else. else does like I have days where I just am just creating so much for other people that I just am so sapped Creatively that I just don't post and I can even go like a week without posting But I have to remind myself like no just put something out there Just share just share for the heck of sharing like really I'm trying to just take the perspective on like Instagram or whether it's YouTube Like just share because you enjoy it just share because it's fun You know, I think it's very obvious the feet the people that are it feels forced to share because it doesn't come across as like organic Again, like I get the best response when I just share something just because it's out of the heart of like I just want to have fun. 
+
+###### 39:31
+I just want to enjoy this or I just want to you know Share communally with with everybody who follows me just like what I'm experiencing like there's just so much more joy out of that Rather than just forcing the issue That's great advice. 
+
+###### 39:43
+So a few things I want to touch on, I think it's very important. We'll see a huge demand for it in 2020. I think Google will probably reward this action if people take note on it. And that comes down to accessibility. 
+
+###### 39:59
+I think that building brands and having these beautiful platforms to share stuff and telling stories is great. But how important do you feel accessibility is through video? And how do we utilize that? 
+
+###### 40:12
+Yeah, accessibility through video. Man, like I said before, it is a great frontier in the fact that it's cheaper than ever to be able to produce. And I just try and keep bringing that back home, is that you can do this without having to invest a lot. 
+
+###### 40:29
+Like we said earlier, what you have in your pocket is probably a smartphone. And you can do great things with that. I totally believe that traditional media, as far as what's on your TV and that kind of advertising, is definitely starting to go away. 
+
+###### 40:47
+Like you have Netflix and Hulu and all these different other avenues where people are creating content just for those platforms. And so it's moving in more of this direction of pay to play platforms. 
+
+###### 41:00
+The great thing about YouTube is that you don't have to necessarily pay, but you're paying with your time to watch advertisements on there. I mean, you can pay YouTube and not have to watch ads. I mean, that's part of their program as well. 
+
+###### 41:13
+But yeah, I just think like I think again, it just comes down to relationship and relational. I love to watch people on YouTube or follow people on Instagram just because I like to see what's going on. 
+
+###### 41:24
+You know, I kind of feel like I'm relating to them. Like I'm the content on YouTube that I love the most. Again, it's like a lot of times a mixture of maybe they're teaching me something or training me on something, but they're showing me behind the scene stuff, you know, so the stuff that's just like most relatable. 
+
+###### 41:41
+Is this stuff that I like and you just don't find that on traditional TV really, you know You just don't find this behind the scenes organic kind of feeling content right because it doesn't like a Traditional brands like TV shows they don't really focus on value. 
+
+###### 41:54
+It's more of entertainment. Right. Yeah Yeah, and like that's the cool thing is like on YouTube you get a mixture of you know in one video You can learn something you can be entertained and you can feel like you're connecting with somebody Which is I don't know it's just it's a crazy mix of Value a crazy mix of just Things that are going on and again like that really only comes through video It doesn't come through photos like you can look at a photo and admire it and be like oh, that's cool It's awesome, but like what does a video do way beyond that a 15 minute YouTube video Showing behind the scenes teaching you something, you know all these different things like that does so much more than a photo And yes, it takes that much more to make it and actually create it But video connects in such a greater way than even a photo does, you know I take photos a lot of times and share photos because it's like a quick way for me to just shoot something out there and it's fun and I enjoy photography, but video takes video takes a lot more work, you know, and that's why a lot of people kind of shy away from it is because video, it's it is hard. 
+
+###### 42:54
+You can get a $20 ,000 red camera, but if you don't know what the heck you're doing with that $20 ,000 camera, you're going to make the same crap that somebody's going to make on a $600 Canon, you know, or on their iPhone. 
+
+###### 43:06
+So it just comes down to like, you have to understand storytelling, you have to understand beginning, middle and end. You don't have to be a journalism major, but you just have to understand how to tell a story. 
+
+###### 43:14
+You need to understand composition when it comes to videography. And like, you can totally learn that again, it's not super complex, you just have to understand some of that. And then you just have to understand like good editing, you know, and that's something that I wanted to talk about, but we don't have a whole lot of time for that left. 
+
+###### 43:30
+But good editing is really I love this analogy. Good editing is like the difference between like a Kia and a Bugatti, because like a Kia gets the job done, it gets you from like A to B, but a Bugatti gets you from A to B with a lot of flash, you know, you're a baller. 
+
+###### 43:47
+If you're driving that, he's got that great malls per gallon, you know, I know, I know, right, you know, but you can go and pick one up for like $15 ,000, you know, so it's no big deal. So like, like editing does have a lot to do with it, it doesn't, it doesn't have all to do with it. 
+
+###### 44:03
+But like, you can see like the same shots, like arranged in a certain way, you know, and it'd be like that's kind of amateur. And then you can see that the same shots arranged in a different way and maybe using different music or using sound effects. 
+
+###### 44:17
+And the editing, the editing does matter at the end of the day. So it's just, it's just really interesting that there are so many components of video that make a really good video. And again, that's why it is hard. 
+
+###### 44:32
+That's why I love this industry. That's why I love the art of creating videos is because like, there's so much more to it than somebody to say, Hey, just throw up a can. camera and let's just capture it. 
+
+###### 44:42
+Like there's a time and place for that. But at the same time, I love it because like people just don't understand the full extent of like what I do. And I love being able to do all aspects of that. I love being able to charge for that. 
+
+###### 44:55
+But I love being able to do all aspects of that because there's just so, there's so many different pieces there that I enjoy telling a story, great visuals, driving music, you know, like creating emotion, feeling that emotion, connecting, I don't know, all that stuff together just like just totally gets me. 
+
+###### 45:16
+Yeah, I'm just so passionate about it because there's so many pieces. Like you just don't get that in a photo. You don't get that in a blog post. You only get that. I think it's so fascinating about your industry and people that are interested in getting a video is like the web of the last eight or 10 years has become very templated. 
+
+###### 45:34
+And, you know, it's a major part. It's the number one, you know, one number one resource for people finding people online as websites. And those solutions have become so templated and streamlined so that they become quote unquote, affordable. 
+
+###### 45:47
+But you can't necessarily pull that off of the video. I mean, I could argue against templated websites aren't a good solution either for most brands because it just looks cheap. But in general, you can't get that with video because it doesn't resonate. 
+
+###### 46:01
+It isn't really. It doesn't hit the heartbeat of your user and your clientele. Yeah, I mean, video video can distinguish a brand based on the style of the video. And you know, you know, whose video it is based on just like the shots that they get, the story that they're telling and the way that they edit it. 
+
+###### 46:20
+Again, it does come down to style. Again, it comes down to the key and the Bugatti, you know, one's got style and one maybe has some style. But, you know, it just there's there's a difference there that you can visually see and you just know like that's yeah, that's a that's a decent thing. 
+
+###### 46:36
+And then that's like, yeah, that one over there like, wow, wow, you stop and you admire it. You know, that's cyber truck. Yeah. Yeah. No, I'm not admiring cyber truck. Too far. I think I think trend this has been super valuable. 
+
+###### 46:53
+I think a lot of our users are going to resonate with a lot that you've been saying and hopefully hopefully find find value in and some inspiration to hope so video into their to the marketing, how they how they tell stories and and capture that audience and and you know, thanks for coming on. 
+
+###### 47:10
+I want to end this. I want to send with a segment, which is just rapid fire questions. Just have a little fun. And so you ready to get into that? Let's do it. Let's do it. Rapid fire. Yeah. So just try to keep it super short and sweet so we can fly through these. 
+
+###### 47:23
+Cool. So what is your favorite social media platform and why? Definitely Instagram, like I said, photo video. It just cuts a lot of the clutter of Facebook and other things, but you can share so much on and you have stories, you have your feed, and you have all these different people and influencers and stuff like that. 
+
+###### 47:38
+And you can just, you can follow anybody and everybody and create whatever you want and post it there. Cool. What is the best smartphone app for photography and video editing? So I don't, I used to do some video editing, but I don't really, just being a pro and a creative, like doing video, like I just want to do complex things with video, so that just requires a computer. 
+
+###### 47:55
+But for photography, definitely download the Lightroom app by Adobe. And that's gonna give you way more creative control over your photos. And you can download presets if that's where you want to start at, but you can just fine tune a ton of things. 
+
+###### 48:09
+And it's free. There are some parts of it that's not free, but it's free, so go download the Lightroom app. Okay, another one here. YouTube or Vimeo, should brands really care? Yes, I would put my videos on YouTube because they're gonna be seen by more people. 
+
+###### 48:24
+And also YouTube is free, you're gonna have to pay for Vimeo. Vimeo is really just for more kind of portfolio stuff. YouTube is really to get in front of an audience. So I would 100% do YouTube. OK, cool. 
+
+###### 48:34
+We got first impressions of the Cybertruck. I don't like it. I don't. I think Tesla's I think the Tesla cars look sweet. I know some people don't like the Tesla vehicles. I like them. The Cybertruck to me looks terrible. 
+
+###### 48:47
+That's just my. And yeah, yeah, it does. It looks like they just they just were in a shop somewhere just banging together some metal and just threw it on top of like a F -150. So yeah, cool. So I know you dabble a lot with drones. 
+
+###### 48:59
+That's a huge part of your tool belt. What's your kind of go to drone shot? Um, this is one that I call kind of the up and out. So I like to kind of like pull like when I'm ending something, especially if I'm like ending it like a narrative of like a city or a place I like to kind of yeah, I like to pull back with the drone and just kind of move up and move out. 
+
+###### 49:18
+And so that kind of just gives us good kind of last shot of like where we were and then just kind of fade to black. Awesome. And plus I think it just gives it gives a good ending point. And then like it shows you the big picture versus all these really close up shots with this is a beautiful and storytelling. 
+
+###### 49:35
+Right. Again, you know, I would tell people book in stuff with establishing shots. So like when you're getting started with a video, like establish the scene where it's at and then at the end of it, I would do the same thing as well. 
+
+###### 49:46
+Book and it's a good word. Uh, OK, cool. So what is a book that's changed your life? Oh, man, I was thinking about this one like all day today. This is so hard because like I I do read a lot. And I love that like books are so focused on certain topics. 
+
+###### 50:01
+One second, one second. We may have to come back to this one. OK, look, I got a curveball here. Who's your favorite YouTuber? My favorite YouTuber is still Peter McKinnon. Thanks for being more photography video based. 
+
+###### 50:14
+Yeah, photography video based. He does have some BTS stuff that is fun. But really, if you're like if you're interested in photo video and you want to get inspired, but you also want to go learn some stuff, definitely go follow Peter, Peter McKinnon. 
+
+###### 50:28
+He will teach you. He's been YouTubing for three years now, I think, and he's got like four million. million subscribers. It's it's wild. It's awesome. So I got to two more of this besides the book question. 
+
+###### 50:39
+What's what's the best piece of advice that you've ever received? Oh, best piece. Yeah, like I said earlier is just just create just create for the sake of it. Just make you know, just yeah, just do just make whatever it is. 
+
+###### 50:52
+Make make make make. Don't worry so much about like, what people are going to think and like where you're going to put it but just create something because you have an idea. Just create because I have an idea and because you enjoy creating. 
+
+###### 51:03
+Charlotte buff man. Just do it. Just do it. Just do it. You figure out that favorite book. Favorite book. Okay, this is one that I've read within the last two years. It's probably not my favorite because that's just hard. 
+
+###### 51:16
+But this is one that I really, really enjoy. It's called thirst and it's it's by an organization called charity water. This is kind of different avenue than business and Actually, it does relate to photo, but it's by Scott Harrison the guy who started an organization called charity water and basically what they're doing It's trying to bring clean water to All people around the world, but I love his book because it's super insightful for multiple things one He has a crazy wild story. 
+
+###### 51:44
+I won't I won't ruin it. So go read it. He's a crazy wild story And he also is a Christian so I'm a Christian. So like that's really important to me And then also whenever he had this major turning point in his life when he did become a Christian He went and did work in Africa and started doing photography to be able to tell stories for an organization called Mercy ships So they go in do they go and do Surgeries for for kids in Africa who just have the craziest things going on and he realized that he could do a lot of photography In order to tell those stories and to be able to get more funding back in the States to make more surgeries happen So then that led him the idea to to be able to document things really really well to share and tell stories To get people who have a lot of money to be able to back things that would be really good for the world So then he started this organization called charity water to bring clean water to people all around the world And he does it does a great job at it because he does photography and great video and tells amazing stories And so I love it because he's so keen and so focused on telling great stories And so like to me that's that's a huge thing I love how he's built a brand and built an organization around being so focused on good storytelling That's awesome. 
+
+###### 52:59
+And that's that's the book thirst. It's called thirst by Scott Harrison Oh Scott Harrison awesome and last question. We're going to find you on the interwebs. Yeah, so My website which needs to go through a revamp But is media by Irwin and Irwin is my last name erw in Media by Irwin .com you can also find me on Instagram at Trent underscore Irwin erwin. 
+
+###### 53:23
+You know, like I said, I struggle with post So like if you go and look and I haven't posted that much like that is part of my struggle and I get you if you're struggling with posting But yeah, find me on there comment on stuff ask me questions I love helping people. 
+
+###### 53:38
+So if you have a question about anything like please hit me up I would love to share anything with you. So awesome. So Trent. Thanks for coming on the podcast man This has been exciting episode. I think a very diverse episode with everything digital video music media social platforms Cyber trucks Or the lack there of like Yeah, man, I would love to come back on and do a part two because I feel like there's there's so much more in there to unpack and stuff that I would love to talk about. 
+
+###### 54:12
+So if anybody has any questions coming away from this and you're wondering anything like please post those wherever you can post them. And I would love to like do around to at some point and just kind of answer some questions and give Awesome. 
+
+###### 54:23
+Yeah, if you have anything immediate, please reach out to Trent on social media and throw a question at him. He I know he is he's a busy guy, but I'm sure he'll get back to you eventually. If you have any other questions or or podcasts ideas, even if you're someone in the digital space and you want to come on the podcast, just email us at podcast at plaidpixel .io and get back to you. 
+
+###### 54:44
+Yeah, sweet. All right, thanks Trent. I close. Yeah, thank you. 
+
+
+

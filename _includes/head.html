@@ -1,0 +1,69 @@
+<!-- head.html -->
+<meta charset="UTF-8" />
+<title>{{ site.title }} - {{ page.title }}</title>
+<!-- Meta Data -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index,follow"/>
+<meta name="description" content="{{ site.description }}"/>
+<meta property="og:title" content="{{ site.title }}"/>
+<meta property="og:description" content="{{ site.description }}"/>
+<meta property="og:url" content="http://www.hotelhelpservicesinfo.com/">
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="{{ site.url }}/assets/banner.png"/>
+<meta property="og:image:alt" content="{{ site.description }}"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<link rel="canonical" href="/"/>
+
+<!-- Styles -->
+<link rel="stylesheet" href="/css/style.css" />
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png" />
+<link rel="icon" type="image/png" href="/assets/favicon-32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/assets/favicon-16.png" sizes="16x16" />
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Space+Grotesk&display=swap" rel="stylesheet">
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<!-- LazySizes & config -->
+<script>window.lazySizesConfig = window.lazySizesConfig || {};
+lazySizesConfig.loadMode = 1;</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Isotope Js - only on Case Studies page -->
+{% if page.url == '/case-studies' %}
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+{% endif %}
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "WebSite",
+  "name" : "Hotel Help",
+  "alternateName" : "Hotelhelp",
+  "url" : "http://www.hotelhelpservicesinfo.com/"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "http://www.hotelhelpservicesinfo.com/",
+    "logo": "{{ site.url }}/assets/banner.png",
+    "contactPoint" : [
+    {   "@type" : "ContactPoint",
+        "telephone" : "+1-901-624-5000",
+        "contactType" : "Sales",
+        "contactOption" : "TollFree",
+        "areaServed" : "US",
+        "availableLanguage" : "English"
+} ],
+    "sameAs" : [
+        "https://www.facebook.com/hotelhelp.staffing.services/",
+        "https://www.linkedin.com/company/hotel-help-services/about/"
+    ]
+}
+</script>

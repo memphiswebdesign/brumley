@@ -1,0 +1,105 @@
+I"z <div class="img-bg-blur mb-4">
+  <img class="round-10" src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&amp;w=1080&amp;height=566&amp;auto=format&amp;fit=crop" />
+</div>
+
+<h2 id="designing-with-code">Designing with Code</h2>
+
+<p>The days of complex CSS hacks and legacy dependencies just to get a simple website to look good are gone.  There’s a continued conversation around the friction of Designers Learning Code and Developers Learning Design. My hope with this blog is that I can introduce you to some very simple concepts and techniques that make it super easy for any designer to understand the importance of learning some modern CSS.  So the next time you’re faced with speaking “dev lingo” with your fellow coworkers, you’ll have some tricks up your sleeve.</p>
+
+<h3 id="the-old-way-and-new-way">The Old Way and New Way</h3>
+<p>Before this huge wave of new/frequent browser releases, the internet was stitched together with legacy coding techniques like: HTML Tables, Image Maps, Floating Elements, Fixed Width’s, and other odd growing pains that we all have encountered.</p>
+
+<h3 id="the-traditional-design-tools">The Traditional Design Tools</h3>
+<p>As Designers are becoming more utilized in the web space, software companies like Adobe have crafted beautiful tools for any entry-level designer to pick up. These tools range from doing basic tasks such as wireframes to sophisticated tooling for creating high-fidelity mocks and basic prototypes. Tools like Adobe Dreamweaver attempt to bridge the gap between design input tooling and sophisticated code output. The problem constantly faced is the lack of knowledge on both sides, Design and Dev. It’s not easy for a developer to just pick up code output from these tools and seamlessly integrate with their current stack.</p>
+
+<p>As a Digital Designer, it has made my life much easier to understand the root fundamentals of <a href="https://css-tricks.com/where-do-you-learn-html-css-in-2020/" target="_blank">HTML and CSS</a>. It levels the playing field of respect when a developer feels that their designer knows these base web languages. It also gives the designer much more appreciation for the complex issues that a developer faces on a daily basis. Big picture, the tools and knowledge base is what holds back Digital/Web Designers from becoming a better UX/Interactive Designers. It’s difficult to represent the UX from the UI when the “Experience and Interactions” are presented as flat mocks.</p>
+
+<blockquote>
+  <p>You need to understand the possibilities and constraints of your medium in order to do the best design work that technology can allow for. There’s no better way to gain this understanding than knowing how to build your own designs.<br /><br />- Ben Lisefski</p>
+</blockquote>
+
+<p>The benefit of having designers who know basic web development is how frictionless it makes the process from the beginning stages of a design to the finalizing of the web project. Plus we all dream of being “Design Unicorns”, right.. ? ** ☕ helps too.</p>
+
+<h3 id="so-lets-dive-in-and-take-these-simple-steps-to-accomplishing-great-design-through-code">So let’s dive in and take these simple steps to accomplishing great design through code.</h3>
+
+<h4 id="a-typical-project-process-breakdown">A typical project process breakdown:</h4>
+<h6 id="1-info-architecture-">1. Info architecture 📝</h6>
+<h6 id="2-sketch-and-wireframes-️">2. Sketch and Wireframes ✍️</h6>
+<h6 id="3-ui-design-">3. UI design 🎨</h6>
+<h6 id="4-ux-design-">4. UX design 💡</h6>
+<h6 id="5-front-end-code-">5. Front-end code 🔮</h6>
+<h6 id="6-back-end-development-️">6. Back-end development 🖥️</h6>
+
+<p>I think <strong>step 3, 4 &amp; 5</strong> can be meshed into one fluid step. A design project should always start with defining the problems &amp; gather as much data as possible to construct the best designed solution.</p>
+
+<h4 id="1-info-architecture">1. Info architecture</h4>
+
+<p>Here are a few resources to gather some of that useful data:</p>
+
+<ul class="list-dash">
+  <li><a href="http://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/" target="_blank">Client/Project Discover Meeting</a></li>
+  <li><a href="http://analytics.google.com/" target="_blank">Google Analytics</a></li>
+  <li><a href="https://mixpanel.com/" target="_blank">MixPanel</a></li>
+  <li>Social Demographic</li>
+  <li><a href="https://www.hotjar.com/" target="_blank">HotJar</a>, <a href="https://www.crazyegg.com/" target="_blank">CrazyEgg</a>, etc</li>
+</ul>
+
+<h4 id="2-sketch--wireframes">2. Sketch &amp; Wireframes</h4>
+
+<p>Best simply using Pencil &amp; Paper or whiteboard</p>
+
+<p>This phase should be freeform &amp; allow you to rapidly produce a basic idea/concept with little to no commitment. Mix it up &amp; have fun with colored pencils. 🎨</p>
+
+<h4 id="3-combining-uiuxfront-end-development">3. Combining UI/UX/Front-End Development</h4>
+
+<p>This is not a one trick pony. Learning a few languages &amp; the fluidly implementing into your workflow can take months. Again, take baby steps.</p>
+
+<p>Here is a list of resources that has greatly helped me over the years:</p>
+
+<ul class="list-dash">
+  <li><a href="https://teamtreehouse.com/tracks/front-end-web-development" target="_blank">Treehouse Tutorials</a></li>
+  <li>Learn <a href="https://css-tricks.com/where-do-you-learn-html-css-in-2019/" target="_blank">HTML/CSS in 2019</a></li>
+  <li>CSS on <a href="https://www.codecademy.com/learn/learn-css" target="_blank">CodeAcademy</a></li>
+  <li>Digging through <a href="https://codepen.io/" target="_blank">CodePen</a></li>
+</ul>
+
+<p>A few examples of Modern CSS properties that are changing the game:</p>
+
+<h5 id="css-grid">CSS Grid</h5>
+
+<p>CSS Grid is one of the newest additions to W3 standards. It’s becoming the best way to create dynamic &amp; flexible layouts across devices, with ease. Learn more about CSS Grid &amp; how it can help you quickly structure your next website project.</p>
+
+<ul class="list-dash">
+  <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Complete Guide to CSS Grid</a></li>
+  <li><a href="https://scrimba.com/g/gR8PTE" target="_blank">Scrimba Tutorials</a></li>
+</ul>
+
+<h5 id="css-flexbox">CSS Flexbox</h5>
+
+<p>CSS Flexbox Module is revamping how designers/developers build out smart responsive components into their websites &amp; web-apps. The root functionality is “flexible” to any screen size &amp; device contents. Here are some resources to getting started with Flexbox.</p>
+
+<ul class="list-dash">
+  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a></li>
+  <li><a href="https://the-echoplex.net/flexyboxes/" target="_blank">CSS FlexBox Playground</a></li>
+</ul>
+
+<h5 id="piggyback-off-a-lightweight-framework">Piggyback off a lightweight framework</h5>
+
+<p>CSS &amp; JS Frameworks are great jumping off points when starting a large web project. They serve well as base components styles &amp; functionality that most websites &amp; web-apps utilize. Grab one of these well-known frameworks &amp; modify them to fit your web needs &amp; style.</p>
+
+<ul class="list-dash">
+  <li><a href="https://bulma.io/" target="_blank">Bulma</a></li>
+  <li><a href="https://purecss.io/" target="_blank">PureCSS</a></li>
+  <li><a href="https://foundation.zurb.com/" target="_blank">Zurb Fondations</a></li>
+  <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+</ul>
+
+<p>There is so much value in Designers diving in &amp; understanding the utilitarian aspect of what they are designing for. I hope more designers are inspired to learn more Front-end tools &amp; create a more fluid working relationship with their development team.</p>
+
+<p>Once you start diving into these amazing languages, through design thinking, please utilize CrossBrowserTesting Free Trial to test your new creation across various platforms &amp; devices. If you found this article helpful or inspiring, please drop us a chat.</p>
+
+<p>We love hearing from Designers &amp; Developers, <a href="https://twitter.com/EliBrumley" target="_blank">Tweet me</a></p>
+
+<p><strong>Thanks for your time &amp; happy testing!</strong></p>
+
+:ET

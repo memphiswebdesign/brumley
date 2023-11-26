@@ -1,0 +1,24 @@
+{% comment %}
+Render your responsive images using <img srcset>, with the largest resized image used as a fallback.
+
+Usage:
+
+    {% responsive_image path: assets/image.jpg alt: "A description of the image" %}
+
+{% endcomment %}
+
+{% assign largest = resized | sort: 'width' | last %}
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
+<img data-sizes="auto"
+src="/assets/set/100/{{ original.basename }}" 
+data-srcset="
+/assets/set/480/{{ original.basename }} 500w,
+/assets/set/800/{{ original.basename }} 768w,
+/assets/set/1400/{{ original.basename }} 1280w,
+/assets/{{ original.basename }}"
+class="lazyload blur">
