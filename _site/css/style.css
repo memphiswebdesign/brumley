@@ -337,7 +337,7 @@ header #logo img {
 @media(max-width: 900px) {
 	header #logo img {width: 180px;}
 }
-@media(max-width: 500px) {
+@media(max-width: 540px) {
 	header #logo img {width: 150px;}
 }
 section#hero.home {
@@ -351,6 +351,21 @@ section#hero.default {
 section#hero.default .container {
 	position: relative;
 	z-index: 10;
+}
+
+/* Media Col */
+@media(max-width: 960px) {
+/*	section#hero.home {}*/
+}
+/* Sm Col */
+@media(max-width: 780px) {
+	section#hero.home {padding-top: 100px;}
+	section#hero.default {padding-top: 120px; padding-bottom: 60px;}
+}
+/* XS Col */
+@media(max-width: 540px) {
+	section#hero.home {padding-top: 88px;}
+	section#hero.default {padding-top: 100px; padding-bottom: 50px;}
 }
 
 .animate-fx,
@@ -401,10 +416,6 @@ section#hero.default .container {
 .orbs span:nth-of-type(1) {top: 20%; left: -50%; background: #0077EE;}
 .orbs span:nth-of-type(2) {top: 60%; left: 20%; background: #9600ff;}
 .orbs span:nth-of-type(3) {height: 40vw; width: 40vw; background: #414141;}
-
-@media(max-width: 540px) {
-	section#hero.default {padding: 120px 0 50px 0;}
-}
 
 header .cta {
 	display: inline-flex;
@@ -459,15 +470,13 @@ a.social-item:hover svg {
 	header {padding: 10px 0;}
 	header.scroll {padding: 7px 0;}
 	#logo .headshot {height: 45px;}
-	a.social-item {height: 35px; width: 35px;}
-	a.social-item svg {height: 15px;}
+/*	a.social-item {height: 35px; width: 35px;}*/
+/*	a.social-item svg {height: 15px;}*/
 }
 
-@media(max-width: 500px) {
+@media(max-width: 540px) {
 	header {padding: 5px 0;}
 	header.scroll {padding: 2px 0;}
-	a.social-item {height: 34px; width: 34px;}
-/*	header a.social-item svg {height: 13px;}*/
 	#logo .headshot {height: 42px;}
 	header .social {margin-right: .9em;}
 	#logo span {
@@ -494,10 +503,6 @@ a.social-item:hover svg {
 	align-items: baseline;
 } 
 .hero-tag .pre {margin: 0!important; line-height: 1.4em;}
-.hero-tag  br {display: none;}
-@media (min-width: 768px) {
-	.hero-tag  br {display: none;}
-}
 @media (max-width: 450px) {.hero-tag  br {display: inline;}}
 
 @media(max-width: 768px) {
@@ -551,6 +556,8 @@ nav ul li.active a:after {
 	opacity: 1;
 	transform: translateY(0) scale(1);
 }
+
+nav ul li.mobile {display: none;}
 
 /*nav ul li.active a:after {
 	content: '';
@@ -686,9 +693,9 @@ button.hamburger.active span:after {
     background: rgba(19, 19, 19, .8);
     padding: 80px 0;
     transition: all .2s ease-out;
+    overflow-y: scroll;
 }
 
-#mobile-menu ul {margin-top: 25px!important;}
 #mobile-menu li {
 	padding: 5px;
 	margin:  0 0 10px 0;
@@ -707,7 +714,7 @@ button.hamburger.active span:after {
 .mobile-menu {}
 
 ul.mobile-nav a {
-	font-size: calc(100vw / 15);
+	font-size: calc(100vw / 12);
     font-weight: 700;
 }
 
@@ -748,7 +755,7 @@ h6 {font-size: 19px; margin: 1em 0;}
 p {
 	color: #afafaf;
 	font-size: 1.1rem;
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 /* Lg Col */
@@ -758,20 +765,21 @@ p {
 }
 /* Media Col */
 @media(max-width: 960px) {
-	h1 {font-size: 39px;}
+	h1 {font-size: 40px;}
 	h2 {font-size: 34px;}
 }
 /* SM Col */
 @media(max-width: 780px) {
-	h1 {font-size: 34px;}
-	h2 {font-size: 30px;}
+	h1 {font-size: 38px;}
+	h2 {font-size: 33px;}
 	h6 {font-size: 17.5px;}
-	p {font-size: 1rem;}
+	p {font-size: 1.08rem;}
 }
 /* Xs Col */
 @media(max-width: 540px) {
+	h1 {font-size: 35px;}
 	h2 {font-size: 26px;}
-	p {font-size: .95rem;}
+	p {font-size: 1.05rem;}
 }
 
 .bordered-y {
@@ -1166,6 +1174,14 @@ blockquote p {
     padding-bottom: 100px;	
 }
 
+@media (max-width: 850px) {
+	#page.article #content {padding-top: 125px;}
+}
+@media (max-width: 540px) {
+	#page.article #content {padding-top: 95px;}
+}
+
+
 .article-heading {}
 .article-date {
 	margin-bottom: 40px!important;
@@ -1279,7 +1295,7 @@ hr.dash:before {
 }
 
 @media(max-width: 767px) {pre {font-size: 16px;}}
-@media(max-width: 500px) {pre {font-size: 15px;}}
+@media(max-width: 540px) {pre {font-size: 15px;}}
 .center {text-align: center;}
 .white {color: #fff;}
 .fog {color: #afafaf;}
@@ -1303,7 +1319,7 @@ hr.dash:before {
 .container.thiner {max-width: 880px;}
 .container.thinest {max-width: 540px;}
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
 	.container {padding: 0 20px!important;}
 }
 
@@ -1366,6 +1382,7 @@ button.ghost:hover,
 	position: relative;
 	display: inline-flex;
 	color: #fff;
+	font-size: 1.12rem;
 	padding: 7px 0;
 	cursor: pointer;
 	font-weight: 600;
@@ -1669,14 +1686,14 @@ button.ghost:hover,
 }
 .tool-set svg {
 	display: inline-block;
-	height: 25px;
+	height: 27px;
 	max-width: 35px;
 }
  
 @media (max-width: 800px) {
 	.tool-set span {margin: 0 6% 6% 0;}
 	.tool-set svg {
-		height: 22px;
+		height: 24px;
 		max-width: 30px;
 	}
 }
@@ -1686,10 +1703,6 @@ button.ghost:hover,
 	}
 	.tool-set {
 		padding: 0;
-	}
-	.tool-set svg {
-		height: 20px;
-		max-width: 24px;
 	}
 }
 
@@ -1948,7 +1961,7 @@ pre.cat {
 /* Isotope Case Studies Elements */
 .filters ul {margin: 0; padding: 0;}
 .filters .btn {margin: 2px;} 
-@media(max-width: 500px) {
+@media(max-width: 540px) {
 	.filters .btn,
 	.filters .btn.active { 
 		height: auto;

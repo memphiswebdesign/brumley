@@ -13,9 +13,9 @@
 			</div>
 			<nav class="mobile-hide">
 				<ul>
-					{% for item in site.data.menu %} 
-					<li {% if item.link == page.url %} class="active"{% endif %}
-					><a href="{{item.link}}">{{item.title}}</a></li>
+					{% for item in site.data.menu %}
+					<li class="{% if item.link == page.url %} active {% endif %} {{item.class}}">
+						<a href="{{item.link}}">{{item.title}}</a></li>
 					{% endfor %}
 				</ul>
 			</nav> 

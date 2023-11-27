@@ -1,8 +1,16 @@
 - title: About
   link: /about
-
-# - title: Work
-#   link: /work
-
+  class:
+  external: false
 - title: Journal
   link: /journal
+  class:
+  external: false
+- title: Contact
+  link: /contact
+  class: mobile
+  external: false
+- title: Resume
+  link: /assets/eli-brumley-resume.pdf
+  class: mobile
+  external: true

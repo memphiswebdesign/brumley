@@ -1,21 +1,13 @@
----
-layout: default 
-title: a bit about me
-subtitle: Memphis Native. &nbsp;Father of 3. &nbsp;Design Nerd.
-permalink: /about
-bg: bg1
----
-
-<div id="about" class="">
+I"�<div id="about" class="">
 	<div class="container thin">
 		<div class="flex fx-wrap py-4 pt-sm-1">
 			<div class="fx-item-2 fx-grow fx-item-sm-1 mb-2 pr-5 pr-md-2 pr-sm-0">
-				<h2 class="mb-1">Hey-oh, I'm Eli <span class="animate-wave"> 👋</span></h2>
+				<h2 class="mb-1">Hi! I'm Eli <span class="animate-wave"> 👋</span></h2>
 				<p>A digital marketing maven and UX design enthusiast with a decade of experience in elevating global brands. My passion lies in dissecting growth challenges and innovating through creative digital solutions. I blend my love for design with my knack for Conversion Rate Optimization, crafting unique, high-impact strategies that truly move the needle.</p>
 				<p>When I'm not revolutionizing digital marketing, you can find me embracing nature. Whether it's a peaceful walk, a spirited game of disc golf, or tending to my chickens and beehives, I find my zen in the great outdoors. As a proud dad of three, I balance my professional aspirations with the joy of family life.</p>
 				<p>Looking forward, I'm excited to foster strong partnerships in the digital and SaaS realm, driving transformative change with scalable design systems. Here's to creating, innovating, and growing together!</p>
 				<div class="btn-grp pt-2">
-					<a href="/assets/eli-brumley-resume.pdf" target="_blank" class="text-link">Latest Resume <span class="ar">></span></a>
+					<a href="/assets/eli-brumley-resume.pdf" target="_blank" class="text-link">Latest Resume <span class="ar">&gt;</span></a>
 					<!-- <a href="" class="text-link">Latest Projects <span class="ar">></span></a> -->
 				</div>
 			</div>
@@ -43,3 +35,4 @@ bg: bg1
 		</div>
 	</div>
 </div>
+:ET
