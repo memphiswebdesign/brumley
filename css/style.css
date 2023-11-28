@@ -2230,7 +2230,7 @@ audio::-webkit-media-controls-play-button:hover {
 	padding-right: 5px;
 	width: 40px;
 	text-align: center;
-	background: rgba(0,119,238,.45)!important;
+	background: rgba(175, 175, 175, .12)!important;
 	border: none;
 	-backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -2238,6 +2238,13 @@ audio::-webkit-media-controls-play-button:hover {
 }
 .quote-wrap button:hover,
 .quote-wrap button:focus {background: rgba(0,119,238,1)!important;}
+
+.quote-wrap button:hover svg,
+.quote-wrap button:focus svg {
+	transform: scale(1.18);
+	transform-origin: center;
+    transition: .1s ease-out;
+}
 
 .quote-wrap button#scrollLeft {
 	opacity: 0;
@@ -2256,13 +2263,21 @@ audio::-webkit-media-controls-play-button:hover {
 }
 
 #scrollContainer::-webkit-scrollbar-track {
-	background: #222;
+	background: #2b2b2b;
 	border-radius: 5px;
 }
 
 #scrollContainer::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: #444;
+}
+
+#scrollContainer {
+/*	scroll-behavior: smooth;*/
+	cursor: grab;
+}
+#scrollContainer:active {
+	cursor: grabbing;
 }
 
 #scrollContainer.active {}
