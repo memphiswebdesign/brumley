@@ -1,4 +1,4 @@
-I"´Å<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
+I"ãÉ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
 	<div class="container center">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
@@ -110,6 +110,17 @@
 						<div class="quote-meta-label">
 							<p class="name">David Puckett</p>
 							<p class="title">DevOps @ Capital One</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
+					<div class="quote">Eli was a great colleague to collaborate with - artistic, innovative, and passionate about delivering work that exceeds expectations!</div>
+					<div class="flex fx-align-center quote-meta">
+						<img src="/assets/james-acero.jpg" />
+						<div class="quote-meta-label">
+							<p class="name">James Acero</p>
+							<p class="title">Dev @ SmartBear</p>
 						</div>
 					</div>
 				</div>
