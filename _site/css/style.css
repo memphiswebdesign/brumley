@@ -2138,6 +2138,7 @@ form span {
 form input,
 form select,
 form textarea {
+	font-family: 'Manrope', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 16px;
 	border: 1px solid #aaa;
 	padding: 7px 10px;
