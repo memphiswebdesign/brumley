@@ -1,4 +1,4 @@
-I"<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
+I"´Å<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
 	<div class="container center">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
@@ -59,7 +59,7 @@
 			<button id="scrollRight"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.98438 10.3636L6.125 9.51542L9.66295 5.97747H0.5V4.74979H9.66295L6.125 1.22301L6.98438 0.363632L11.9844 5.36363L6.98438 10.3636Z" fill="white" /></svg></button>
 			<div id="scrollContainer" class="flex fx-no-wrap">
 				
-				<div class="quote-item py-2 px-2 mb-1">
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Working alongside Eli has been a game-changer; his presence on the team has always booster our odds of success. He possesses a rare talent of melding a marketer's strategic mindset with the creative vision of a top-tier designer.</div>
 					<div class="flex fx-align-center quote-meta">
 						<img src="/assets/micheal-morgan.jpg" />
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				
-				<div class="quote-item py-2 px-2 mb-1">
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli is an incredibly talented designer, but most importantly a thoughtful designer. He‚Äôs not just making things look good, he‚Äôs making it look good for a purpose and on-purpose. It‚Äôs hard to put price on how valuable that is for a brand.</div>
 					<div class="flex fx-align-center quote-meta">
 						<img src="/assets/trent-erwin.jpg" />
@@ -81,8 +81,19 @@
 					</div>
 				</div>
 				
-				<div class="quote-item py-2 px-2 mb-1">
-					<div class="quote">I trust Eli above all for creative branding strategy and assets. He has the magic eye that turns my marketing headaches into happiness every time!</div>
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
+					<div class="quote">Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design"</div>
+					<div class="flex fx-align-center quote-meta">
+						<img src="/assets/nik-kreinberg.jpg" />
+						<div class="quote-meta-label">
+							<p class="name">Nik Kreinberg</p>
+							<p class="title">Director @ Dockwa</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
+					<div class="quote">I trust Eli above all for creative branding strategy and crafting creative digital assets. He has the magic eye that turns my marketing headaches into happiness every time!</div>
 					<div class="flex fx-align-center quote-meta">
 						<img src="/assets/steve-goerger.jpg" />
 						<div class="quote-meta-label">
@@ -92,7 +103,7 @@
 					</div>
 				</div>
 				
-				<div class="quote-item py-2 px-2 mb-1">
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">If you watch old Bond movies, there is always a scene where Q gives Bond all these amazing gadgets. Whenever Eli presented his work to the org, it was just like that.</div>
 					<div class="flex fx-align-center quote-meta">
 						<img src="/assets/david-puckett.jpg" />
