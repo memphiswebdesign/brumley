@@ -11,7 +11,7 @@ permalink: /
 
 <div id="quotes" class="bordered-bottom pt-0 pb-5"> 
 	<div class="container">
-		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-3">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">Made some badass friends</span>
 			<span class="blue dot-accent pre">:</span>

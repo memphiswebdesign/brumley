@@ -30,11 +30,11 @@ permalink: /contact/
 				<div class="form-wrap py-3 px-3 py-sm-1 px-sm-1">
 					<h5 class="mt-0 mb-1">Drop me a message:</h5>
 					<form
-					name="contact"
-					  action="/thanks/"
-					  method="POST"
-					  data-netlify-recaptcha="true"
-					  data-netlify="true"
+						name="contact"
+						action="/thanks"
+						method="POST"
+						data-netlify-recaptcha="true"
+						netlify
 					>
 						<p>
 							<label><span>Your Name:</span>

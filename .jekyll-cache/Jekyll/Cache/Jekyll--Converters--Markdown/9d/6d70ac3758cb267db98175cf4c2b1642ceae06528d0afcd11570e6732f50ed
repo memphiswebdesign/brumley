@@ -1,4 +1,4 @@
-I"¯ˆ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
+I"ˆ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
 	<div class="container center">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
@@ -49,7 +49,7 @@
 
 <div id="quotes" class="bordered-bottom pt-0 pb-5"> 
 	<div class="container">
-		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-3">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">Made some badass friends</span>
 			<span class="blue dot-accent pre">:</span>
@@ -71,7 +71,7 @@
 				</div>
 				
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
-					<div class="quote">I strongly recommend Eli as a creative professional. His unique ability to combine business insight with artistic skill is impressive. In over 15 years of collaboration in various settings, Eli consistently delivers innovative, high-quality work on time. He's an ideal partner for client-facing projects, reflecting the excellence we strive for. I highly endorse him for any project.</div>
+					<div class="quote">I highly recommend Eli for his exceptional blend of business acumen and artistic talent. Over 15 years, he consistently delivers innovative, high-quality work on time, making him a valuable asset for any project.</div>
 					<div class="flex fx-align-center quote-meta">
 						<img src="/assets/jason-harris.jpg" />
 						<div class="quote-meta-label">

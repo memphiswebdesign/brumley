@@ -2297,6 +2297,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	line-height: 1.6;
 	color: #fff;
 	font-size: 300;
+	margin-top: .25em;
 	margin-bottom: 1em;
 }
 .quote-item .quote:before,
@@ -2305,7 +2306,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 .quote-item p {margin: 0; font-size: 13px;}
 .quote-item .name {color: #fff;}
 .quote-item .title {}
-.quote-meta {}
+.quote-meta {margin-bottom: .5em;}
 .quote-meta-label {margin-left: .7em;}
 .quote-item img {
 	flex: 0 0 auto;
@@ -2333,6 +2334,8 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 }
 @media (max-width: 550px) {
 	.quote-item {width: calc(90% - 10px); margin-right: 3%;}
+	.quote-wrap button {top: inherit; bottom: -1.3em;}
+	#scrollContainer {padding-bottom: 12px;}
 }
 
 
