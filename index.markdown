@@ -9,7 +9,35 @@ permalink: /
 
 {% include featured-cases.html %}
 
-<div id="tools">
+<div id="quotes" class="bordered-bottom pt-0 pb-5"> 
+	<div class="container">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4">
+			<span class="blue dot-accent pre">:</span>
+			<span class="sub-title pre">Made some badass friends</span>
+			<span class="blue dot-accent pre">:</span>
+		</p>
+		<div class="quote-wrap pb-1">
+			<button id="scrollLeft"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.00684 10.3636L5.86621 9.51542L2.32826 5.97747H11.4912V4.74979H2.32826L5.86621 1.22301L5.00684 0.363632L0.00683594 5.36363L5.00684 10.3636Z" fill="white"/></svg></button>
+			<button id="scrollRight"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.98438 10.3636L6.125 9.51542L9.66295 5.97747H0.5V4.74979H9.66295L6.125 1.22301L6.98438 0.363632L11.9844 5.36363L6.98438 10.3636Z" fill="white"/></svg></button>
+			<div id="scrollContainer" class="flex fx-no-wrap">
+				{% for item in site.data.quotes %}
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
+					<div class="quote">{{ item.quote }}</div>
+					<div class="flex fx-align-center quote-meta">
+						<img src="/assets/{{ item.img }}" />
+						<div class="quote-meta-label">
+							<p class="name">{{ item.name }}</p>
+							<p class="title">{{ item.title }}</p>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div id="tools" class="py-4">
 	<div class="container">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>

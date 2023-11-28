@@ -116,3 +116,62 @@ function throttle(func, limit) {
     }
   };
 }
+
+
+// Horizontal Scroll Carousel
+
+document.getElementById('scrollRight').addEventListener('click', function() {
+  // Add the 'active' class to show the left button
+  document.getElementById('scrollLeft').classList.add('active');
+
+  // Existing scroll logic
+  document.getElementById('scrollContainer').scrollBy({
+    left: getScrollAmount(), // Assuming getScrollAmount() is defined as before
+    behavior: 'smooth'
+  });
+});
+
+document.getElementById('scrollContainer').addEventListener('scroll', function() {
+  const scrollContainer = document.getElementById('scrollContainer');
+  
+  if (scrollContainer.scrollLeft > 100) {
+    // Add the 'active' class when not scrolled all the way to the left
+    document.getElementById('scrollContainer').classList.add('active');
+    document.getElementById('scrollLeft').classList.add('active');
+  } else {
+    // Remove the 'active' class when scrolled all the way to the left
+    document.getElementById('scrollContainer').classList.remove('active');
+    document.getElementById('scrollLeft').classList.remove('active');
+  }
+});
+
+// =====
+
+function getScrollAmount() {
+  const screenWidth = window.innerWidth;
+  let scrollAmount;
+
+  if (screenWidth >= 1024) { // Desktop
+    scrollAmount = 440; // scroll more on larger screens
+  } else if (screenWidth >= 768) { // Tablet
+    scrollAmount = 330; // medium scroll on medium screens
+  } else { // Mobile
+    scrollAmount = 300; // less scroll on smaller screens
+  }
+
+  return scrollAmount;
+}
+
+document.getElementById('scrollLeft').addEventListener('click', function() {
+  document.getElementById('scrollContainer').scrollBy({
+    left: -getScrollAmount(),
+    behavior: 'smooth'
+  });
+});
+
+document.getElementById('scrollRight').addEventListener('click', function() {
+  document.getElementById('scrollContainer').scrollBy({
+    left: getScrollAmount(),
+    behavior: 'smooth'
+  });
+});
