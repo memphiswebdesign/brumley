@@ -152,11 +152,11 @@ function getScrollAmount() {
   let scrollAmount;
 
   if (screenWidth >= 1024) { // Desktop
-    scrollAmount = 590; // scroll more on larger screens
+    scrollAmount = 650; // scroll more on larger screens
   } else if (screenWidth >= 768) { // Tablet
-    scrollAmount = 330; // medium scroll on medium screens
+    scrollAmount = 420; // medium scroll on medium screens
   } else { // Mobile
-    scrollAmount = 300; // less scroll on smaller screens
+    scrollAmount = 330; // less scroll on smaller screens
   }
 
   return scrollAmount;

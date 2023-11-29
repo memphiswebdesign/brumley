@@ -1,5 +1,4 @@
-I"
-ˆ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
+I"LŠ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
 	<div class="container center">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
@@ -111,6 +110,17 @@
 						<div class="quote-meta-label">
 							<p class="name">Nik Kreinberg</p>
 							<p class="title">Director @ Dockwa</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
+					<div class="quote">Eli is the best UX designer I've worked with in over 15 years. He excels in creating both beautiful UI and effective UX. His skill in HTML, CSS, and JS is also impressive and rare. He's a fantastic teammate &amp; great guy.</div>
+					<div class="flex fx-align-center quote-meta">
+						<img src="/assets/luke-kende.jpg" />
+						<div class="quote-meta-label">
+							<p class="name">Luke Kende</p>
+							<p class="title">Software Lead @ Smartbear</p>
 						</div>
 					</div>
 				</div>
