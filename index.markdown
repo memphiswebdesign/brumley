@@ -24,7 +24,7 @@ permalink: /
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">{{ item.quote }}</div>
 					<div class="flex fx-align-center quote-meta">
-						<img src="/assets/{{ item.img }}" />
+						<img class="lazyload" data-src="/assets/{{ item.img }}" />
 						<div class="quote-meta-label">
 							<p class="name">{{ item.name }}</p>
 							<p class="title">{{ item.title }}</p>

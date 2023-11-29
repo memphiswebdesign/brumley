@@ -415,7 +415,7 @@ section#hero.default .container {
 }
 .orbs span:nth-of-type(1) {top: 20%; left: -50%; background: #0077EE;}
 .orbs span:nth-of-type(2) {top: 60%; left: 20%; background: #9600ff;}
-.orbs span:nth-of-type(3) {height: 40vw; width: 40vw; background: #414141;}
+.orbs span:nth-of-type(3) {height: 40vw; width: 40vw; background: #131313;}
 
 header .cta {
 	display: inline-flex;

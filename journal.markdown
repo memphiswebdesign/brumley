@@ -14,7 +14,7 @@ permalink: /journal
 					<div class="card flex fx-align-center fx-xs-align-start fx-xs-col fx-row px-2 py-2 px-sm-1 py-sm-1">
 						<a class="post-link" href="{{ post.url }}"></a> 
 						<div class="post-image mt-xs-1"> 
-							<img class="" src="{{ post.img }}" />
+							<img class="lazyload" data-src="{{ post.img }}" />
 						</div>
 						<div class="post-meta pl-3 pr-4 pl-sm-2 pr-sm-3 pt-xs-2 pl-xs-0 pr-xs-0">
 							<h2>{{ post.title }}</h2>
