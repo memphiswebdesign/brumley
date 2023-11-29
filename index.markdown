@@ -44,7 +44,7 @@ permalink: /
 			<span class="sub-title pre">trade tools</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="flex fx-align-center fx-just-center center mb-1">Here are a few of my favorite things</h2>
+		<h2 class="flex fx-align-center fx-just-center center mb-1">Here's a few of my favorite things</h2>
 		<div class="flex fx-just-apart fx-wrap">
 			<div class="tools-grid">
 				<div class="flex fx-just-apart fx-wrap cards">

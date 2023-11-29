@@ -1,4 +1,5 @@
-I"ˆ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
+I"
+ˆ<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
 	<div class="container center">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
@@ -49,7 +50,7 @@
 
 <div id="quotes" class="bordered-bottom pt-0 pb-5"> 
 	<div class="container">
-		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-3">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">Made some badass friends</span>
 			<span class="blue dot-accent pre">:</span>
@@ -159,7 +160,7 @@
 			<span class="sub-title pre">trade tools</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="flex fx-align-center fx-just-center center mb-1">Here are a few of my favorite things</h2>
+		<h2 class="flex fx-align-center fx-just-center center mb-1">Here's a few of my favorite things</h2>
 		<div class="flex fx-just-apart fx-wrap">
 			<div class="tools-grid">
 				<div class="flex fx-just-apart fx-wrap cards">

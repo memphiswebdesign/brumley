@@ -7,7 +7,7 @@
     <div id="page" class="article {{ page.title | slugify }} {{ page.cat }} {{ page.class }}">
       {% include header.html %}
       {% include mobile-menu.html %}
-      <div id="content" class="plus-tile-tx">
+      <div id="content">
         <div class="container thiner">
           <div class="back-to">
             <a href="/journal">
@@ -18,7 +18,7 @@
           <ul class="article-date list-dash"> 
             <pre class="cat">:: {{ page.cat }}
           </ul>
-          <div class="article-content">{{ content }}</div>
+          <div id="post" class="article-content">{{ content }}</div>
         </div>
       </div>
       {% include footer.html %}

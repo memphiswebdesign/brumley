@@ -727,7 +727,7 @@ ul.mobile-nav a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	line-height: 1.2;
+	line-height: 1.45;
 }
 h1,h2,h3,h4 {
 	font-weight: 700;
@@ -750,7 +750,7 @@ h6 {font-size: 19px; margin: 1em 0;}
 #page.article h3 {margin: .8em 0;}
 #page.article h4 {margin: 1.1em 0 .8em 0;}
 #page.article h5 {margin: .5em 0 1.2em 0;}
-#page.article h6 {margin: .8em 0;}
+/*#page.article h6 {margin: .8em 0;}*/
 
 p {
 	color: #afafaf;
@@ -1275,7 +1275,7 @@ ul.list-dash li:before {
 	content: '';
 	position: absolute;
 	left: 0;
-	top:  10px;
+	top:  1em;
 	height: 1px;
 	width: 14px;
 	background: #0077EE;
@@ -2336,6 +2336,40 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	.quote-item {width: calc(90% - 10px); margin-right: 3%;}
 	.quote-wrap button {top: inherit; bottom: -1.3em;}
 	#scrollContainer {padding-bottom: 12px;}
+}
+
+#post h1 {}
+#post h2 {font-size: 33px;}
+#post h3 {font-size: 28px;}
+#post h4 {font-size: 24px;}
+#post h5 {
+	font-size: 19px;
+	line-height: 1.6em;
+}
+#post h6 {
+	font-size: 16.4px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 1.65em;
+	margin-bottom: .5em;
+	line-height: 1.5em;
+}
+
+#post p {
+	font-size: 1.2rem;
+	color: #cfcfcf;
+	margin: 0.5em 0 1em 0;
+}
+
+/* Media Col */
+@media(max-width: 960px) {}
+/* Sm Col */
+@media(max-width: 780px) {
+	#post p {font-size: 1.15rem;}
+}
+/* XS Col */
+@media(max-width: 540px) {
+	#post p {font-size: 1.08rem;}
 }
 
 

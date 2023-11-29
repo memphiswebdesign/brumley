@@ -24,9 +24,7 @@ class: "soundcloud"
 
 <hr class="dash mb-3 mt-3">
 
-##### Ken Blasko & Eli Brumley discuss Conquering Remote Work as a Lead UX Designer and Full Stack Software Engineer.
-
-The podcast episode from the PlaidPixel Podcast hosted by Eli Brumley and Ken Blasko features guest Trent Erwin, a digital marketing expert with a passion for storytelling through video. The discussion delves into various facets of digital marketing, video production, and the impact of storytelling in brand building.
+#### The podcast episode from the PlaidPixel Podcast hosted by Eli Brumley and Ken Blasko features guest Trent Erwin, a digital marketing expert with a passion for storytelling through video. The discussion delves into various facets of digital marketing, video production, and the impact of storytelling in brand building.
 
 Trent Erwin's background in journalism and digital marketing shapes his approach to storytelling. He emphasizes the importance of capturing the essence of a narrative in a way that resonates with the audience, drawing parallels between journalistic principles and effective brand storytelling. Erwin's journey started with writing for diverse online brands, which honed his skills in creating compelling content. This eventually led him to explore the realm of video production, starting with wedding videos and gradually moving towards brand storytelling.
 
