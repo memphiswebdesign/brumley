@@ -2236,8 +2236,7 @@ audio::-webkit-media-controls-play-button:hover {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 }
-.quote-wrap button:hover,
-.quote-wrap button:focus {background: rgba(0,119,238,1)!important;}
+.quote-wrap button:hover {background: rgba(0,119,238,1)!important;}
 
 .quote-wrap button:hover svg,
 .quote-wrap button:focus svg {
@@ -2334,8 +2333,10 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 }
 @media (max-width: 550px) {
 	.quote-item {width: calc(90% - 10px); margin-right: 3%;}
-	.quote-wrap button {top: inherit; bottom: -1.3em;}
-	#scrollContainer {padding-bottom: 12px;}
+	.quote-wrap button#scrollRight {right: 2em; top: inherit; bottom: -1.3em;}
+	.quote-wrap button#scrollLeft {display: none!important;}
+	#scrollContainer {padding-bottom: 12px; padding-left: 20px;}
+	#quotes .container {padding-left: 0!important; padding-right: 0!important;}
 }
 
 #post h1 {}
