@@ -151,7 +151,7 @@ a {
 }
 
 #logo .headshot {
-	height: 58px;
+	height: 56px;
 	width: auto;
 }
 #logo .wave,
@@ -188,7 +188,7 @@ a {
 }
 
 a.logo-link:hover span {color: #fff!important;}
-a.logo-link:hover .headshot {transform: rotate(-8deg);}
+/*a.logo-link:hover .headshot {transform: rotate(-8deg);}*/
 a.logo-link:hover .thumb {
 	animation: thumbsup .4s cubic-bezier(0, 0, 0, 1.8) forwards;
 }
@@ -276,7 +276,7 @@ header.scroll {
 }
 
 header.exit .wave {animation: wave 1.2s linear forwards;}
-header.exit .headshot {transform: rotate(8deg); transition: .1s ease-out;}
+/*header.exit .headshot {transform: rotate(8deg); transition: .1s ease-out;}*/
 header.exit .thumb {display: none;}
 header.top .headshot {animation: bouncy .3s linear forwards;}
 [class^="animate-"] {display: inline-block;}
