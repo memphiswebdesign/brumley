@@ -14,7 +14,8 @@
 				</div>
 			</div>
 			<div class="three-d unselectable">
-				<iframe class="lazyload" data-src='https://my.spline.design/cubic-ac40e24146c6613451bc15072a9a517c/' frameborder='0' width='100%' height='100%'></iframe>
+				<div id="cubes-pl"><img src="/assets/cubes-pl.png" /></div>
+				<iframe id="cubes" class="lazyload" data-src='https://my.spline.design/cubic-ac40e24146c6613451bc15072a9a517c/' frameborder='0' width='100%' height='100%'></iframe>
 				<div class="roles">
 					<span>Lead UX Designer</span>
 					<span>Web Developer</span>
@@ -53,3 +54,12 @@
 		</div>
 	</div>
 </section>
+
+<script>
+const cubesPlaceholder = document.getElementById("cubes-pl");
+const cubesIframe = document.getElementById("cubes");
+
+cubesIframe.addEventListener("load", () => {
+  cubesPlaceholder.style.display = "none";
+});
+</script>

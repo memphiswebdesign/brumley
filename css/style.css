@@ -1484,6 +1484,19 @@ button.ghost:hover,
 	z-index: 10;
 }
 
+#cubes-pl {
+	position: relative;
+	height: 100%;
+}
+#cubes-pl img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: scale(1.32) translateX(-30%) translateY(-56%);
+	filter: blur(2px);
+	transform-origin: top right;
+}
+
 .roles {
 	display: inline-flex;
 	flex-direction: column;
@@ -1522,30 +1535,26 @@ button.ghost:hover,
 		height: 550px;
     	width: 500px;
 	}
-	.three-d iframe {
-		transform: translate(0%, 0%) scale(.8);
-	}
+	.three-d iframe {transform: translate(0%, 0%) scale(.8);}
+	#cubes-pl img {transform: scale(1.15) translateX(-25%) translateY(-43%);}
 }
 @media (max-width: 1080px) {
 	.three-d {
 		height: 490px;
     	width: 420px;
 	}
-	.three-d iframe {
-		transform: translate(0%, 0%) scale(.7);
-	}
+	.three-d iframe {transform: translate(0%, 0%) scale(.7);}
+	#cubes-pl img {transform: scale(.98) translateX(-28%) translateY(-34%);}
 }
 @media (max-width: 900px) {
 	.three-d {
 		height: 420px;
     	width: 300px;
 	}
-	.three-d iframe {
-		transform: translate(6%, 0%) scale(.57);
-	}
+	.three-d iframe {transform: translate(6%, 0%) scale(.57);}
 	.three-d:before {right: 0;}
-
 	.roles {right: 0; top: 75%;}
+	#cubes-pl img {transform: scale(.8) translateX(-10%) translateY(-18%);}
 }
 
 @media (max-width: 420px) {
@@ -1554,9 +1563,8 @@ button.ghost:hover,
 		height: 350px;
     	width: 290px; 
 	}
-	.three-d iframe {
-		transform: translate(3.3%, -3%) scale(.5);
-	}
+	.three-d iframe {transform: translate(3.3%, -3%) scale(.5);}
+	#cubes-pl img {transform: scale(.72) translateX(-17%) translateY(-6%);}
 }
 
 .hero-tag {
