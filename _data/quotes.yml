@@ -25,8 +25,13 @@
 
 - name: Nik Kreinberg
   title: Director @ Dockwa
-  quote: Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design
+  quote: Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design.
   img: nik-kreinberg.jpg 
+
+- name: Kevin Reed
+  title: Sr. Engineer @ EA Sports
+  quote: Eli is consistently empathetic of the user's experience, quick to understand and solution complex domains, and humbly collaborative. It's been a joy to see his instinctual expertise deliver value on projects.
+  img: kevin-reed.jpg
 
 - name: Luke Kende
   title: Software Lead @ Smartbear
