@@ -23,7 +23,7 @@ permalink: /journal
 						</div>
 						<div class="plus-icon">
 							<svg viewBox="0 0 40 40">
-								<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+								<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
 								<path id="bar" class="plus-icon" d="M20 0v40"/>
 								<path id="half-1" class="plus-icon" d="M0 20h20"/>
 								<path id="half-2" class="plus-icon" d="M20 20h20"/>

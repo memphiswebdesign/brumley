@@ -1,14 +1,4 @@
-// Scroll add header class
-// $(window).scroll(function() {    
-//     var scroll = $(window).scrollTop();
-
-//     if (scroll >= 85) {
-//         $("header").addClass("scroll");
-//     } else {
-//         $("header").removeClass("scroll");
-//     }
-// });
-
+// Scroll behavior class
 var hasScrolled = false;
 
 $(window).scroll(function() {
@@ -38,14 +28,15 @@ $(window).scroll(function() {
     }
 });
 
+// Exit class
 $(document).mouseleave(function() {
     // Check if the event has already been triggered in this session
     if (!sessionStorage.getItem('exitTriggered')) {
-        $("header").addClass("exit");
+        $("body").addClass("exit");
 
         // Set a timeout to remove the .exit class after 1800ms
         setTimeout(function() {
-            $("header").removeClass("exit");
+            $("body").removeClass("exit");
         }, 1800);
 
         // Set a flag in session storage
@@ -53,28 +44,12 @@ $(document).mouseleave(function() {
     }
 });
 
-// Mobile Toggle
+// Mobile Menu Toggle
 $("button.hamburger").click(function() {
   $(this).toggleClass("active");
   $("#mobile-menu").toggleClass("active");
   $("body").toggleClass("locked");
 });
-
-// Isitope Init script
-// $('.grid').isotope({
-//     itemSelector: '.grid-item',
-//     percentPosition: true,
-//     masonry: {
-//       columnWidth: '.grid-sizer'
-//     }
-// });
-// // filter items on button click
-// $('.filters').on( 'click', 'li', function() {
-//     var filterValue = $(this).attr('data-filter');
-//     $('.grid').isotope({ filter: filterValue });
-//     $('.filters li').removeClass('active');
-//     $(this).addClass('active');
-// });
 
 // Img blur
 document.addEventListener("DOMContentLoaded", function() {
@@ -208,4 +183,24 @@ scrollContainer.addEventListener('mousemove', (e) => {
   const walk = (x - startX) * 1; // The number 3 determines the scroll speed
   scrollContainer.scrollLeft = scrollLeft - walk;
 });
+
+
+// Isitope Init script
+// $('.grid').isotope({
+//     itemSelector: '.grid-item',
+//     percentPosition: true,
+//     masonry: {
+//       columnWidth: '.grid-sizer'
+//     }
+// });
+// // filter items on button click
+// $('.filters').on( 'click', 'li', function() {
+//     var filterValue = $(this).attr('data-filter');
+//     $('.grid').isotope({ filter: filterValue });
+//     $('.filters li').removeClass('active');
+//     $(this).addClass('active');
+// });
+
+
+
 

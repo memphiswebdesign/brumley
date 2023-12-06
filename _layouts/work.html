@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div id="page" class="article {{ page.title | slugify }} {{ page.cat }} {{ page.class }}">
+      {% include header.html %}
+      {% include mobile-menu.html %}
+      <div id="content">
+        <div class="container">
+          <div class="back-to">
+            <a href="/work">
+                <span>{% include left-arrow.html %}</span>
+                All Work</a>
+          </div>
+          <h1 class="article-heading">{{ page.title }}</h1>
+          <ul class="article-date list-dash"> 
+            <pre class="cat">:: {{ page.cat }}
+          </ul>
+          <div id="post" class="article-content">{{ content }}</div>
+        </div>
+      </div>
+      {% include footer.html %}
+      <script src="../js/scripts.js"></script>
+    </div>
+  </body>
+</html>

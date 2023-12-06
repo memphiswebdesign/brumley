@@ -1,0 +1,304 @@
+I"s+<!-- <div id="work">
+	<div class="container">
+		<ul class="cards-grid list-clear flex fx-align-start fx-just-apart fx-wrap cards pt-0">
+			
+				
+				<li class="fx-grow fx-item-2 px-1 mb-2 Web Design, CRO, UX Research">
+					<div class="card-wrap" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card">
+							<a class="post-link" href="/work/smartbear"></a> 
+							<div class="work-meta center">
+								<h2>SmartBear embrases product-led growth enhancing developer experiences</h2>
+								<pre>Web Design, CRO, UX Research</pre>
+							</div>
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&w=1600&height=900&auto=format&fit=crop" title="SmartBear embrases product-led growth enhancing developer experiences" />
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40"/>
+									<path id="half-1" class="plus-icon" d="M0 20h20"/>
+									<path id="half-2" class="plus-icon" d="M20 20h20"/>
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+				</li>
+			
+				<li class="fx-grow fx-item-2 px-1 mb-2 one three">
+					<div class="card-wrap" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card">
+							<a class="post-link" href="/work/example3"></a> 
+							<div class="work-meta center">
+								<h2>Example Case Study</h2>
+								<pre>Nashville, TN</pre>
+							</div>
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&w=1080&height=566&auto=format&fit=crop" title="Example Case Study" />
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40"/>
+									<path id="half-1" class="plus-icon" d="M0 20h20"/>
+									<path id="half-2" class="plus-icon" d="M20 20h20"/>
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+				</li>
+			
+				<li class="fx-grow fx-item-2 px-1 mb-2 one three">
+					<div class="card-wrap" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card">
+							<a class="post-link" href="/work/example4"></a> 
+							<div class="work-meta center">
+								<h2>Example Case Study</h2>
+								<pre>Meta</pre>
+							</div>
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&w=1080&height=566&auto=format&fit=crop" title="Example Case Study" />
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40"/>
+									<path id="half-1" class="plus-icon" d="M0 20h20"/>
+									<path id="half-2" class="plus-icon" d="M20 20h20"/>
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+				</li>
+			
+		</ul>
+	</div>
+</div> -->
+
+<div id="work">
+	<div class="container">
+			
+			
+			<div class="work-item pt-5 mt-5">
+				<div class="work-item-meta pr-5 pr-md-3 pr-sm-0">	
+					
+					<p class="hero-tag fog mb-1 mb-sm-1">
+						<span class="blue dot-accent pre">::</span>
+						<span class="sub-title pre">SmartBear Software</span>
+					</p>
+					
+					
+					<h2 class="mt-0 mb-2 pr-4">SmartBear embrases product-led growth enhancing developer experiences</h2>
+					
+				</div>
+				<div class="cards-grid flex flex-wrap">
+					<div class="card-wrap tilt-card fx-grow fx-item-2" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card grad-orange-violet">
+							<a class="post-link" href="/work/smartbear"></a> 
+							<pre class="work-cat center">Web Design, CRO, UX Research</pre>
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&amp;w=1600&amp;height=900&amp;auto=format&amp;fit=crop" title="SmartBear embrases product-led growth enhancing developer experiences" />
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40" />
+									<path id="half-1" class="plus-icon" d="M0 20h20" />
+									<path id="half-2" class="plus-icon" d="M20 20h20" />
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+					<div class="fx-grow fx-item-3 pl-3">
+						<div class="quote-item py-3 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1 mb-1">
+							<div class="quote">Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design.</div>
+							<div class="flex fx-align-center quote-meta">
+								<img class="lazyload" data-src="/assets/nik-kreinberg.jpg" />
+								<div class="quote-meta-label">
+									<p class="name">Nik Kreinberg</p>
+									<p class="title">Director @ (prior) SmartBear</p>
+								</div>
+							</div>
+							<span class="quote-icon">&#8220;</span>
+						</div>
+						220%<br />
+						lift in global site user engagement
+						220%<br />
+						lift in global site user engagement
+					</div>
+				</div>
+			</div>
+			
+			<div class="work-item pt-5 mt-5">
+				<div class="work-item-meta pr-5 pr-md-3 pr-sm-0">	
+					
+					
+					<h2 class="mt-0 mb-2 pr-4">Example Case Study</h2>
+					
+				</div>
+				<div class="cards-grid flex flex-wrap">
+					<div class="card-wrap tilt-card fx-grow fx-item-2" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card ">
+							<a class="post-link" href="/work/example3"></a> 
+							<pre class="work-cat center">Nashville, TN</pre>
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&amp;w=1080&amp;height=566&amp;auto=format&amp;fit=crop" title="Example Case Study" />
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40" />
+									<path id="half-1" class="plus-icon" d="M0 20h20" />
+									<path id="half-2" class="plus-icon" d="M20 20h20" />
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+					<div class="fx-grow fx-item-3 pl-3">
+						<div class="quote-item py-3 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1 mb-1">
+							<div class="quote"></div>
+							<div class="flex fx-align-center quote-meta">
+								<img class="lazyload" data-src="/assets/" />
+								<div class="quote-meta-label">
+									<p class="name"></p>
+									<p class="title"></p>
+								</div>
+							</div>
+							<span class="quote-icon">&#8220;</span>
+						</div>
+						<br />
+						
+						<br />
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="work-item pt-5 mt-5">
+				<div class="work-item-meta pr-5 pr-md-3 pr-sm-0">	
+					
+					
+					<h2 class="mt-0 mb-2 pr-4">Example Case Study</h2>
+					
+				</div>
+				<div class="cards-grid flex flex-wrap">
+					<div class="card-wrap tilt-card fx-grow fx-item-2" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card ">
+							<a class="post-link" href="/work/example4"></a> 
+							<pre class="work-cat center">Meta</pre>
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&amp;w=1080&amp;height=566&amp;auto=format&amp;fit=crop" title="Example Case Study" />
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40" />
+									<path id="half-1" class="plus-icon" d="M0 20h20" />
+									<path id="half-2" class="plus-icon" d="M20 20h20" />
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+					<div class="fx-grow fx-item-3 pl-3">
+						<div class="quote-item py-3 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1 mb-1">
+							<div class="quote"></div>
+							<div class="flex fx-align-center quote-meta">
+								<img class="lazyload" data-src="/assets/" />
+								<div class="quote-meta-label">
+									<p class="name"></p>
+									<p class="title"></p>
+								</div>
+							</div>
+							<span class="quote-icon">&#8220;</span>
+						</div>
+						<br />
+						
+						<br />
+						
+					</div>
+				</div>
+			</div>
+			
+	</div>
+</div>
+
+<!-- <div id="work">
+	<div class="container">
+		<ul class="cards-grid list-clear flex fx-align-start fx-just-apart fx-wrap cards pt-0">
+			
+				
+				
+				<li class="fx-grow fx-item-2 Web Design, CRO, UX Research">
+					<div class="card-wrap" style="--cursor-x: 0px; --cursor-y: 0px;">
+						<div class="card">
+							<a class="work-link" href="/work/smartbear"></a> 
+							<div class="work-image mt-xs-1"> 
+								<img class="lazyload" data-src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&w=1600&height=900&auto=format&fit=crop" title="SmartBear embrases product-led growth enhancing developer experiences" />
+							</div>
+							<div class="work-meta">
+								<h2>SmartBear embrases product-led growth enhancing developer experiences</h2>
+								<p>Web Design, CRO, UX Research</p>
+							</div>
+							<div class="plus-icon">
+								<svg viewBox="0 0 40 40">
+									<defs><style>.plus-icon{fill:none;stroke:#afafaf;stroke-miterlimit:10}</style></defs>
+									<path id="bar" class="plus-icon" d="M20 0v40"/>
+									<path id="half-1" class="plus-icon" d="M0 20h20"/>
+									<path id="half-2" class="plus-icon" d="M20 20h20"/>
+								</svg>
+							</div>
+						</div>
+						<div class="card-bg"></div>
+						<div class="card-highlight"></div>
+					</div>
+				</li>
+				
+			
+				
+			
+				
+			
+		</ul>
+	</div>
+</div> -->
+
+<!-- <div class="container">
+	<div class="tilt-card" data-tilt>
+		<h1 class="title">Tilt Hover Effect</h1>
+		<p class="credits">Tilt.js by Gijs Rogé / Photo by Oliur Rahman</p>
+		<div class="bg"></div>
+	</div>
+</div> -->
+
+<script>
+( function( $ ) {
+
+	"use strict";
+
+  $(".tilt-card").tilt({
+    maxTilt: 12,
+    perspective: 1500,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    speed: 1000,
+    glare: false,
+    maxGlare: 0.3,
+    scale: 1.03
+  });
+  
+}( jQuery ) );
+</script>
+
+:ET

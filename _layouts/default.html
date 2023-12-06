@@ -7,11 +7,14 @@
     <div id="page" class="{{ page.title | slugify }}">
       {% include header.html %}
       {% include mobile-menu.html %}
+      <!-- Hero Include Logic -->
       {% if page.url == '/' %}
         {% include home-hero.html %}
+      {% elsif page.url == '/work' %}
+        {% include work-hero.html %}
       {% else %}
         {% include default-hero.html %}
-      {% endif %} 
+      {% endif %}
       <div id="content">{{ content }}</div>
       {% include footer.html %}
       <script src="../js/scripts.js"></script>

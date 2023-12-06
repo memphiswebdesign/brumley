@@ -1,113 +1,114 @@
 ---
 layout: default 
-title: Latest Projects
-subtitle: Partnering with all brands - providing real results
+title: Hand Picked Projects
+subtitle: Driving real results through beautifully optimized experiences.
 permalink: /work
 ---
-<div id="case-studies" class="plus-tile-tx">
-	<!-- Isotope JS Filters -->
-	<!-- <div class="container">
-		<div class="filters">
-			<ul class="center">
-				<li class="btn ghost active" data-filter="*">All</li>
-				<li data-filter=".one" class="btn ghost">Filter 1</li>
-				<li data-filter=".two" class="btn ghost">Filter 2</li>
-				<li data-filter=".three" class="btn ghost">Filter 3</li>
-			</ul>
-		</div>
-	</div> -->
-	<!-- Isotope JS Grid -->
-	<!-- <div class="container">
-		<div class="flex fx-just-apart fx-wrap cards center grid">
-			<div class="grid-sizer"></div>
-			{% for case in site.case %}
-			<div class="grid-item {{ case.cat }}">
-				<div class="card-item">
-					<a class="card-link" href="{{ case.url }}" alt="{{ case.title }}"></a>
-					<div class="card-image">
-						<img class="" src="{{ case.img }}" alt="{{ case.title }}" />
-					</div>
-					<div class="card-meta">
-						<h4>{{ case.title }}</h4>
-						<p>{{ case.meta }}</p>
-					</div>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-	</div> -->
+
+<div id="work" class="mb-5 pb-5">
 	<div class="container">
-		<div class="flex fx-wrap cards center">
-			{% for work in site.work %}
-			<div class="fx-item-3 fx-item-sm-2 {{ work.cat }}">
-				<div class="card-item">
-					<a class="card-link" href="{{ work.url }}" alt="{{ work.title }}"></a>
-					<div class="card-image">
-						<img class="" src="{{ work.img }}" alt="{{ work.title }}" />
+			{% assign sorted_work = site.work | sort: 'order' %}
+			{% for work in sorted_work %}
+			<div class="work-item pt-4 mt-4 pb-3">
+				<div class="work-item-meta pt-2">
+					{% if work.client %}
+					<p class="hero-tag fog mb-1 mb-sm-1">
+						<span class="blue dot-accent pre">::</span>
+						<span class="sub-title pre">{{ work.client }}</span>
+					</p>
+					{% endif %}
+					{% if work.title %}
+					<h2 class="mt-0 mb-2">{{ work.title }}</h2>
+					{% endif %}
+				</div>
+				<div class="cards-grid flex flex-wrap">
+					<div class="fx-grow fx-item-2 pr-2">
+						<div class="card-wrap tilt-card" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+							<div class="card {{ work.className }}">
+								<a class="post-link" href="{{ work.url }}"></a> 
+								<pre class="work-cat center">{{ work.meta }}</pre>
+								<div class="work-image mt-xs-1"> 
+									  {% if work.img == "" %}
+									    {% if work.video != "" %}
+									      <video autoplay="" muted="" loop="" poster="{{ work.vidPoster }}">
+									      	<source src="{{ work.vid }}" type="video/mp4">
+									      </video>
+									    {% endif %}
+									  {% else %}
+									    <img class="lazyload" data-src="{{ work.img }}" alt="{{ work.title }}" />
+											<svg width="113" height="63" viewBox="0 0 113 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="0" width="113" height="63" fill="transparent"/>
+											</svg>
+									  {% endif %}
+								</div>
+								<div class="plus-icon">
+									<svg viewBox="0 0 40 40">
+										<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
+										<path id="bar" class="plus-icon" d="M20 0v40"/>
+										<path id="half-1" class="plus-icon" d="M0 20h20"/>
+										<path id="half-2" class="plus-icon" d="M20 20h20"/>
+									</svg>
+								</div>
+							</div>
+							<div class="card-bg"></div>
+							<div class="card-highlight"></div>
+						</div>
 					</div>
-					<div class="card-meta">
-						<h4>{{ work.title }}</h4>
-						<p>{{ work.meta }}</p>
+					<div class="flex fx-col fx-grow fx-item-3 pl-1">
+						<div class="card-wrap fx-grow mb-2">
+							<div class="card quote-item flex fx-col fx-just-center py-1 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1 mb-1">
+								<div class="quote">{{ work.quote }}</div>
+								<div class="flex fx-align-center quote-meta">
+									<img class="lazyload" data-src="/assets/{{ work.quoteImg }}" alt="{{ work.quoteName }}" />
+									<div class="quote-meta-label">
+										<p class="name">{{ work.quoteName}}</p>
+										<p class="title">{{ work.quoteTitle }}</p>
+									</div>
+								</div>
+								<span class="quote-icon">&#8220;</span>
+							</div>
+							<div class="card-bg"></div>
+						</div>
+						<div class="card-wrap fx-grow mb-0">
+							<div class="work-stats card flex fx-row fx-align-center fx-just-center py-1 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1">
+								<div class="stat-wrap flex fx-col pr-1">
+									<span class="stat pre mt-0">{{ work.stat1 }}</span>
+									<span class="stat-meta">{{ work.statMeta1 }}</span>
+								</div>
+								<div class="stat-wrap flex fx-col pl-2">
+									<span class="stat pre mt-0">{{ work.stat2 }}</span>
+									<span class="stat-meta">{{ work.statMeta2 }}</span>
+								</div>
+							</div>
+							<div class="card-bg"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 			{% endfor %}
-		</div>
-		<div class="card" data-tilt>
-	      <h1 class="title">Tilt Hover Effect</h1>
-	      <p class="credits">Tilt.js by Gijs Rogé / Photo by Oliur Rahman</p>
-	      <div class="bg"></div>
-	    </div>
 	</div>
 </div>
 
-<style>
-.card {
-  position: relative;
-  height: 50vh;
-  width: 50vw;
-  padding: 40px;
-  transform-style: preserve-3d;
-}
-
-.card .title {
-  position: relative;
-  z-index: 2;
-  transform: translateZ(20px);
-}
-
-.card .credits {
-  font-size: 1.2vh;
-  letter-spacing: 0.05em;
-  opacity: 0.6;
-  transform: translateZ(20px);
-}
-
-.card .bg {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url('https://images.unsplash.com/photo-1470350576089-539d5a852bf7?dpr=2&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=&bg=');
-  background-size: cover;
-  background-position: center;
-}
-</style>
+<!-- <div class="container">
+	<div class="tilt-card" data-tilt>
+		<h1 class="title">Tilt Hover Effect</h1>
+		<p class="credits">Tilt.js by Gijs Rogé / Photo by Oliur Rahman</p>
+		<div class="bg"></div>
+	</div>
+</div> -->
 
 <script>
 ( function( $ ) {
 
 	"use strict";
 
-  $(".card").tilt({
-    maxTilt: 10,
-    perspective: 1200,
+  $(".tilt-card").tilt({
+    maxTilt: 12,
+    perspective: 1400,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
     glare: false,
-    maxGlare: 0.1,
+    maxGlare: 0.3,
     scale: 1.03
   });
   

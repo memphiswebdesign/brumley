@@ -1,0 +1,22 @@
+<section id="hero" class="work">
+	<div class="container">
+		{% if page.title %} 
+		<p class="hero-tag fog mb-2 mb-sm-1">
+			<span class="blue dot-accent pre">::</span>
+			<span class="sub-title pre">{{ page.title }}</span>
+		</p>
+		{% endif %}
+		{% if page.subtitle %}
+		<h1 class="mt-0 mb-0 mega pr-3 pr-md-1 pr-sm-1 pr-xs-0">{{ page.subtitle }}</h1>
+		{% endif %}
+	</div>
+	<div class="animate-fx">
+		<div class="orbs">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</section>
+
+
