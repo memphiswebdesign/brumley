@@ -22,7 +22,7 @@ permalink: /work
 					{% endif %}
 				</div>
 				<div class="cards-grid flex flex-wrap">
-					<div class="fx-grow fx-item-2 pr-2">
+					<div class="fx-grow fx-item-2">
 						<div class="card-wrap tilt-card" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 							<div class="card {{ work.className }}">
 								<a class="post-link" href="{{ work.url }}"></a> 
@@ -54,9 +54,9 @@ permalink: /work
 							<div class="card-highlight"></div>
 						</div>
 					</div>
-					<div class="flex fx-col fx-grow fx-item-3 pl-1">
-						<div class="card-wrap fx-grow mb-2">
-							<div class="card quote-item flex fx-col fx-just-center py-1 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1 mb-1">
+					<div class="flex fx-col fx-grow fx-item-3 pl-2 pl-md-0 mt-md-2 fx-md-row fx-xs-col mt-xs-1">
+						<div class="card-wrap fx-grow mb-2 fx-item-md-1 mb-md-0 mr-md-1 mr-xs-0">
+							<div class="card quote-item flex fx-col fx-just-center mr-0 py-1 px-3 px-lg-2 py-md-2 px-md-2 pr-md-3 pr-sm-2 py-sm-2 px-sm-1 pr-xs-1 pb-xs-1">
 								<div class="quote">{{ work.quote }}</div>
 								<div class="flex fx-align-center quote-meta">
 									<img class="lazyload" data-src="/assets/{{ work.quoteImg }}" alt="{{ work.quoteName }}" />
@@ -69,13 +69,13 @@ permalink: /work
 							</div>
 							<div class="card-bg"></div>
 						</div>
-						<div class="card-wrap fx-grow mb-0">
-							<div class="work-stats card flex fx-row fx-align-center fx-just-center py-1 px-3 py-md-2 px-md-2 py-sm-1 px-sm-1">
-								<div class="stat-wrap flex fx-col pr-1">
+						<div class="card-wrap fx-grow fx-item-md-2 mb-0 ml-md-1 mt-xs-1 ml-xs-0">
+							<div class="card work-stats flex fx-row fx-align-center fx-just-center fx-md-col py-1 px-3 px-lg-2 py-md-1 px-md-2 px-md-1 py-sm-1 px-sm-1">
+								<div class="stat-wrap flex fx-col pr-1 pr-md-0 pb-md-1 mb-md-1">
 									<span class="stat pre mt-0">{{ work.stat1 }}</span>
 									<span class="stat-meta">{{ work.statMeta1 }}</span>
 								</div>
-								<div class="stat-wrap flex fx-col pl-2">
+								<div class="stat-wrap flex fx-col pl-2 pr-md-0 pl-md-0">
 									<span class="stat pre mt-0">{{ work.stat2 }}</span>
 									<span class="stat-meta">{{ work.statMeta2 }}</span>
 								</div>
