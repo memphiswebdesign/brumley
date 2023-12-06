@@ -345,47 +345,68 @@ cubesIframe.addEventListener("load", () => {
 			<span class="sub-title pre">showcased work</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="mb-2">Updated projects &dash; coming soon</h2>
+		<h2 class="mb-2">Updated projects ‐ coming soon</h2>
 		<div class="cards-grid flex fx-wrap fx-sm-col">
-			<div class="fx-item-3 fx-item-sm-2 mb-2 mb-sm-0 px-1">
-				<div class="card-wrap fx-item-3 fx-item-sm-2 mb-2 mb-sm-1 cursor-progress" style="--cursor-x: 0px; --cursor-y: 0px;">
-					<div class="card flex px-2 py-2 py-xs-1 fx-just-center fx-align-center">
-						<div>// coming soon</div>
+		
+		
+			<div class="work-item fx-item-2 mb-2 mb-sm-0 px-1">
+				<div class="card-wrap tilt-card" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+					<div class="card grad-orange-blue img-scroll">
+						<a class="post-link" href="/work/smartbear"></a> 
+						<pre class="work-cat center">SmartBear Software</pre>
+						<div class="work-image mt-xs-1"> 
+							  
+							    <img class="lazyload" data-src="/assets/smartbear-hp.jpg" alt="SmartBear embrases product-led growth enhancing developer experiences" />
+									<svg width="113" height="63" viewBox="0 0 113 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="0" width="113" height="63" fill="transparent" />
+									</svg>
+							  
+						</div>
+						<div class="plus-icon">
+							<svg viewBox="0 0 40 40">
+								<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
+								<path id="bar" class="plus-icon" d="M20 0v40" />
+								<path id="half-1" class="plus-icon" d="M0 20h20" />
+								<path id="half-2" class="plus-icon" d="M20 20h20" />
+							</svg>
+						</div>
 					</div>
 					<div class="card-bg"></div>
 					<div class="card-highlight"></div>
 				</div>
 			</div>
-			<div class="fx-item-3 fx-item-sm-2 mb-2 mb-sm-0 px-1">
-				<div class="card-wrap fx-item-3 fx-item-sm-2 mb-2 mb-sm-1 cursor-progress" style="--cursor-x: 0px; --cursor-y: 0px;">
-					<div class="card flex px-2 py-2 py-xs-1 fx-just-center fx-align-center">
-						<div>// coming soon</div>
+			
+			<div class="work-item fx-item-2 mb-2 mb-sm-0 px-1">
+				<div class="card-wrap tilt-card" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+					<div class="card grad-blue-teal">
+						<a class="post-link" href="/work/sumo-logic"></a> 
+						<pre class="work-cat center">Sumo Logic</pre>
+						<div class="work-image mt-xs-1"> 
+							  
+							    
+							      <video autoplay="" muted="" loop="" poster="https://assets-www.sumologic.com/sumo-hp-vidposter-sm.jpg">
+							      	<source src="https://assets-www.sumologic.com/banners/hp-hero-trailer23.mp4" type="video/mp4" />
+							      </video>
+							    
+							  
+						</div>
+						<div class="plus-icon">
+							<svg viewBox="0 0 40 40">
+								<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
+								<path id="bar" class="plus-icon" d="M20 0v40" />
+								<path id="half-1" class="plus-icon" d="M0 20h20" />
+								<path id="half-2" class="plus-icon" d="M20 20h20" />
+							</svg>
+						</div>
 					</div>
 					<div class="card-bg"></div>
 					<div class="card-highlight"></div>
 				</div>
 			</div>
-			<div class="fx-item-3 fx-item-sm-2 mb-2 mb-sm-0 px-1">
-				<div class="card-wrap fx-item-3 fx-item-sm-2 mb-2 mb-sm-1 cursor-progress" style="--cursor-x: 0px; --cursor-y: 0px;">
-					<div class="card flex px-2 py-2 py-xs-1 fx-just-center fx-align-center">
-						<div>// coming soon</div>
-					</div>
-					<div class="card-bg"></div>
-					<div class="card-highlight"></div>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 </section>
-
-<!-- Fancy Card Markup Template -->
-<!-- <div class="cards-grid">
-	<div class="card-wrap" style="--cursor-x: 0px; --cursor-y: 0px;">
-		<div class="card">// coming soon</div>
-		<div class="card-bg"></div>
-		<div class="card-highlight"></div>
-	</div>
-</div> -->
 
 <div id="quotes" class="bordered-bottom pt-0 pb-5"> 
 	<div class="container">
@@ -634,6 +655,25 @@ cubesIframe.addEventListener("load", () => {
 		</div>
 	</div>
 </div>
+
+<script>
+( function( $ ) {
+
+	"use strict";
+
+  $(".tilt-card").tilt({
+    maxTilt: 12,
+    perspective: 1400,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    speed: 1000,
+    glare: false,
+    maxGlare: 0.3,
+    scale: 1.03
+  });
+  
+}( jQuery ) );
+</script>
+
 </div>
       <footer class="bordered-top">
 	<div class="container center">
