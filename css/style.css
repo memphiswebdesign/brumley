@@ -341,7 +341,7 @@ header #logo img {
 	header #logo img {width: 150px;}
 }
 section#hero.home {
-	padding: 130px 0 40px 0;
+	padding: 180px 0 40px 0;
 }
 section#hero.default {
 	padding: 150px 0 100px 0;
@@ -358,18 +358,19 @@ section#hero.work {padding: 220px 0 60px 0;}
 /* Media Col */
 @media(max-width: 960px) {
 	section#hero.work {padding: 180px 0 50px 0;}
+	section#hero.home {padding: 150px 0 30px 0;}
 }
 /* Sm Col */
 @media(max-width: 780px) {
-	section#hero.home {padding-top: 100px;}
 	section#hero.default {padding-top: 120px; padding-bottom: 60px;}
 	section#hero.work {padding: 160px 0 40px 0;}
+	section#hero.home {padding: 120px 0 15px 0;}
 }
 /* XS Col */
 @media(max-width: 540px) {
-	section#hero.home {padding-top: 88px;}
 	section#hero.default {padding-top: 100px; padding-bottom: 50px;}
 	section#hero.work {padding: 130px 0 30px 0;}
+	section#hero.home {padding: 100px 0 0 0;}
 }
 
 .animate-fx,
@@ -1840,11 +1841,12 @@ pre.cat {
 	right: 2rem;
 	height: 44px;
 	width: 44px;
-	border-radius: 50%;
-	background: rgba(175, 175, 175, .1);
+	border-radius: 30px;
+	background: rgba(19, 19, 19, .4);
 	-backdrop-filter: saturate(180%) blur(7px);
     -webkit-backdrop-filter: saturate(180%) blur(7px);
     backdrop-filter: saturate(180%) blur(7px);
+    transition: .15s ease-out .1s; 
 }
 .card .plus-icon svg {
 	display: inline-block;
@@ -1858,6 +1860,20 @@ pre.cat {
 }
 
 .card .plus-icon.dark svg path {stroke: #222;}
+
+.card .plus-icon.explore {}
+.card .plus-icon.explore span {
+/*	text-transform: uppercase;*/
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: .02em;
+	display: inline-block;
+	width: 0;
+	overflow: hidden;
+	transition: .15s ease-out .1s;
+}
+/*.card .plus-icon.explore:hover {width: 120px;}*/
+.card .plus-icon.explore:hover span {}
 
 @media (max-width: 780px) {
 	.post-meta h2 {font-size: 24px;}
@@ -1879,6 +1895,8 @@ pre.cat {
 .card-wrap:hover .plus-icon svg {transform: rotate(90deg);}
 .card-wrap:hover .plus-icon svg path#half-1 {transform: rotate(-45deg) translate(0px, -20px); transform-origin: top center;}
 .card-wrap:hover .plus-icon svg path#half-2 {transform: rotate(45deg) translate(0px, -20px); transform-origin: top center;}
+.card-wrap:hover .plus-icon.explore {width: 110px;}
+.card-wrap:hover .plus-icon.explore span {width: 64px;}
 
 .card:hover .post-image {
 	transform: translate(-4px, -4px);
@@ -1914,11 +1932,14 @@ pre.cat {
 /* Fancy Card effect */
 .card-wrap {
 	position: relative;
+	transition: .2s ease-out;
 }
 
 .tilt-card {
   position: relative;
 /*  transform-style: preserve-3d;*/
+    border-radius: 10px;
+    overflow: hidden!important;
 }
 
 .tilt-card .title {
@@ -2516,7 +2537,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 .work-item .work-meta h2 {}
 .work-item .work-meta p {}
 .work-item .card .plus-icon {
-	box-shadow: 0 6px 25px -3px rgba(32,32,32,.3);
+	box-shadow: 5px 5px 20px -3px rgba(32,32,32,.3);
 }
 
 .work-item .cards-grid {align-items: stretch;}
@@ -2528,6 +2549,10 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	border-bottom-right-radius: 8px;
 }
 
+.work-item .card-wrap.tilt-card:hover {
+	box-shadow: 0 25px 120px -30px rgba(0, 119, 238, .4);
+}
+
 .work-item .card-wrap:hover .img-scroll .work-image img {animation: imgScroll 12s linear forwards .2s;}
 
 @keyframes imgScroll {
@@ -2536,7 +2561,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 
 .work-item .card-wrap:hover .work-cat {
 	transform: translate(-50%, 70%);
-	background: rgba(19, 19, 19, .5);
+	background: rgba(19, 19, 19, .4);
 	box-shadow: 0 12px 40px -8px rgba(32,32,32,.3);
 	-backdrop-filter: saturate(180%) blur(7px);
     -webkit-backdrop-filter: saturate(180%) blur(7px);

@@ -38,6 +38,8 @@ lazySizesConfig.loadMode = 1;</script>
 <!-- Isotope Js - only on Case Studies page -->
 
 
+<script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
+
 
 <!-- Schema -->
 <script type="application/ld+json">
@@ -166,7 +168,7 @@ lazySizesConfig.loadMode = 1;</script>
 </div>
       <!-- Hero Include Logic -->
       
-        <section id="hero" class="home">
+        <section id="hero" class="home pb-sm-0">
 	<div class="container opening">
 		<div class="home-statment flex fx-just-apart fx-align-center">
 			<div class="statment">
@@ -338,31 +340,32 @@ cubesIframe.addEventListener("load", () => {
 </script>
 
       
-      <div id="content"><section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
-	<div class="container center">
+      <div id="content"><section id="featured-cases" class="pt-4 pb-2 pt-md-2 pt-sm-1 pb-sm-2 pt-xs-0">
+	<div class="container center"> 
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">showcased work</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="mb-2">Updated projects ‐ coming soon</h2>
-		<div class="cards-grid flex fx-wrap fx-sm-col">
+		<h2 class="mb-2">Beautifully Optimized Experiences</h2>
+		<div class="cards-grid flex fx-xs-col">
 		
 		
-			<div class="work-item fx-item-2 mb-2 mb-sm-0 px-1">
+			<div class="work-item fx-item-2 px-1 mb-2 pl-sm-0 px-xs-0 mb-xs-2 ">
 				<div class="card-wrap tilt-card" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
 					<div class="card grad-orange-blue img-scroll">
 						<a class="post-link" href="/work/smartbear"></a> 
 						<pre class="work-cat center">SmartBear Software</pre>
 						<div class="work-image mt-xs-1"> 
 							  
-							    <img class="lazyload" data-src="/assets/smartbear-hp.jpg" alt="SmartBear embrases product-led growth enhancing developer experiences" />
+							    <img class="lazyload" data-src="/assets/smartbear-hp.jpg" alt="Upleveling Developer Velocity through Product-Led Growth" />
 									<svg width="113" height="63" viewBox="0 0 113 63" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<rect x="0" width="113" height="63" fill="transparent" />
 									</svg>
 							  
 						</div>
-						<div class="plus-icon">
+						<div class="plus-icon explore">
+							<span>Explore</span>
 							<svg viewBox="0 0 40 40">
 								<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
 								<path id="bar" class="plus-icon" d="M20 0v40" />
@@ -376,7 +379,7 @@ cubesIframe.addEventListener("load", () => {
 				</div>
 			</div>
 			
-			<div class="work-item fx-item-2 mb-2 mb-sm-0 px-1">
+			<div class="work-item fx-item-2 px-1 mb-2 pl-sm-0 px-xs-0 mb-xs-2 ">
 				<div class="card-wrap tilt-card" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
 					<div class="card grad-blue-teal">
 						<a class="post-link" href="/work/sumo-logic"></a> 
@@ -390,7 +393,8 @@ cubesIframe.addEventListener("load", () => {
 							    
 							  
 						</div>
-						<div class="plus-icon">
+						<div class="plus-icon explore">
+							<span>Explore</span>
 							<svg viewBox="0 0 40 40">
 								<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
 								<path id="bar" class="plus-icon" d="M20 0v40" />
@@ -408,9 +412,9 @@ cubesIframe.addEventListener("load", () => {
 	</div>
 </section>
 
-<div id="quotes" class="bordered-bottom pt-0 pb-5"> 
+<div id="quotes" class="bordered-bottom pt-2 pb-5 pt-sm-1 pt-xs-0"> 
 	<div class="container">
-		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-3">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-3 mb-sm-2">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">Made some badass friends</span>
 			<span class="blue dot-accent pre">:</span>
@@ -661,8 +665,8 @@ cubesIframe.addEventListener("load", () => {
 
 	"use strict";
 
-  $(".tilt-card").tilt({
-    maxTilt: 12,
+  $(".tilt-card").tilt({ 
+    maxTilt: 15,
     perspective: 1400,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,

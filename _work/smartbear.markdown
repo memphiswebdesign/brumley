@@ -3,7 +3,7 @@ layout: work
 permalink: work/smartbear
 order: 1
 client: "SmartBear Software"
-title:  "SmartBear embrases product-led growth enhancing developer experiences"
+title:  "Upleveling Developer Velocity through Product-Led Growth"
 meta: "Web Design, CRO, UX Research"
 img: "/assets/smartbear-hp.jpg"
 cat: Web Design, CRO, UX Research

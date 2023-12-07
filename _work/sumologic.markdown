@@ -3,7 +3,7 @@ layout: work
 permalink: work/sumo-logic
 order: 1
 client: "Sumo Logic"
-title:  "SmartBear embrases product-led growth enhancing developer experiences"
+title:  "Empowering Marketing and Product: Revolutionizing Conversions with AI CRO"
 meta: "UX Design, CRO, Development"
 img: ""
 vid: "https://assets-www.sumologic.com/banners/hp-hero-trailer23.mp4"

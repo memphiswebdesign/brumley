@@ -3,7 +3,7 @@ layout: work
 permalink: work/bitbar
 order: 3
 client: "BitBar"
-title:  "SmartBear embrases product-led growth enhancing developer experiences"
+title:  "From Design to Adoption: Elevating User Experience with Design Systems"
 meta: "Product Design, Development"
 img: "/assets/bitbar-devices.jpg"
 cat: Web Design, CRO, UX Research

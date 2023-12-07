@@ -18,10 +18,10 @@ permalink: /work
 					</p>
 					{% endif %}
 					{% if work.title %}
-					<h2 class="mt-0 mb-2">{{ work.title }}</h2>
+					<h2 class="mt-0 mb-1">{{ work.title }}</h2>
 					{% endif %}
 				</div>
-				<div class="cards-grid flex flex-wrap">
+				<div class="cards-grid flex flex-wrap pt-1">
 					<div class="fx-grow fx-item-2">
 						<div class="card-wrap tilt-card" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 							<div class="card {{ work.className }}">
@@ -41,7 +41,8 @@ permalink: /work
 											</svg>
 									  {% endif %}
 								</div>
-								<div class="plus-icon">
+								<div class="plus-icon explore">
+									<span>Explore</span>
 									<svg viewBox="0 0 40 40">
 										<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
 										<path id="bar" class="plus-icon" d="M20 0v40"/>
@@ -103,13 +104,13 @@ permalink: /work
 	"use strict";
 
   $(".tilt-card").tilt({
-    maxTilt: 12,
+    maxTilt: 15,
     perspective: 1400,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
     glare: false,
     maxGlare: 0.3,
-    scale: 1.03
+    scale: 1
   });
   
 }( jQuery ) );

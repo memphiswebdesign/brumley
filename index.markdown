@@ -6,18 +6,18 @@ tag: // Lead UX + Dev + CRO
 permalink: /
 ---
 
-<section id="featured-cases" class="pt-4 pb-2 pt-sm-3 pb-sm-2">
-	<div class="container center">
+<section id="featured-cases" class="pt-4 pb-2 pt-md-2 pt-sm-1 pb-sm-2 pt-xs-0">
+	<div class="container center"> 
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">showcased work</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="mb-2">Updated projects ‐ coming soon</h2>
-		<div class="cards-grid flex fx-wrap fx-sm-col">
+		<h2 class="mb-2">Beautifully Optimized Experiences</h2>
+		<div class="cards-grid flex fx-xs-col">
 		{% assign sorted_work = site.work | sort: 'order' %}
 		{% for work in sorted_work limit: 2 %}
-			<div class="work-item fx-item-2 mb-2 mb-sm-0 px-1">
+			<div class="work-item fx-item-2 px-1 mb-2 pl-sm-0 px-xs-0 mb-xs-2 ">
 				<div class="card-wrap tilt-card" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 					<div class="card {{ work.className }}">
 						<a class="post-link" href="{{ work.url }}"></a> 
@@ -36,7 +36,8 @@ permalink: /
 									</svg>
 							  {% endif %}
 						</div>
-						<div class="plus-icon">
+						<div class="plus-icon explore">
+							<span>Explore</span>
 							<svg viewBox="0 0 40 40">
 								<defs><style>.plus-icon{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs>
 								<path id="bar" class="plus-icon" d="M20 0v40"/>
@@ -54,9 +55,9 @@ permalink: /
 	</div>
 </section>
 
-<div id="quotes" class="bordered-bottom pt-0 pb-5"> 
+<div id="quotes" class="bordered-bottom pt-2 pb-5 pt-sm-1 pt-xs-0"> 
 	<div class="container">
-		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-3">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-3 mb-sm-2">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">Made some badass friends</span>
 			<span class="blue dot-accent pre">:</span>
@@ -178,8 +179,8 @@ permalink: /
 
 	"use strict";
 
-  $(".tilt-card").tilt({
-    maxTilt: 12,
+  $(".tilt-card").tilt({ 
+    maxTilt: 15,
     perspective: 1400,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
