@@ -30,9 +30,7 @@ permalink: /work
 								<div class="work-image mt-xs-1"> 
 									  {% if work.img == "" %}
 									    {% if work.video != "" %}
-									      <video autoplay="" muted="" loop="" poster="{{ work.vidPoster }}">
-									      	<source src="{{ work.vid }}" type="video/mp4">
-									      </video>
+									      <video id="vid" autoplay="" muted="" loop="" poster="{{ work.vidPoster }}" src="{{ work.vid }}"></video>
 									    {% endif %}
 									  {% else %}
 									    <img class="lazyload" data-src="{{ work.img }}" alt="{{ work.title }}" />
@@ -57,7 +55,7 @@ permalink: /work
 					</div>
 					<div class="flex fx-col fx-grow fx-item-3 pl-2 pl-md-0 mt-md-2 fx-md-row fx-xs-col mt-xs-1">
 						<div class="card-wrap fx-grow mb-2 fx-item-md-1 mb-md-0 mr-md-1 mr-xs-0">
-							<div class="card quote-item flex fx-col fx-just-center mr-0 py-1 px-3 px-lg-2 py-md-2 px-md-2 pr-md-3 pr-sm-2 py-sm-2 px-sm-1 pr-xs-1 pb-xs-1">
+							<div class="card quote-item flex fx-col fx-just-center mr-0 py-1 px-3 px-lg-2 py-md-2 px-md-2 pr-md-3 pr-sm-2 py-sm-2 px-sm-1 pr-xs-1 pt-xs-1 pb-xs-1">
 								<div class="quote">{{ work.quote }}</div>
 								<div class="flex fx-align-center quote-meta">
 									<img class="lazyload" data-src="/assets/{{ work.quoteImg }}" alt="{{ work.quoteName }}" />
@@ -66,7 +64,7 @@ permalink: /work
 										<p class="title">{{ work.quoteTitle }}</p>
 									</div>
 								</div>
-								<span class="quote-icon">&#8220;</span>
+								<!-- <span class="quote-icon">&#8220;</span> -->
 							</div>
 							<div class="card-bg"></div>
 						</div>

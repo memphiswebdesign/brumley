@@ -13,7 +13,10 @@ permalink: /
 			<span class="sub-title pre">showcased work</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="mb-2">Beautifully Optimized Experiences</h2>
+		<h2 class="mb-0">Beautifully Optimized Experiences</h2>
+		<div class="mt-2 mb-5 center">
+			<a href="/work" class="text-link">Latest Work <span class="ar">></span></a>
+		</div>
 		<div class="cards-grid flex fx-xs-col">
 		{% assign sorted_work = site.work | sort: 'order' %}
 		{% for work in sorted_work limit: 2 %}
@@ -25,9 +28,7 @@ permalink: /
 						<div class="work-image mt-xs-1"> 
 							  {% if work.img == "" %}
 							    {% if work.video != "" %}
-							      <video autoplay="" muted="" loop="" poster="{{ work.vidPoster }}">
-							      	<source src="{{ work.vid }}" type="video/mp4">
-							      </video>
+							      <video id="vid" autoplay="" muted="" loop="" poster="{{ work.vidPoster }}" data-src="{{ work.vid }}"></video>
 							    {% endif %}
 							  {% else %}
 							    <img class="lazyload" data-src="{{ work.img }}" alt="{{ work.title }}" />

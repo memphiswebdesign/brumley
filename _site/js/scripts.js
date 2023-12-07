@@ -184,6 +184,17 @@ scrollContainer.addEventListener('mousemove', (e) => {
   scrollContainer.scrollLeft = scrollLeft - walk;
 });
 
+// Video Src script
+document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById('vid');
+
+    if (window.innerWidth > 800 && video != null) {
+        var videoSrc = video.getAttribute('data-src');
+        video.setAttribute('src', videoSrc);
+    }
+});
+
+
 
 // Isitope Init script
 // $('.grid').isotope({

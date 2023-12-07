@@ -353,12 +353,12 @@ section#hero .container {
 	z-index: 10;
 }
 
-section#hero.work {padding: 220px 0 60px 0;}
+section#hero.work {padding: 200px 0 60px 0;}
 
 /* Media Col */
 @media(max-width: 960px) {
-	section#hero.work {padding: 180px 0 50px 0;}
-	section#hero.home {padding: 150px 0 30px 0;}
+	section#hero.work {padding: 170px 0 50px 0;}
+	section#hero.home {padding: 170px 0 30px 0;}
 }
 /* Sm Col */
 @media(max-width: 780px) {
