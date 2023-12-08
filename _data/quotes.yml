@@ -13,6 +13,16 @@
   quote: I highly recommend Eli for his exceptional blend of business acumen and artistic talent. Over 15 years, he consistently delivers innovative, high-quality work on time, making him a valuable asset for any project.
   img: jason-harris.jpg
 
+- name: Nik Kreinberg
+  title: Director @ Dockwa
+  quote: Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design.
+  img: nik-kreinberg.jpg
+
+- name: Kevin Reed
+  title: Sr. Engineer @ EA Sports
+  quote: Eli is consistently empathetic of the user's experience, quick to understand and solution complex domains, and humbly collaborative. It's been a joy to see his instinctual expertise deliver value on projects.
+  img: kevin-reed.jpg
+
 - name: Trent Erwin
   title: Owner @ Erwin Media
   quote: Eli is an incredibly talented designer, but most importantly a thoughtful designer. He’s not just making things look good, he’s making it look good for a purpose and on-purpose. It’s hard to put price on how valuable that is for a brand.
@@ -23,16 +33,6 @@
   quote: Eli is an outstanding designer — hands down! He's great at turning complex software into simple, user-friendly designs that make any product better. His skill can transform ordinary software into something that's a joy to use.
   img: adam-taylor.jpg
 
-- name: Nik Kreinberg
-  title: Director @ Dockwa
-  quote: Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design.
-  img: nik-kreinberg.jpg 
-
-- name: Kevin Reed
-  title: Sr. Engineer @ EA Sports
-  quote: Eli is consistently empathetic of the user's experience, quick to understand and solution complex domains, and humbly collaborative. It's been a joy to see his instinctual expertise deliver value on projects.
-  img: kevin-reed.jpg
-
 - name: Luke Kende
   title: Software Lead @ Smartbear
   quote: Eli is the best UX designer I've worked with in over 15 years. He excels in creating both beautiful UI and effective UX. His skill in HTML, CSS, and JS is also impressive and rare. He's a fantastic teammate & great guy.
@@ -42,6 +42,11 @@
   title: Director @ Sumo Logic
   quote: Eli is a thoughtful, data-driven, modern UX designer whose talent speaks for itself. Often tasked with balancing opinions from multiple stakeholders he’s able to find middle ground and exceed the objectives at hand.
   img: courtney-hart.png
+
+- name: Katie Sinclair
+  title: Design Lead @ SmartBear
+  quote: I love working with Eli because he’s always curious and pushes those around him to consider every possible solution.
+  img: katie-sinclair.jpg
 
 - name: Steve Goerger
   title: Founder @ ProtectPress
