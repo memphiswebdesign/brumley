@@ -6,17 +6,17 @@ tag: // Lead UX + Dev + CRO
 permalink: /
 ---
 
-<section id="featured-cases" class="pt-4 pb-2 pt-md-2 pt-sm-1 pb-sm-2 pt-xs-0">
+<section id="featured-cases" class="pt-2 pb-4 pb-sm-3 pt-xs-0">
 	<div class="container center"> 
-		<p class="hero-tag fog flex fx-align-center fx-just-center">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4">
 			<span class="blue dot-accent pre">:</span>
-			<span class="sub-title pre">showcased work</span>
+			<span class="sub-title pre">Beautifully Optimized Experiences</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<h2 class="mb-0">Beautifully Optimized Experiences</h2>
-		<div class="mt-2 mb-5 center">
+		<!-- <h2 class="mb-2">Beautifully Optimized Experiences</h2> -->
+		<!-- <div class="mt-2 mb-5 center">
 			<a href="/work" class="text-link">Latest Work <span class="ar">></span></a>
-		</div>
+		</div> -->
 		<div class="cards-grid flex fx-xs-col">
 		{% assign sorted_work = site.work | sort: 'order' %}
 		{% for work in sorted_work limit: 2 %}
@@ -53,17 +53,54 @@ permalink: /
 			</div>
 			{% endfor %}
 		</div>
+		<div class="mt-2 mb-0 center">
+			<a href="/work" class="text-link">Latest Work <span class="ar">></span></a>
+		</div>
 	</div>
 </section>
 
-<div id="quotes" class="bordered-bottom pt-2 pb-5 pt-sm-1 pt-xs-0"> 
+<div id="client-slide" class="mt-1 mt-xs-2 mb-4">
 	<div class="container">
 		<p class="hero-tag fog flex fx-align-center fx-just-center mb-3 mb-sm-2">
 			<span class="blue dot-accent pre">:</span>
-			<span class="sub-title pre">Made some badass friends</span>
+			<span class="sub-title pre">I’ve served some kickass clients</span>
 			<span class="blue dot-accent pre">:</span>
 		</p>
-		<div class="quote-wrap pb-1">
+		<div class="client-slide-set"> 
+			<ul class="set unselectable">
+				<li class="md">{% include_relative assets/sumo-logic-logo.html %}</li>
+				<li class="xl">{% include_relative assets/ryan-rose-logo.html %}</li>
+				<li class="md">{% include_relative assets/plaidpixel-logo.html %}</li>
+				<li class="">{% include_relative assets/smartbear-logo.html %}</li>
+				<li class="xxxl">{% include_relative assets/cbu-logo.html %}</li>
+				<li class="">{% include_relative assets/codepen-logo.html %}</li>
+				<li class="md">{% include_relative assets/guidetech-logo.html %}</li>
+				<li class="xl">{% include_relative assets/pbs-logo.html %}</li>
+				<li class="lg">{% include_relative assets/homewood-logo.html %}</li>
+				<li class="lg">{% include_relative assets/bitbar-logo.html %}</li>
+				<li class="lg">{% include_relative assets/dixon-logo.html %}</li>
+				<li class="xxl">{% include_relative assets/x-estates-logo.html %}</li>
+				<li class="">{% include_relative assets/hotelhelp-logo.html %}</li>
+				<li class="">{% include_relative assets/kalin-marie-logo.html %}</li>
+				<li class="xxxl">{% include_relative assets/memphis-zoo-logo.html %}</li>
+				<li class="lg">{% include_relative assets/kubeshop-logo.html %}</li>
+				<li class="lg">{% include_relative assets/zephyr-logo.html %}</li>
+				<li class="xxxl">{% include_relative assets/speak-logo.html %}</li>
+				<li class="lg">{% include_relative assets/loadninja-logo.html %}</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="quotes" class="pt-3 pb-5 pt-sm-1 pt-xs-0"> 
+	<div class="container">
+		<!-- <p class="hero-tag fog flex fx-align-center fx-just-center mb-3 mb-sm-2">
+			<span class="blue dot-accent pre">:</span>
+			<span class="sub-title pre">Made some badass friends</span>
+			<span class="blue dot-accent pre">:</span>
+		</p> -->
+		<h2 class="mb-1 center">Made some badass friends</h2>
+		<div class="quote-wrap pt-1 pb-1">
 			<button id="scrollLeft"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.00684 10.3636L5.86621 9.51542L2.32826 5.97747H11.4912V4.74979H2.32826L5.86621 1.22301L5.00684 0.363632L0.00683594 5.36363L5.00684 10.3636Z" fill="white"/></svg></button>
 			<button id="scrollRight"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.98438 10.3636L6.125 9.51542L9.66295 5.97747H0.5V4.74979H9.66295L6.125 1.22301L6.98438 0.363632L11.9844 5.36363L6.98438 10.3636Z" fill="white"/></svg></button>
 			<div id="scrollContainer" class="flex fx-no-wrap">
@@ -181,8 +218,8 @@ permalink: /
 	"use strict";
 
   $(".tilt-card").tilt({ 
-    maxTilt: 15,
-    perspective: 1400,
+    maxTilt: 20,
+    perspective: 1500,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
     glare: false,

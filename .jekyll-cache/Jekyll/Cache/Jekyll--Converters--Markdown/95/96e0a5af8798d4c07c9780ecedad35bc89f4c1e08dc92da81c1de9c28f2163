@@ -234,7 +234,7 @@
 	"use strict";
 
   $(".tilt-card").tilt({
-    maxTilt: 15,
+    maxTilt: 20,
     perspective: 1400,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
