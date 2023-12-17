@@ -8,7 +8,7 @@ permalink: /
 
 <section id="featured-cases" class="pt-2 pb-4 pb-sm-3 pt-xs-0">
 	<div class="container center"> 
-		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4">
+		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-2">
 			<span class="blue dot-accent pre">:</span>
 			<span class="sub-title pre">Beautifully Optimized Experiences</span>
 			<span class="blue dot-accent pre">:</span>
@@ -53,8 +53,8 @@ permalink: /
 			</div>
 			{% endfor %}
 		</div>
-		<div class="mt-2 mb-0 center">
-			<a href="/work" class="text-link">Latest Work <span class="ar">></span></a>
+		<div class="mt-2 mb-0 mt-sm-1 center">
+			<a href="/projects" class="text-link">Latest Projects <span class="ar">></span></a>
 		</div>
 	</div>
 </section>
@@ -92,7 +92,7 @@ permalink: /
 	</div>
 </div>
 
-<div id="quotes" class="pt-3 pb-5 pt-sm-1 pt-xs-0"> 
+<div id="quotes" class="pt-3 pb-5 pt-sm-1 pb-sm-3 pt-xs-0"> 
 	<div class="container">
 		<!-- <p class="hero-tag fog flex fx-align-center fx-just-center mb-3 mb-sm-2">
 			<span class="blue dot-accent pre">:</span>
@@ -121,7 +121,7 @@ permalink: /
 	</div>
 </div>
  
-<div id="tools" class="py-4">
+<div id="tools" class="py-4 pt-md-2 pt-sm-1">
 	<div class="container">
 		<p class="hero-tag fog flex fx-align-center fx-just-center">
 			<span class="blue dot-accent pre">:</span>

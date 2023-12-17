@@ -32,7 +32,7 @@ x_url: https://twitter.com/elibrumley
 collections:
   work:
     output: true
-    permalink: /work/:path/
+    permalink: /projects/:path/
  
 # Build settings
 theme: minima

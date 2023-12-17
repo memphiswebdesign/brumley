@@ -1,16 +1,16 @@
 ---
-layout: default 
+layout: simple 
 title: Hand Picked Projects
 subtitle: Driving real results through beautifully optimized experiences.
-permalink: /work
+permalink: /projects
 ---
 
-<div id="work" class="mb-5 pb-5">
+<div id="work" class="mt-5 mb-5 pb-5 mt-sm-3 mb-sm-2 mb-xs-0">
 	<div class="container">
 			{% assign sorted_work = site.work | sort: 'order' %}
 			{% for work in sorted_work %}
-			<div class="work-item pt-4 mt-4 pb-3">
-				<div class="work-item-meta pt-2">
+			<div class="work-item pt-4 mt-4 pb-3 pt-md-2 pt-sm-1 pb-sm-2 mt-md-2 mt-sm-0">
+				<div class="work-item-meta pt-2 pt-sm-1">
 					{% if work.client %}
 					<p class="hero-tag fog mb-1 mb-sm-1">
 						<span class="blue dot-accent pre">::</span>
