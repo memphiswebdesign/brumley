@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eli Brumley
-subtitle: Creative, Code, & Conversions - My Triple Threat in Digital Domination.
+subtitle: Creative, Code, & Conversions Rate Optimization.
 tag: // Lead UX + Dev + CRO
 permalink: /
 ---
