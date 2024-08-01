@@ -29,4 +29,4 @@ statMeta2: increase new features adoption
 
 <hr>
 
-<h6>More project details coming soon... &mdash; in the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></h6>
+<h6 class="mt-3">More project details coming soon. In the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></h6> 
