@@ -102,12 +102,12 @@ permalink: /projects
 	"use strict";
 
   $(".tilt-card").tilt({
-    maxTilt: 20,
-    perspective: 1400,
+    maxTilt: 13,
+    perspective: 2000,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
     glare: false,
-    maxGlare: 0.3,
+    maxGlare: 0.5,
     scale: 1
   });
   

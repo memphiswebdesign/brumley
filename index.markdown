@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eli Brumley
-subtitle: Creative, Code, & Conversions Rate Optimization.
+subtitle: Lead UX Engineer - Creative, Code, & Conversions Rate Optimization.
 tag: // Lead UX + Dev + CRO
 permalink: /
 ---
@@ -218,13 +218,13 @@ permalink: /
 	"use strict";
 
   $(".tilt-card").tilt({ 
-    maxTilt: 20,
-    perspective: 1500,
+    maxTilt: 13,
+    perspective: 2000,
     easing: "cubic-bezier(.03,.98,.52,.99)",
     speed: 1000,
     glare: false,
-    maxGlare: 0.3,
-    scale: 1.03
+    maxGlare: 0.5,
+    scale: 1.02
   });
   
 }( jQuery ) );

@@ -10,6 +10,7 @@ vid: ""
 vidPoster: ""
 cat: Web Design, CRO, UX Research
 type: project
+class: sumologic
 className: bg-grain2 img-scroll
 quoteName: Micheal Morgan
 quoteTitle: Growth @ Sumo Logic
@@ -21,8 +22,15 @@ stat2: 4x
 statMeta2: savings in PPC spend 
 ---
  
-<img src="{{ page.img }}" /> 
+<!-- <img src="{{ page.img }}" />  -->
 
-#### Updated casestudy coming soon... 
+<!-- <video id="vid" autoplay="" muted="" loop="" poster="https://assets-www.sumologic.com/sumo-hp-vidposter-sm.jpg" data-src="https://assets-www.sumologic.com/banners/hp-hero-trailer23.mp4"></video>
+  -->
 
-<video id="vid" autoplay="" muted="" loop="" poster="https://assets-www.sumologic.com/sumo-hp-vidposter-sm.jpg" data-src="https://assets-www.sumologic.com/banners/hp-hero-trailer23.mp4"></video>
+<section id="proj-intro">
+	<h2 class="d2">At Sumo Logic, I spearheaded a major overhaul of our free trial system as part of a broader product design initiative, introducing dynamic nurture campaigns that significantly boosted user engagement and conversion rates. I also developed a comprehensive marketing design system using Figma, ensuring seamless collaboration across teams. Additionally, I leveraged Intellimize for web CRO testing, generating valuable insights that drove our digital growth initiatives and enhanced product adoption.</h2>
+</section>
+
+<hr>
+
+<h6>More project details coming soon... &mdash; in the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></h6>

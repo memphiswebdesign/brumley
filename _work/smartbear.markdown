@@ -1,7 +1,7 @@
 ---
 layout: work
 permalink: projects/smartbear
-order: 1
+order: 3
 client: "SmartBear Software"
 title:  "Upleveling Developer Velocity through Product-Led Growth"
 meta: "Web Design, CRO, UX Research"
@@ -9,6 +9,7 @@ img: "/assets/smartbear-hp.jpg"
 cat: Web Design, CRO, UX Research
 type: project
 className: bg-grain3 img-scroll
+class: smartbear
 quoteName: Nik Kreinberg
 quoteTitle: Director @ (prior) SmartBear
 quote: Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design.
@@ -19,7 +20,13 @@ stat2: 5x
 statMeta2: growth rate in customer base
 ---
  
-<img src="{{ page.img }}" /> 
+<!-- <img src="{{ page.img }}" />  -->
 
-#### Updated casestudy coming soon... 
+<section id="proj-intro">
+	<h2 class="d2">At SmartBear, I established a global design system in Sketch and Figma, creating consistent and scalable web experiences across 18+ marketing websites. I also certified and developed a robust web testing framework using Google Optimize, ensuring our interactive experiences met modern web standards. Additionally, I led the creation of a SaaS utility design system, which streamlined the product development cycle and significantly boosted team velocity.</h2>
+</section>
+
+<hr>
+
+<h6>More project details coming soon... &mdash; in the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></h6>
 
