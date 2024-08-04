@@ -74,7 +74,22 @@ a {
 .w-100 {width: 100%}
 .fx-grow {flex-grow: 1!important;}
 .d-none {display: none;}
-/* Media Col */
+/* Lg Col */
+@media(max-width: 1300px) {
+	.d-lg-none {display: none!important;}
+	.fx-item-lg-3 {flex-basis: 33.3%}
+	.fx-item-lg-2 {flex-basis: 50%}
+	.fx-item-lg-1 {flex-basis: 100%}
+	.w-lg-25 {width: 25%}
+	.w-lg-50 {width: 50%}
+	.w-lg-75 {width: 75%}
+	.w-lg-100 {width: 100%}
+	.fx-lg-col {flex-direction: column;}
+	.fx-lg-row {flex-direction: row;}
+	.fx-lg-align-center {align-items: center;}
+	.fx-lg-align-start {align-items: flex-start;}
+}
+/* Med Col */
 @media(max-width: 960px) {
 	.d-md-none {display: none!important;}
 	.fx-item-md-3 {flex-basis: 33.3%}
@@ -355,7 +370,7 @@ section#hero .container {
 
 section#hero.work {padding: 200px 0 60px 0;}
 
-/* Media Col */ 
+/* Med Col */ 
 @media(max-width: 960px) {
 	section#hero.work {padding: 170px 0 50px 0;}
 	section#hero.home {padding: 240px 0 30px 0;}
@@ -739,7 +754,7 @@ h4 {font-size: 30px;}
 h5 {font-size: 24px; margin: 1.2em 0;}
 h6 {font-size: 19px; margin: 1em 0;}
 
-h2.d2 {font-size: 30px;}
+h2.d2 {font-size: 28px;}
 
 h1.mega {
 	font-size: 72px;
@@ -768,20 +783,26 @@ p {
 @media(max-width: 1300px) {
 	h1 {font-size: 45px;}
 	h2 {font-size: 38px;}
-	h2.d2 {font-size: 25px;}
+	h2.d2 {font-size: 24px;}
+
+	h5 {font-size: 22px;}
 }
 /* Media Col */
 @media(max-width: 960px) {
 	h1 {font-size: 40px;}
 	h1.mega {font-size: calc(50vw / 7);}
 	h2 {font-size: 34px;}
-	h2.d2 {font-size: 22px;}
+	h2.d2 {font-size: 20px;}
+
+	h5 {font-size: 19.5px;}
 }
 /* SM Col */
 @media(max-width: 780px) {
 	h1 {font-size: 38px;}
 	h2 {font-size: 33px;}
-	h2.d2 {font-size: 20px;}
+	h2.d2 {font-size: 19px;}
+
+	h5 {font-size: 18.75px;}
 	h6 {font-size: 17.5px;}
 	p {font-size: 1.08rem;}
 }
@@ -790,7 +811,9 @@ p {
 	h1 {font-size: 35px;}
 	h2 {font-size: 26px;}
 	h2.d2 {font-size: 18px;}
-	p {font-size: 1.05rem;}
+
+	h5 {font-size: 17.8px;}
+	p {font-size: .98rem;}
 }
 
 .bordered-y {
@@ -1041,6 +1064,19 @@ blockquote p {
 	.px-lg-3 {padding-left: 3em!important; padding-right: 3em!important;}
 	.px-lg-4 {padding-left: 4em!important; padding-right: 4em!important;}
 	.px-lg-5 {padding-left: 5em!important; padding-right: 5em!important;}
+
+	.pl-lg-0 {padding-left: 0!important;}
+	.pl-lg-1 {padding-left: 1em!important;}
+	.pl-lg-2 {padding-left: 2em!important;}
+	.pl-lg-3 {padding-left: 3em!important;}
+	.pl-lg-4 {padding-left: 4em!important;}
+	.pl-lg-5 {padding-left: 5em!important;}
+	.pr-lg-0 {padding-right: 0!important;}
+	.pr-lg-1 {padding-right: 1em!important;}
+	.pr-lg-2 {padding-right: 2em!important;} 
+	.pr-lg-3 {padding-right: 3em!important;}
+	.pr-lg-4 {padding-right: 4em!important;}
+	.pr-lg-5 {padding-right: 5em!important;}
 }
 
 /* Utility : Medium */
@@ -1307,6 +1343,9 @@ blockquote p {
 }
 
 img.round-10 {border-radius: 10px;}
+img.bordered {border: 1px solid rgba(255, 255, 255, 0.1);}
+img.bordered-b-0 {border-bottom: none;}
+img.round-top-8 {border-top-left-radius: 8px; border-top-right-radius: 8px}
 
 /*If soundcloud - remove post img*/
 #page.article.soundcloud .img-bg-blur:first-of-type {display: none;}
@@ -1334,6 +1373,8 @@ ul.list-dash li:before {
 	width: 14px;
 	background: #0077EE;
 }
+
+/*.article >  {margin-bottom: 0;}*/
 
 img {max-width: 100%; height: auto;}
 
@@ -2679,6 +2720,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	padding-left: 2%;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	font-weight: 500;
 }
 #proj-intro h2:before {
 	content: '';
@@ -2723,6 +2765,50 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	background: url(/assets/bg-grain4.jpg);
 }
 
+.slf svg {
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform: scale(1.08);
+}
+
+.slf svg line {
+	stroke-dasharray: 5 5;
+	animation: marchingAnts 2s linear reverse infinite;
+}
+
+@keyframes marchingAnts  {
+  to {
+    stroke-dashoffset: 20px; 
+  }
+}
+
+.sumo-g2-badges svg {
+	display: inline-block;
+	width: 55%;
+    height: auto;
+}
+.sumo-g2-badges svg path.dotted {
+	stroke-width: 4px;
+	stroke-dasharray: 5 5;
+	animation: marchingAnts 2s linear reverse infinite;
+}
+
+p .highlight {
+	position: relative;
+	color: #fff;
+	padding-left: 3px;
+	padding-right: 3px;
+	background: rgb(0,119,238);
+	background: linear-gradient(-160deg, rgba(0,119,238,.6) 20%, rgba(0,119,238,0.2) 100%);
+}
+
+video.sumo-trailer {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
 
 
 

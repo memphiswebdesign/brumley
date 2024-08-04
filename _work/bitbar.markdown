@@ -3,7 +3,7 @@ layout: work
 permalink: projects/bitbar
 order: 2 
 client: "BitBar"
-title:  "From Design to Adoption: Elevating User Experience with Design Systems"
+title:  "Design System SaaS - users love"
 meta: "Product Design, Development"
 img: "/assets/bitbar-devices.jpg"
 cat: Web Design, CRO, UX Research
@@ -23,8 +23,8 @@ statMeta2: increase new features adoption
 <!-- <img src="{{ page.img }}" />  -->
 
 
-<section id="proj-intro">
-	<h2 class="d2">During my tenure as Sr. UX Product Designer at BitBar, I led the UI/Features team, crafting innovative web testing tools and front-end experiences. I designed web marketing sites, streamlined user documentation, and conducted user testing and A/B testing for new web tools. Additionally, I shaped a robust design system library to increase developer velocity, implemented UX guidelines for consistent SaaS experiences, and created an animation library for user onboarding.</h2>
+<section id="proj-intro" class="py-3 py-lg-3 py-sm-1">
+	<h2 class="d2 pr-4 pr-md-2 pr-sm-1 pr-xs-0">During my tenure as Sr. UX Product Designer at BitBar, I led the UI/Features team, crafting innovative web testing tools and front-end experiences. I designed web marketing sites, streamlined user documentation, and conducted user testing and A/B testing for new web tools. Additionally, I shaped a robust design system library to increase developer velocity, implemented UX guidelines for consistent SaaS experiences, and created an animation library for user onboarding.</h2>
 </section>
 
 <hr>
