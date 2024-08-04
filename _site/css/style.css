@@ -294,6 +294,10 @@ header.exit .wave {animation: wave 1.2s linear forwards;}
 /*header.exit .headshot {transform: rotate(8deg); transition: .1s ease-out;}*/
 header.exit .thumb {display: none;}
 header.top .headshot {animation: bouncy .3s linear forwards;}
+@media (max-width: 768px) {
+	header.top .headshot {animation-direction: reverse;}
+}
+
 [class^="animate-"] {display: inline-block;}
 .animate-wave {
 	animation: wavy 2s ease-out forwards;
@@ -1435,9 +1439,8 @@ hr.dash:before {
 	#content {padding-top: 25px;}
 }
 
-footer {
-	padding: 40px 0 50px 0;
-}
+footer {position: relative;}
+
 footer .footer-logo img {
 	width: 60%;
 	max-width: 150px;
@@ -2717,7 +2720,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 }
 #proj-intro h2 {
 	position: relative;
-	padding-left: 2%;
+	padding-left: 4%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	font-weight: 500;
@@ -2750,6 +2753,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	}
 }
 @media(max-width: 780px) {
+	#proj-intro h2 {padding-left: 0;}
 	#proj-intro h2:before {
 		height: 120px;
 	}

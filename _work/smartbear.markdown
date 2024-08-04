@@ -28,5 +28,5 @@ statMeta2: growth rate in customer base
 
 <hr>
 
-<h6 class="mt-3">More project details coming soon. In the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></h6> 
-
+<h6 class="mt-5 center">More project details coming soon.</h6>
+<p class="center">In the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></p> 
