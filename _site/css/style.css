@@ -1346,6 +1346,7 @@ blockquote p {
 	opacity: .25;
 }
 
+img.round-8 {border-radius: 8px;}
 img.round-10 {border-radius: 10px;}
 img.bordered {border: 1px solid rgba(255, 255, 255, 0.1);}
 img.bordered-b-0 {border-bottom: none;}
@@ -2574,7 +2575,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 .work-item:nth-of-type(1) {border-top: none;}
 
 .work-item li.quote {}
-.work-item .quote-item {
+.quote-item {
 	position: relative;
 	max-width: inherit;
 	width: 100%;
@@ -2588,10 +2589,10 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	color: #0077EE;
 	user-select: none;
 }
-.work-item .quote-item .quote {
+.quote-item .quote {
 	font-size: 1.05rem;
 }
-.work-item .work-cat {
+.work-cat {
 	display: inline-block;
 	position: absolute;
 	padding: .75em 1.8em;
@@ -2602,9 +2603,9 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	transform: translate(-50%, -50%);
 	border-radius: 30px;
 }
-/*.work-item  .card {overflow: hidden;}*/
-.work-item .card-link {}
-.work-item .work-image {
+
+.card-link {}
+.work-image {
 	position: relative;
 	-webkit-transform: scale(0.9) translateY(12%);
     transform: scale(0.9) translateY(12%);
@@ -2616,14 +2617,14 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	overflow: hidden;
 }
 
-.work-item .work-image img,
-.work-item .work-image svg,
-.work-item .work-image video {
+.work-image img,
+.work-image svg,
+.work-image video {
 	display: block;
 	width: 100%;
 	height: auto;
 }
-.work-item .work-image img {
+.work-image img {
 /*	image-rendering: pixelated;*/
 	position: absolute;
 	top: 1px;
@@ -2632,33 +2633,33 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 	height: auto;
 }
 
-.work-item .work-meta {}
-.work-item .work-meta h2 {}
-.work-item .work-meta p {}
-.work-item .card .plus-icon {
+.work-meta {}
+.work-meta h2 {}
+.work-meta p {}
+.card .plus-icon {
 	box-shadow: 5px 5px 20px -3px rgba(32,32,32,.3);
 }
 
-.work-item .cards-grid {align-items: stretch;}
+.cards-grid {align-items: stretch;}
 
-.work-item .card-wrap:hover .work-image {
+.card-wrap:hover .work-image {
 	-webkit-transform: scale(.95) translateY(0);
     transform: scale(.95) translateY(0);
    /* border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;*/
 }
 
-.work-item .card-wrap.tilt-card:hover {
+.card-wrap.tilt-card:hover {
 	box-shadow: 0 25px 120px -30px rgba(0, 119, 238, .4);
 }
 
-.work-item .card-wrap:hover .img-scroll .work-image img {animation: imgScroll 12s linear forwards .2s;}
+.card-wrap:hover .img-scroll .work-image img {animation: imgScroll 12s linear forwards .2s;}
 
 @keyframes imgScroll {
 	to {transform: translateY(calc(-100% + 380px));}
 }
 
-.work-item .card-wrap:hover .work-cat {
+.card-wrap:hover .work-cat {
 	transform: translate(-50%, 30%);
 	background: rgba(19, 19, 19, .4);
 	box-shadow: 0 12px 40px -8px rgba(32,32,32,.4);
@@ -2667,7 +2668,7 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
     backdrop-filter: saturate(180%) blur(7px);
 }
 
-.work-item .quote-item p {font-size: 14px;}
+.quote-item p {font-size: 14px;}
 
 .stat-wrap {}
 .stat-wrap .stat {
@@ -2690,28 +2691,28 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 
 /* Lg Col */
 @media(max-width: 1300px) {
-	.work-item .quote-item .quote {font-size: .96rem;}
+	.quote-item .quote {font-size: .96rem;}
 /*	.work-item .card {padding-top: 8.5%;}*/
 }
 /* Md Col */
 @media(max-width: 960px) {
-/*	.work-item .card {padding-top: 0;}*/
+/*	.card {padding-top: 0;}*/
 	.work-item-meta {padding-right: 15%}
-	.work-item .cards-grid {flex-direction: column;}
-	.work-item .quote-item .quote-icon {font-size: 90px;}
+	.cards-grid {flex-direction: column;}
+	.quote-item .quote-icon {font-size: 90px;}
 }
 /* Sm Col */
 @media(max-width: 780px) {
 	.work-item-meta {padding-right: 0%}
-	.work-item .work-cat {font-size: .9em;}
-	.work-item .quote-item .quote {font-size: .9rem;}
-	.work-item .quote-item .quote-icon {font-size: 85px;}
+	.work-cat {font-size: .9em;}
+	.quote-item .quote {font-size: .9rem;}
+	.quote-item .quote-icon {font-size: 85px;}
 }
 /* XS Col */
 @media(max-width: 540px) {
-	.work-item .work-cat {font-size: .87em; top: 13%;}
-	.work-item .quote-item .quote {font-size: .88rem;}
-	.work-item .quote-item .quote-icon {font-size: 77px;}
+	.work-cat {font-size: .87em; top: 13%;}
+	.quote-item .quote {font-size: .88rem;}
+	.quote-item .quote-icon {font-size: 77px;}
 }
 
 /*Project Pages*/
