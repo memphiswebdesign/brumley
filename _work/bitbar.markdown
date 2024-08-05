@@ -34,6 +34,7 @@ statMeta2: increase new features adoption
 				<img class="bitbar-orbit" src="/assets/bitbar-browser-orbit.svg" />
 			</div>
 			<div class="card-bg"></div>
+			<div class="card-highlight"></div>
 		</div>
 	</div>
 	<div class="flex fx-grow fx-item-2 mb-2 mb-sm-1 pl-2 pl-md-0">

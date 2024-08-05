@@ -63,7 +63,7 @@ statMeta2: savings in PPC spend
 				<img class="mx-2 bordered bordered-b-0 round-top-8" src="/assets/sumo-logic-lp-tiles.jpg" title="Sumo Logic Landing Page Testing" />
 			</div>
 			<div class="card-bg"></div>
-			<div class="card-highlight"></div>
+			<!-- <div class="card-highlight"></div> -->
 		</div>
 	</div>
 	<div class="flex fx-grow fx-item-3 pl-1 pl-md-0 mb-2 mb-md-2 mb-sm-1"> 
@@ -73,7 +73,7 @@ statMeta2: savings in PPC spend
 				<img class="mx-2 bordered bordered-b-0 round-top-8" src="/assets/sumo-ds_v2_1x.jpg" title="Sumo Logic Design System" />
 			</div>
 			<div class="card-bg"></div>
-			<div class="card-highlight"></div>
+			<!-- <div class="card-highlight"></div> -->
 		</div>
 	</div>
 	<!-- <! --- > -->
