@@ -2814,6 +2814,14 @@ video.sumo-trailer {
 	height: auto;
 }
 
+/* BitBar */
+img.bitbar-orbit {
+	display: inline-block;
+	transform-origin: center;
+	transform: translate(0%, 50%) scale(2.15);
+}
+
+#project .stat-grp {height: 100%}
 
 
 

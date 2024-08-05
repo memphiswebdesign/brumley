@@ -56,7 +56,7 @@ statMeta2: savings in PPC spend
 			<div class="card-highlight"></div>
 		</div>
 	</div>
-	<div class="flex fx-grow fx-item-3 pr-1 pr-md-0 mb-md-2 mb-sm-1">
+	<div class="flex fx-grow fx-item-3 pr-1 pr-md-0 mb-2 mb-md-2 mb-sm-1">
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1">
 				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">High Converting Landing Pages</h6>
@@ -66,7 +66,7 @@ statMeta2: savings in PPC spend
 			<div class="card-highlight"></div>
 		</div>
 	</div>
-	<div class="flex fx-grow fx-item-3 pl-1 pl-md-0"> 
+	<div class="flex fx-grow fx-item-3 pl-1 pl-md-0 mb-2 mb-md-2 mb-sm-1"> 
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1">
 				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Robust Design Systems</h6>
@@ -76,6 +76,38 @@ statMeta2: savings in PPC spend
 			<div class="card-highlight"></div>
 		</div>
 	</div>
+	<!-- <! --- > -->
+	<div class="flex fx-col fx-grow fx-item-2 pr-1 pr-md-0">
+		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card quote-item flex fx-col fx-just-center mr-0 py-3 px-3 px-lg-2 py-md-2 px-md-2 pr-md-3 pr-sm-2 py-sm-2 px-sm-1 pr-xs-1 pt-xs-1 pb-xs-1" style="width: 100%!important; max-width: inherit!important;">
+				<div class="quote">{{ page.quote }}</div>
+				<div class="flex fx-align-center quote-meta">
+					<img class="lazyload" data-src="/assets/{{ page.quoteImg }}" alt="{{ page.quoteName }}" />
+					<div class="quote-meta-label">
+						<p class="name">{{ page.quoteName}}</p>
+						<p class="title">{{ page.quoteTitle }}</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-bg"></div>
+		</div>
+	</div>
+	<div class="flex fx-col fx-grow fx-item-2 pl-1 pl-md-0">
+		<div class="card-wrap w-100 stat-grp" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card work-stats flex fx-row fx-align-center fx-just-center fx-md-col py-3 px-3 px-lg-2 py-md-1 px-md-2 px-md-1 py-sm-1 px-sm-1">
+				<div class="stat-wrap flex fx-col pr-1 pr-md-0 pb-md-1 mb-md-1">
+					<span class="stat pre mt-0">{{ page.stat1 }}</span>
+					<span class="stat-meta">{{ page.statMeta1 }}</span>
+				</div>
+				<div class="stat-wrap flex fx-col pl-2 pr-md-0 pl-md-0">
+					<span class="stat pre mt-0">{{ page.stat2 }}</span>
+					<span class="stat-meta">{{ page.statMeta2 }}</span>
+				</div>
+			</div>
+			<div class="card-bg"></div>
+		</div>
+	</div>
+	<!-- <! --- > -->
 </div>
 
 
