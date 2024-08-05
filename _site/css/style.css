@@ -1466,7 +1466,7 @@ footer p {
 .domain-set span {
 	position: relative;
 	background: rgba(175,175,175,.6);
-	background: linear-gradient(0deg, rgba(175,175,175,.6) 0%, rgba(175,175,175,0) 90%);
+	background: linear-gradient(0deg, rgba(175,175,175,.75) 0%, rgba(175,175,175,0) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: all .12s ease-out;
@@ -1522,7 +1522,7 @@ footer p {
 }
 .domain-set.email span {
 	background: #0077EE;
-	background: linear-gradient(to top, rgba(0, 119, 238, 1) 0%, rgba(0, 119, 238, .2) 75%);
+	background: linear-gradient(to top, rgba(0, 119, 238, 1) 0%, rgba(0, 119, 238, .3) 75%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -1548,7 +1548,7 @@ footer p {
 .domain-set.linkd span.c {opacity: 0;}
 .domain-set.linkd span {
 	background: #0077EE;
-	background: linear-gradient(to top, rgba(0, 119, 238, 1) 0%, rgba(0, 119, 238, .2) 75%);
+	background: linear-gradient(to top, rgba(0, 119, 238, 1) 0%, rgba(0, 119, 238, .3) 75%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -1558,14 +1558,14 @@ footer p {
 	.domain-set .emot {transform: translateX(-20%);}
 }
 @media(max-width: 780px) {
-	.domain-set {
-		font-size: 40px;
-	}
+	.domain-set {margin-bottom: .8em;}
+	.domain-set {font-size: 40px;}
 	.domain-set .emot {transform: translateX(-28%);}
 	.domain-set .emot img.face {height: 55px;}
 	.domain-set .emot img.wave {height: 18px;}
 }
 @media(max-width: 540px) {
+	.domain-set {margin-bottom: 1em;}
 	.domain-set {font-size: 30px;}
 	.domain-set .emot {transform: translateX(-30%);}
 	.domain-set .emot img.face {height: 48px;}
