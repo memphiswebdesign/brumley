@@ -1,13 +1,38 @@
 <footer class="bordered-top py-5 py-md-3 py-sm-2">
 	<div class="container center">
-		<div class="social">
+		<div class="domain-flow social pb-5">
+			<div class="domain-set">
+				<span class="h">
+					<span>hello</span>
+				</span>
+				<span class="e">
+					<div class="emot">
+						<img class="face" src="/assets/eli-memoji.png" />
+						<img class="wave" src="/assets/miemoji-wave-left.png" />
+					</div>
+					<span class="at">@</span>
+					<span class="eli">eli</span>
+					<span class="d">-</span>
+					<span class="brumley">brumley</span>
+				</span>
+				<span class="c">.com</span>
+			</div>
+			<div class="domain-icons">
+				<span class="social-item tooltip social-hi" data-tooltip="hi" data-width="35px">{% include_anywhere assets/wave-icon.html %}</span>
+				<span class="social-item tooltip social-email" data-tooltip="copy email" data-width="85px">{% include_anywhere assets/envelope-icon.html %}</span>
+				<span class="social-item tooltip social-x" data-tooltip="visit" data-width="46px"><a href="{{ site.x_url }}" target="_blank"></a>{% include_anywhere assets/x-icon.html %}</span>
+				<span class="social-item tooltip social-linkd" data-tooltip="visit" data-width="46px"><a href="{{ site.linkedin_url }}" target="_blank"></a>{% include_anywhere assets/linkedin-icon.html %}</span>
+			</div>
+		</div>
+
+		<!-- <div class="social">
 			<a class="social-item" href="{{ site.x_url }}" target="_blank">
 				{% include_anywhere assets/x-icon.html %}
 			</a>
 			<a class="social-item" href="{{ site.linkedin_url }}" target="_blank">
 				{% include_anywhere assets/linkedin-icon.html %}
 			</a>
-		</div>
+		</div> -->
 		<p class="mt-1 mb-1 center" style="font-size: 90%;">
 			<pre style="line-height: .9em; color: #828282;">Custom built with <3 &nbsp;on Jekyll.
 			<br>Deployed on Netlify.</pre>

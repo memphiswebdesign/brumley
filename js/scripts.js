@@ -195,6 +195,58 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+// Tooltip width
+document.querySelectorAll('.tooltip').forEach(tooltip => {
+    const width = tooltip.getAttribute('data-width');
+    tooltip.style.setProperty('--tooltip-width', width);
+});
+
+
+// Footer Interactions
+document.addEventListener('DOMContentLoaded', () => {
+    const socialEmail = document.querySelector('.social-email');
+    const socialHi = document.querySelector('.social-hi');
+    const socialX = document.querySelector('.social-x');
+    const socialLinkd = document.querySelector('.social-linkd');
+    const domainSet = document.querySelector('.domain-set');
+
+    // Function to copy email to clipboard
+    const copyToClipboard = (text) => {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+    };
+
+    // Function to handle hover
+    const addHoverClass = (element, className) => {
+        element.addEventListener('mouseover', () => {
+            domainSet.classList.add(className);
+        });
+
+        element.addEventListener('mouseout', () => {
+            domainSet.classList.remove(className);
+        });
+    };
+
+    // Add hover logic for different elements
+    addHoverClass(socialEmail, 'email');
+    addHoverClass(socialHi, 'hi');
+    addHoverClass(socialX, 'x');
+    addHoverClass(socialLinkd, 'linkd');
+
+    // Click event to copy email and update content
+    socialEmail.addEventListener('click', () => {
+        copyToClipboard('hello@elibrumley.com');
+        socialEmail.classList.add('copied');
+        
+        setTimeout(() => {
+            socialEmail.classList.remove('copied');
+        }, 2000);
+    });
+});
 
 // Isitope Init script
 // $('.grid').isotope({
