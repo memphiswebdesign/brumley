@@ -2699,7 +2699,8 @@ button#scrollLeft.active {opacity: 1; transition: .2s ease-out .1s;}
 .work-item:nth-of-type(1) {border-top: none;}
 
 .work-item li.quote {}
-#project .quote-item {
+#project .quote-item,
+.work-item .quote-item {
 	position: relative;
 	max-width: inherit;
 	width: 100%;
