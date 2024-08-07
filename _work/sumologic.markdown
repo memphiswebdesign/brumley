@@ -77,7 +77,7 @@ statMeta2: savings in PPC spend
 		</div>
 	</div>
 	<!-- <! --- > -->
-	<div class="flex fx-col fx-grow fx-item-2 pr-1 pr-md-0">
+	<div class="flex fx-col fx-grow fx-item-2 pr-1 pr-md-0 mb-md-2 mb-sm-1">
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card quote-item flex fx-col fx-just-center mr-0 py-3 px-3 px-lg-2 py-md-2 px-md-2 pr-md-3 pr-sm-2 py-sm-2 px-sm-1 pr-xs-1 pt-xs-1 pb-xs-1" style="width: 100%!important; max-width: inherit!important;">
 				<div class="quote">{{ page.quote }}</div>
