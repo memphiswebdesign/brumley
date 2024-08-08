@@ -31,7 +31,7 @@ statMeta2: increase new features adoption
 	<div class="flex fx-item-3 mb-2 mb-sm-1"> 
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card flex fx-col" style="align-items: center;">
-				<img class="bitbar-orbit" src="/assets/bitbar-browser-orbit.svg" />
+				<img class="lazyload bitbar-orbit" data-src="/assets/bitbar-browser-orbit.svg" />
 			</div>
 			<div class="card-bg"></div>
 			<div class="card-highlight"></div>
@@ -73,7 +73,7 @@ statMeta2: increase new features adoption
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1 center" style="align-items: center;">
 				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Custom Browser Load Animations</h6>
-				<img class="mx-2 bordered round-8" src="/assets/brower-load.gif" />
+				<img class="lazyload mx-2 bordered round-8" data-src="/assets/brower-load.gif" />
 			</div>
 			<div class="card-bg"></div>
 		</div>

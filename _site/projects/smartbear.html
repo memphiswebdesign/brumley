@@ -270,14 +270,69 @@ lazySizesConfig.loadMode = 1;</script>
 			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1 center" style="align-items: center;">
 				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Core Design System</h6>
 				<span class="bordered round-8" style="background: #fff;">
-					<img class="py-1" src="/assets/sb-design-audit.png" />
+					<img class="lazyload py-1 px-1" data-src="/assets/sb-design-audit.png" />
 				</span>
+				<p class="text-sm mb-0">Robust design system supporting 30+ SaaS products.</p>
 			</div>
 			<div class="card-bg"></div>
 		</div>
 	</div>
 	<!-- <! --- > -->
+	<div class="flex fx-grow fx-item-2 pr-1 pr-md-0 mb-2 mb-md-2 mb-sm-1"> 
+		<div class="card-wrap w-100" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card flex fx-col fx-align-center pb-2 pb-md-1 px-2 px-md-1 px-sm-1">
+				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Product Brand Alignment</h6>
+				<span class="bordered round-8 mb-1" style="background: #fff;">
+					<img class="lazyload py-2 px-1" data-src="/assets/sb-products-rebrand.png" />
+				</span>
+				<p class="flex fx-just-center fx-sm-col text-sm mb-0">
+					<span class="tiny-bx circle gray">Open Source</span>
+					<span class="tiny-bx cyan">Test Management</span>
+					<span class="tiny-bx yellow">API Tools</span>
+					<span class="tiny-bx green">Swagger Suite</span>
+				</p>
+			</div>
+			<div class="card-bg"></div>
+			<div class="card-highlight"></div>
+		</div>
+	</div>
+	<div class="flex fx-grow fx-item-2 pl-1 pl-md-0 mb-2 mb-md-2 mb-sm-1"> 
+		<div class="card-wrap w-100" data-tilt="" style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card flex fx-col fx-align-center pb-2 pb-md-1 px-2 px-md-1 px-sm-1">
+				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Product 3rd party login</h6>
+				<img class="lazyload round-8" data-src="/assets/global-3rdparty-login.jpg" />
+			</div>
+			<div class="card-bg"></div>
+			<div class="card-highlight"></div>
+		</div>
+	</div>
 </div>
+
+<style>
+	.tiny-bx {
+		display: inline-flex;
+		margin-right: 12px;
+		padding-right: 12px;
+		border-right: 1px solid #444;
+	}
+	.tiny-bx:before {
+		content: '';
+		display: inline-block;
+		height: 15px;
+		width: 15px;
+		position: relative;
+		top: 3px;
+		margin-right: 7px;
+	}
+	.tiny-bx.circle:before {border-radius: 50%;}
+	.tiny-bx.gray:before {background: #444;}
+	.tiny-bx.orange:before {background: #ff730b;}
+	.tiny-bx.yellow:before {background: #fcdc00;}
+	.tiny-bx.green:before {background: #85ea2d;}
+	.tiny-bx.cyan:before {background: #17d1fc;}
+
+	.tiny-bx:last-of-type {border-right: 0; margin-right: 0;}
+</style>
 
 <h6 class="mt-5 center">More project details coming soon.</h6>
 <p class="center">In the meantime, feel free to <a href="/contact">reach out</a> or check some of my <a href="/journal">latest post.</a></p>

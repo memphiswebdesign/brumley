@@ -1343,16 +1343,16 @@ blockquote p {
 	opacity: .25;
 }
 
-img.round-8 {border-radius: 8px;}
-img.round-10 {border-radius: 10px;}
-img.bordered {border: 1px solid rgba(255, 255, 255, 0.1);}
-img.bordered-b-0 {border-bottom: none;}
-img.round-top-8 {border-top-left-radius: 8px; border-top-right-radius: 8px}
+.round-8 {border-radius: 8px;}
+.round-10 {border-radius: 10px;}
+.bordered {border: 1px solid rgba(255, 255, 255, 0.1);}
+.bordered-b-0 {border-bottom: none;}
+.round-top-8 {border-top-left-radius: 8px; border-top-right-radius: 8px}
 
 /*If soundcloud - remove post img*/
 #page.article.soundcloud .img-bg-blur:first-of-type {display: none;}
 #page.latest-entries #content {padding-bottom: 200px;}
-
+ 
 /* List Styles */
 ul.list-clear {list-style: none; padding: 0; margin: 0;}
 ul.list-dash {
@@ -1403,6 +1403,9 @@ hr.dash:before {
 .white {color: #fff;}
 .fog {color: #afafaf;}
 .blue {color: #0077EE;}
+
+.text-sm {font-size: 13.8px;}
+.text-xs {font-size: 12.5px;}
 
 .container {
 	display: block;
