@@ -50,25 +50,33 @@ statMeta2: growth rate in customer base
 			<div class="card-highlight"></div>
 		</div>
 	</div>
-	<!--  -->
-	<div class="flex fx-grow fx-item-3 pr-1 pr-md-0 mb-2 mb-md-2 mb-sm-1">
-		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
-			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1">
-				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">High Converting Landing Pages</h6>
-				<img class="mx-2 bordered bordered-b-0 round-top-8" src="/assets/sumo-logic-lp-tiles.jpg" title="Sumo Logic Landing Page Testing" />
+	<!-- here -->
+	<div class="flex fx-grow fx-item-3 mb-2 mb-sm-1 pr-2 pr-md-0">
+		<div class="card-wrap w-100 tilt-card" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card flex fx-col {{ page.className }}">
+				<!-- <a class="post-link" href="{{ work.url }}"></a>  -->
+				<pre class="work-cat center">{{ page.meta }}</pre>
+				<div class="work-image mt-xs-1"> 
+				    <img class="lazyload" data-src="{{ page.img }}" alt="{{ page.title }}" />
+					<svg width="113" height="63" viewBox="0 0 113 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect x="0" width="113" height="63" fill="transparent"/>
+					</svg>
+				</div>
 			</div>
 			<div class="card-bg"></div>
-			<!-- <div class="card-highlight"></div> -->
+			<div class="card-highlight"></div>
 		</div>
 	</div>
-	<div class="flex fx-grow fx-item-3 pl-1 pl-md-0 mb-2 mb-md-2 mb-sm-1"> 
+	<!-- here -->
+	<div class="flex fx-item-3 mb-2 mb-sm-1"> 
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
-			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1">
-				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Robust Design Systems</h6>
-				<img class="mx-2 bordered bordered-b-0 round-top-8" src="/assets/sumo-ds_v2_1x.jpg" title="Sumo Logic Design System" />
+			<div class="card flex fx-col fx-align-center px-3 px-md-2 px-sm-1 center" style="align-items: center;">
+				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Core Design System</h6>
+				<span class="bordered round-8" style="background: #fff;">
+					<img class="py-1" src="/assets/sb-design-audit.png" />
+				</span>
 			</div>
 			<div class="card-bg"></div>
-			<!-- <div class="card-highlight"></div> -->
 		</div>
 	</div>
 	<!-- <! --- > -->
