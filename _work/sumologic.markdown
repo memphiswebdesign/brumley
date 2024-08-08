@@ -77,7 +77,7 @@ statMeta2: savings in PPC spend
 		</div>
 	</div>
 	<!-- <! --- > -->
-	<div class="flex fx-col fx-grow fx-item-2 pr-1 pr-md-0 mb-md-2 mb-sm-1">
+	<div class="flex fx-col fx-grow fx-item-2 pr-1 pr-md-0 mb-2 mb-md-2 mb-sm-1">
 		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card quote-item flex fx-col fx-just-center mr-0 py-3 px-3 px-lg-2 py-md-2 px-md-2 pr-md-3 pr-sm-2 py-sm-2 px-sm-1 pr-xs-1 pt-xs-1 pb-xs-1" style="width: 100%!important; max-width: inherit!important;">
 				<div class="quote">{{ page.quote }}</div>
@@ -92,7 +92,7 @@ statMeta2: savings in PPC spend
 			<div class="card-bg"></div>
 		</div>
 	</div>
-	<div class="flex fx-col fx-grow fx-item-2 pl-1 pl-md-0">
+	<div class="flex fx-col fx-grow fx-item-2 pl-1 pl-md-0 mb-2 mb-md-2 mb-sm-1">
 		<div class="card-wrap w-100 stat-grp" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 			<div class="card work-stats flex fx-row fx-align-center fx-just-center fx-md-col py-3 px-3 px-lg-2 py-md-1 px-md-2 px-md-1 py-sm-1 px-sm-1">
 				<div class="stat-wrap flex fx-col pr-1 pr-md-0 pb-md-1 mb-md-1">
@@ -108,7 +108,56 @@ statMeta2: savings in PPC spend
 		</div>
 	</div>
 	<!-- <! --- > -->
+	<div class="flex fx-grow fx-item-3 pr-1 pr-md-0 mb-2 mb-md-2 mb-sm-1"> 
+		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card flex fx-col fx-align-center pb-2 pb-md-1 px-2 px-md-1 px-sm-1">
+				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Ad: Log Analytics</h6>
+				<div class="vid-wrap video-trigger" data-video-id="nBsW-N_XcUg">
+					<button>{% include play-icon.html %} &nbsp; 1:37</button>
+					<img class="bordered round-8" src="/assets/sumo-overview.webp" title="Sumo Logic Overview Video" />
+				</div> 
+			</div>
+			<div class="card-bg"></div>
+			<div class="card-highlight"></div>
+		</div>
+	</div>
+	<div class="flex fx-grow fx-item-3 pl-1 pl-md-0 pr-1 pr-md-0 mb-2 mb-md-2 mb-sm-1 fx-item-3-offset"> 
+		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card flex fx-col fx-align-center pb-2 pb-md-1 px-2 px-md-1 px-sm-1">
+				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Ad: Flex Pricing</h6>
+				<div class="vid-wrap video-trigger" data-video-id="d846oPIjszE">
+					<button>{% include play-icon.html %} &nbsp; 1:28</button>
+					<img class="bordered round-8" src="/assets/sumo-flex.webp" title="Sumo Logic Flex Pricing Video" />
+				</div>
+			</div>
+			<div class="card-bg"></div>
+			<div class="card-highlight"></div>
+		</div>
+	</div>
+	<div class="flex fx-grow fx-item-3 pl-1 pl-md-0 mb-2 mb-md-2 mb-sm-1"> 
+		<div class="card-wrap w-100" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
+			<div class="card flex fx-col fx-align-center pb-2 pb-md-1 px-2 px-md-1 px-sm-1">
+				<h6 class="mt-2 mb-2 mt-md-1 mb-md-1">Ad: Cloud SIEM</h6>
+				<div class="vid-wrap video-trigger" data-video-id="WuLCfWPExes">
+					<button>{% include play-icon.html %} &nbsp; 1:33</button>
+					<img class="bordered round-8" src="/assets/sumo-siem.webp" title="Sumo Logic Cloud SIEM video" />
+				</div>
+			</div>
+			<div class="card-bg"></div>
+			<div class="card-highlight"></div>
+		</div>
+	</div>
 </div>
+
+
+<style>
+	@media (min-width: 961px) {
+		.fx-item-3-offset {
+			margin-left: -.1rem;
+	    margin-right: -.1rem;
+		}
+	}
+</style>
 
 
 <h6 class="mt-5 center">More project details coming soon.</h6>

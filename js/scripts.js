@@ -92,97 +92,167 @@ function throttle(func, limit) {
   };
 }
 
+// YouTube modal
+// document.addEventListener('DOMContentLoaded', function () {
+
+//     const videoButtons = document.querySelectorAll('.video-trigger');
+//     const videoModal = document.getElementById('video-modal');
+//     const videoContainer = document.getElementById('video-container');
+//     const closeBtn = document.querySelector('.close-btn');
+
+//     videoButtons.forEach(button => {
+//         button.addEventListener('click', function () {
+//             const videoId = this.getAttribute('data-video-id');
+//             const embedCode = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+//             videoContainer.innerHTML = embedCode;
+//             videoModal.classList.add('active');
+//         });
+//     });
+
+//     closeBtn.addEventListener('click', function () {
+//         videoModal.classList.remove('active');
+//         videoContainer.innerHTML = '';
+//     });
+// });
+
+// YouTube modal
+document.addEventListener('DOMContentLoaded', function () {
+    const videoTrigger = document.querySelectorAll('.video-trigger');
+    const videoModal = document.getElementById('video-modal');
+    const embedContainer = document.querySelector('.embed-container');
+    const closeBtn = document.querySelector('.close-btn');
+
+    videoTrigger.forEach(button => {
+        button.addEventListener('click', function () {
+            const videoId = this.getAttribute('data-video-id');
+            const embedCode = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            embedContainer.innerHTML = embedCode;
+            videoModal.classList.add('active');
+        });
+    });
+
+    closeBtn.addEventListener('click', function () {
+        videoModal.classList.remove('active');
+        embedContainer.innerHTML = '';
+    });
+
+   const closeModal = () => {
+        videoModal.classList.remove('active');
+        embedContainer.innerHTML = '';
+    };
+
+    closeBtn.addEventListener('click', closeModal);
+
+    // Add event listener for ESC key
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    });
+    
+});
+
 
 // Horizontal Scroll Carousel
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollRightBtn = document.getElementById('scrollRight');
+    const scrollLeftBtn = document.getElementById('scrollLeft');
+    const scrollContainer = document.getElementById('scrollContainer');
 
-document.getElementById('scrollRight').addEventListener('click', function() {
-  // Add the 'active' class to show the left button
-  document.getElementById('scrollLeft').classList.add('active');
+    // Check if elements exist
+    if (!scrollRightBtn || !scrollLeftBtn || !scrollContainer) {
+        console.error('One or more elements are missing:', {
+            scrollRightBtn,
+            scrollLeftBtn,
+            scrollContainer
+        });
+        return; // Exit the function if elements are missing
+    }
 
-  // Existing scroll logic
-  document.getElementById('scrollContainer').scrollBy({
-    left: getScrollAmount(), // Assuming getScrollAmount() is defined as before
-    behavior: 'smooth'
-  });
+    // Horizontal Scroll Carousel
+    scrollRightBtn.addEventListener('click', function() {
+        // Add the 'active' class to show the left button
+        scrollLeftBtn.classList.add('active');
+
+        // Existing scroll logic
+        scrollContainer.scrollBy({
+            left: getScrollAmount(), // Assuming getScrollAmount() is defined as before
+            behavior: 'smooth'
+        });
+    });
+
+    scrollContainer.addEventListener('scroll', function() {
+        if (scrollContainer.scrollLeft > 100) {
+            // Add the 'active' class when not scrolled all the way to the left
+            scrollContainer.classList.add('active');
+            scrollLeftBtn.classList.add('active');
+        } else {
+            // Remove the 'active' class when scrolled all the way to the left
+            scrollContainer.classList.remove('active');
+            scrollLeftBtn.classList.remove('active');
+        }
+    });
+
+    scrollLeftBtn.addEventListener('click', function() {
+        scrollContainer.scrollBy({
+            left: -getScrollAmount(),
+            behavior: 'smooth'
+        });
+    });
+
+    scrollRightBtn.addEventListener('click', function() {
+        scrollContainer.scrollBy({
+            left: getScrollAmount(),
+            behavior: 'smooth'
+        });
+    });
+
+    // Drag-to-Scroll functionality
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    scrollContainer.addEventListener('mousedown', (e) => {
+        isDown = true;
+        scrollContainer.style.cursor = 'grabbing';
+        startX = e.pageX - scrollContainer.offsetLeft;
+        scrollLeft = scrollContainer.scrollLeft;
+    });
+
+    scrollContainer.addEventListener('mouseleave', () => {
+        isDown = false;
+        scrollContainer.style.cursor = 'grab';
+    });
+
+    scrollContainer.addEventListener('mouseup', () => {
+        isDown = false;
+        scrollContainer.style.cursor = 'grab';
+    });
+
+    scrollContainer.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - scrollContainer.offsetLeft;
+        const walk = (x - startX) * 1; // The number 1 determines the scroll speed
+        scrollContainer.scrollLeft = scrollLeft - walk;
+    });
+
+    function getScrollAmount() {
+        const screenWidth = window.innerWidth;
+        let scrollAmount;
+
+        if (screenWidth >= 1024) { // Desktop
+            scrollAmount = 650; // scroll more on larger screens
+        } else if (screenWidth >= 768) { // Tablet
+            scrollAmount = 420; // medium scroll on medium screens
+        } else { // Mobile
+            scrollAmount = 330; // less scroll on smaller screens
+        }
+
+        return scrollAmount;
+    }
 });
 
-document.getElementById('scrollContainer').addEventListener('scroll', function() {
-  const scrollContainer = document.getElementById('scrollContainer');
-  
-  if (scrollContainer.scrollLeft > 100) {
-    // Add the 'active' class when not scrolled all the way to the left
-    document.getElementById('scrollContainer').classList.add('active');
-    document.getElementById('scrollLeft').classList.add('active');
-  } else {
-    // Remove the 'active' class when scrolled all the way to the left
-    document.getElementById('scrollContainer').classList.remove('active');
-    document.getElementById('scrollLeft').classList.remove('active');
-  }
-});
-
-// =====
-
-function getScrollAmount() {
-  const screenWidth = window.innerWidth;
-  let scrollAmount;
-
-  if (screenWidth >= 1024) { // Desktop
-    scrollAmount = 650; // scroll more on larger screens
-  } else if (screenWidth >= 768) { // Tablet
-    scrollAmount = 420; // medium scroll on medium screens
-  } else { // Mobile
-    scrollAmount = 330; // less scroll on smaller screens
-  }
-
-  return scrollAmount;
-}
-
-document.getElementById('scrollLeft').addEventListener('click', function() {
-  document.getElementById('scrollContainer').scrollBy({
-    left: -getScrollAmount(),
-    behavior: 'smooth'
-  });
-});
-
-document.getElementById('scrollRight').addEventListener('click', function() {
-  document.getElementById('scrollContainer').scrollBy({
-    left: getScrollAmount(),
-    behavior: 'smooth'
-  });
-});
-
-// =====
-
-const scrollContainer = document.getElementById('scrollContainer');
-
-let isDown = false;
-let startX;
-let scrollLeft;
-
-scrollContainer.addEventListener('mousedown', (e) => {
-  isDown = true;
-  scrollContainer.style.cursor = 'grabbing';
-  startX = e.pageX - scrollContainer.offsetLeft;
-  scrollLeft = scrollContainer.scrollLeft;
-});
-
-scrollContainer.addEventListener('mouseleave', () => {
-  isDown = false;
-  scrollContainer.style.cursor = 'grab';
-});
-
-scrollContainer.addEventListener('mouseup', () => {
-  isDown = false;
-  scrollContainer.style.cursor = 'grab';
-});
-
-scrollContainer.addEventListener('mousemove', (e) => {
-  if (!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - scrollContainer.offsetLeft;
-  const walk = (x - startX) * 1; // The number 3 determines the scroll speed
-  scrollContainer.scrollLeft = scrollLeft - walk;
-});
 
 // Video Src script
 document.addEventListener("DOMContentLoaded", function() {
@@ -247,6 +317,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 2000);
     });
 });
+
+
 
 // Isitope Init script
 // $('.grid').isotope({
