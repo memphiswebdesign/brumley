@@ -147,8 +147,8 @@ permalink: /
 						<div class="tool-set mb-2 mb-sm-0 mb-xs-0">
 							<span class="tooltip" data-tooltip="Google&nbsp;Optimize">{% include_relative assets/google-optimize-icon.html %}</span>
 							<span class="tooltip" data-tooltip="Intellimize">{% include_relative assets/intellimize-icon.html %}</span>
-							<span class="tooltip" data-tooltip="HotJar">{% include_relative assets/hotjar-icon.html %}</span>
 							<span class="tooltip" data-tooltip="BrowserStack">{% include_relative assets/browserstack-icon.html %}</span>
+							<span class="tooltip" data-tooltip="BitBar">{% include_relative assets/bitbar-icon.html %}</span>
 						</div>
 					</div>
 					<!-- Analytics -->
@@ -157,6 +157,8 @@ permalink: /
 						<div class="tool-set mb-2 mb-sm-0 mb-xs-0">
 							<span class="tooltip" data-tooltip="Google&nbsp;Analytics">{% include_relative assets/google-ga4-icon.html %}</span>
 							<span class="tooltip" data-tooltip="Google&nbsp;Looker">{% include_relative assets/looker-icon.html %}</span>
+							<span class="tooltip" data-tooltip="Clarity">{% include_relative assets/microsoft-clarity-icon.html %}</span>
+							<span class="tooltip" data-tooltip="HotJar">{% include_relative assets/hotjar-icon.html %}</span>
 							<span class="tooltip" data-tooltip="CrazyEgg">{% include_relative assets/crazyegg-icon.html %}</span>
 							<span class="tooltip" data-tooltip="MixPanel">{% include_relative assets/mixpanel-icon.html %}</span>
 						</div>
