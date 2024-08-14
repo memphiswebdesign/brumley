@@ -186,7 +186,6 @@ permalink: /
 							<span class="tooltip" data-tooltip="Confluence">{% include_relative assets/confluence-icon.html %}</span>
 							<span class="tooltip" data-tooltip="Notion">{% include_relative assets/notion-icon.html %}</span>
 							<span class="tooltip" data-tooltip="Miro">{% include_relative assets/miro-icon.html %}</span>
-							<span class="tooltip" data-tooltip="Invision">{% include_relative assets/invision-icon.html %}</span>
 						</div>
 					</div>
 					<!-- Code -->
