@@ -1440,7 +1440,10 @@ hr.dash:before {
 	#content {padding-top: 25px;}
 }
 
-footer {position: relative;}
+footer {
+	position: relative;
+	background-color: #131313;
+}
 
 footer .footer-logo img {
 	width: 60%;
@@ -3048,5 +3051,74 @@ img.bitbar-orbit {
 }
 
 
+/* Blog Article Theme */
+body.themer-lite {
+	background: #e3e9ee;
+	transition: .18s ease;
+	color: #4b5055;
+}
 
+body.themer-lite h1,
+body.themer-lite h2,
+body.themer-lite h3,
+body.themer-lite h4,
+body.themer-lite h5,
+body.themer-lite h6 {color: #131313;}
 
+body.themer-lite pre.cat {color: #555;}
+body.themer-lite #post p {color: #4b5055;}
+
+#themer {
+	position: fixed;
+	bottom: 1em;
+	right: 1rem;
+	z-index: 999;
+}
+#themer button {
+	border: 1px solid rgba(207, 207, 207, .3);
+	background: rgba(0,0,0,.1)!important;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	appearance: none;
+	border-radius: 30px;
+	height: 50px;
+	width: 30px;
+	position: relative;
+	padding: 0;
+    margin: 0;
+    transition: all .2s ease-out!important;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+#themer button span {
+	display: inline-block;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	background: #dbaf16;
+	border: none;
+	transition: all .2s ease-out!important;
+}
+#themer button span:before {
+	content: '';
+	height: 24px;
+	width: 24px;
+	background: #000;
+	display: inline-block;
+	border-radius: 50%;
+	transform: translateX(-38%);
+	transition: all .2s ease-out .05s!important;
+}
+#themer.active button span {
+	transform: translateY(80%);
+}
+#themer.active button span:before {
+	opacity: 0;
+	transform: translateX(-50%);
+	transition: all .1s ease-out!important;
+}

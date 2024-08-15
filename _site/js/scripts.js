@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
             closeModal();
         }
     });
-    
+
 });
 
 
@@ -269,6 +269,13 @@ document.addEventListener("DOMContentLoaded", function() {
 document.querySelectorAll('.tooltip').forEach(tooltip => {
     const width = tooltip.getAttribute('data-width');
     tooltip.style.setProperty('--tooltip-width', width);
+});
+
+
+// Article theme switcher
+document.querySelector('#themer').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.body.classList.toggle('themer-lite');
 });
 
 
