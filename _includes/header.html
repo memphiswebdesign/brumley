@@ -13,15 +13,15 @@
 				<ul>
 					{% for item in site.data.menu %}
 					<li class="{% if item.link == page.url %} active {% endif %} {{item.class}}">
-						<a alt="Eli Brumley {{item.title}}" href="{{item.link}}">{{item.title}}</a></li>
-					{% endfor %} 
+						<a alt="Eli Brumley {{item.title}}" aria-label="{{item.title}}" href="{{item.link}}">{{item.title}}</a></li>
+					{% endfor %}
 				</ul>
 			</nav> 
 			<div class="social">
-				<a class="social-item" href="{{ site.x_url }}" alt="X link" target="_blank">
+				<a class="social-item" aria-label="X link" href="{{ site.x_url }}" alt="X link" target="_blank">
 					{% include_anywhere assets/x-icon.html %}
 				</a>
-				<a class="social-item" href="{{ site.linkedin_url }}" alt="Linkedin link" target="_blank">
+				<a class="social-item" aria-label="Linkedin link" href="{{ site.linkedin_url }}" alt="Linkedin link" target="_blank">
 					{% include_anywhere assets/linkedin-icon.html %}
 				</a>
 			</div>

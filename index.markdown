@@ -23,7 +23,7 @@ permalink: /
 			<div class="work-item fx-item-2 px-1 mb-2 pl-sm-0 px-xs-0 mb-xs-2 ">
 				<div class="card-wrap tilt-card" data-tilt style="--cursor-x: 0px; --cursor-y: 0px;">
 					<div class="card {{ work.className }}">
-						<a class="post-link" href="{{ work.url }}"></a> 
+						<a class="post-link" alt="{{ work.title }}" aria-label="{{ work.title }}" href="{{ work.url }}"></a> 
 						<pre class="work-cat center">{{ work.client }}</pre>
 						<div class="work-image mt-xs-1"> 
 							  {% if work.img == "" %}
@@ -54,7 +54,7 @@ permalink: /
 			{% endfor %}
 		</div>
 		<div class="mt-2 mb-0 mt-sm-1 center">
-			<a href="/projects" class="text-link">Latest Projects <span class="ar">></span></a>
+			<a href="/projects" alt="Latest Projects" aria-label="Latest Projects" class="text-link">Latest Projects <span class="ar">></span></a>
 		</div>
 	</div>
 </section>

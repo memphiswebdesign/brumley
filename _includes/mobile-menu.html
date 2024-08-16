@@ -4,9 +4,9 @@
 			{% for item in site.data.menu %} 
 			<li class="{% if item.link == page.url %} active {% endif %} {{item.class}}">
 				{% if item.external %}
-				<a alt="Eli Brumley {{item.title}}" href="{{item.link}}" target="_blank">{{item.title}}</a></li>
+				<a alt="Eli Brumley {{item.title}}" aria-label="{{ item.title }}" href="{{item.link}}" target="_blank">{{item.title}}</a></li>
 				{% else %}
-				<a alt="Eli Brumley {{item.title}}" href="{{item.link}}">{{item.title}}</a>
+				<a alt="Eli Brumley {{item.title}}" aria-label="{{ item.title }}" href="{{item.link}}">{{item.title}}</a>
 				{% endif %}
 			</li>
 			{% endfor %}
