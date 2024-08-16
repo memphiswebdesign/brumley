@@ -1605,7 +1605,10 @@ footer p {
 	-webkit-text-fill-color: transparent;
 }
 .domain-flow .social-email {cursor: copy;}
-.domain-flow .social-email.copied:before {content: "✓ copied"!important;}
+.domain-flow .social-email.copied:before {
+	content: "✓ copied"!important;
+	background: rgba(17, 191, 17, .6);
+}
 
 /* Hi */
 /*.domain-set.hi {transform: translateX(-1%);}*/

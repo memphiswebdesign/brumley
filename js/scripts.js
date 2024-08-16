@@ -271,14 +271,6 @@ document.querySelectorAll('.tooltip').forEach(tooltip => {
     tooltip.style.setProperty('--tooltip-width', width);
 });
 
-
-// Article theme switcher
-document.querySelector('#themer').addEventListener('click', function() {
-    this.classList.toggle('active');
-    document.body.classList.toggle('themer-lite');
-});
-
-
 // Footer Interactions
 document.addEventListener('DOMContentLoaded', () => {
     const socialEmail = document.querySelector('.social-email');
@@ -323,6 +315,17 @@ document.addEventListener('DOMContentLoaded', () => {
             socialEmail.classList.remove('copied');
         }, 2000);
     });
+});
+
+// Article theme switcher
+document.addEventListener('DOMContentLoaded', function() {
+    const themer = document.querySelector('#themer');
+    if (themer) {
+        themer.addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.body.classList.toggle('themer-lite');
+        });
+    }
 });
 
 
