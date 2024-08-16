@@ -1605,10 +1605,7 @@ footer p {
 	-webkit-text-fill-color: transparent;
 }
 .domain-flow .social-email {cursor: copy;}
-.domain-flow .social-email.copied:before {
-	content: "✓ copied"!important;
-	background: rgba(17, 191, 17, .6);
-}
+.domain-flow .social-email.copied:before {content: "✓ copied"!important;}
 
 /* Hi */
 /*.domain-set.hi {transform: translateX(-1%);}*/
@@ -2377,6 +2374,7 @@ pre.cat {
 @media(max-width: 540px) {.grid-sizer, .grid-item{width: 100%;}}
 
 /* Contact Page */
+#page[class*="contact"] #hero .hero-tag {display: none;}
 .team-member {
 	flex: 0 0 50%;
 	padding: 10px 0;

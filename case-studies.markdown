@@ -1,6 +1,6 @@
 ---
 layout: simple 
-title: Hand Picked Projects
+title: Memphis UX Web Design Projects
 subtitle: Driving real results through beautifully optimized experiences.
 permalink: /projects
 ---

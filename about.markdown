@@ -1,7 +1,7 @@
 ---
 layout: default 
-title: a bit about me
-subtitle: Memphis Native. &nbsp;Father of 3. &nbsp;Design Nerd.
+title: Design Nerd
+subtitle: Memphis Web Design. &nbsp;Family man. &nbsp;Farmer-ish.
 permalink: /about
 bg: bg1
 ---

@@ -1,4 +1,4 @@
-I"��<section id="featured-cases" class="pt-2 pb-4 pb-sm-3 pt-xs-0">
+I"<�<section id="featured-cases" class="pt-2 pb-4 pb-sm-3 pt-xs-0">
 	<div class="container center"> 
 		<p class="hero-tag fog flex fx-align-center fx-just-center mb-4 mb-sm-2">
 			<span class="blue dot-accent pre">:</span>
@@ -221,14 +221,14 @@
 		</p> -->
 		<h2 class="mb-1 center">Made some badass friends</h2>
 		<div class="quote-wrap pt-1 pb-1">
-			<button id="scrollLeft"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.00684 10.3636L5.86621 9.51542L2.32826 5.97747H11.4912V4.74979H2.32826L5.86621 1.22301L5.00684 0.363632L0.00683594 5.36363L5.00684 10.3636Z" fill="white" /></svg></button>
-			<button id="scrollRight"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.98438 10.3636L6.125 9.51542L9.66295 5.97747H0.5V4.74979H9.66295L6.125 1.22301L6.98438 0.363632L11.9844 5.36363L6.98438 10.3636Z" fill="white" /></svg></button>
+			<button id="scrollLeft" aria-label="Scroll Left" title="Scroll Left"><svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.00684 10.3636L5.86621 9.51542L2.32826 5.97747H11.4912V4.74979H2.32826L5.86621 1.22301L5.00684 0.363632L0.00683594 5.36363L5.00684 10.3636Z" fill="white" /></svg></button>
+			<button id="scrollRight" aria-label="Scroll Right" title="Scroll Right">&gt;<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.98438 10.3636L6.125 9.51542L9.66295 5.97747H0.5V4.74979H9.66295L6.125 1.22301L6.98438 0.363632L11.9844 5.36363L6.98438 10.3636Z" fill="white" /></svg></button>
 			<div id="scrollContainer" class="flex fx-no-wrap">
 				
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Working alongside Eli has been a game-changer; his presence on the team has always booster our odds of success. He possesses a rare talent of melding a marketer's strategic mindset with the creative vision of a top-tier designer.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/micheal-morgan.jpg" />
+						<img class="lazyload" alt="Micheal Morgan" data-src="/assets/micheal-morgan.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Micheal Morgan</p>
 							<p class="title">Growth @ Sumo Logic</p>
@@ -239,7 +239,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">I highly recommend Eli for his exceptional blend of business acumen and artistic talent. Over 15 years, he consistently delivers innovative, high-quality work on time, making him a valuable asset for any project.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/jason-harris.jpg" />
+						<img class="lazyload" alt="Jason Harris" data-src="/assets/jason-harris.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Jason Harris</p>
 							<p class="title">COO @ Hospitality</p>
@@ -250,7 +250,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli knows how to design to drive business metrics. I've worked with him in multiple companies where he is given an end-goal and he builds a plan and design that exceeds KPis with UX research, a/b testing and data-driven design.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/nik-kreinberg.jpg" />
+						<img class="lazyload" alt="Nik Kreinberg" data-src="/assets/nik-kreinberg.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Nik Kreinberg</p>
 							<p class="title">Director @ Dockwa</p>
@@ -261,7 +261,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli is consistently empathetic of the user's experience, quick to understand and solution complex domains, and humbly collaborative. It's been a joy to see his instinctual expertise deliver value on projects.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/kevin-reed.jpg" />
+						<img class="lazyload" alt="Kevin Reed" data-src="/assets/kevin-reed.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Kevin Reed</p>
 							<p class="title">Sr. Engineer @ EA Sports</p>
@@ -272,7 +272,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli is an incredibly talented designer, but most importantly a thoughtful designer. He’s not just making things look good, he’s making it look good for a purpose and on-purpose. It’s hard to put price on how valuable that is for a brand.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/trent-erwin.jpg" />
+						<img class="lazyload" alt="Trent Erwin" data-src="/assets/trent-erwin.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Trent Erwin</p>
 							<p class="title">Owner @ Erwin Media</p>
@@ -283,7 +283,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli is an outstanding designer — hands down! He's great at turning complex software into simple, user-friendly designs that make any product better. His skill can transform ordinary software into something that's a joy to use.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/adam-taylor.jpg" />
+						<img class="lazyload" alt="Adam Taylor" data-src="/assets/adam-taylor.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Adam Taylor</p>
 							<p class="title">Sr. Engineer @ Firstup</p>
@@ -294,7 +294,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli is the best UX designer I've worked with in over 15 years. He excels in creating both beautiful UI and effective UX. His skill in HTML, CSS, and JS is also impressive and rare. He's a fantastic teammate &amp; great guy.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/luke-kende.jpg" />
+						<img class="lazyload" alt="Luke Kende" data-src="/assets/luke-kende.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Luke Kende</p>
 							<p class="title">Software Lead @ Smartbear</p>
@@ -305,7 +305,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli is a thoughtful, data-driven, modern UX designer whose talent speaks for itself. Often tasked with balancing opinions from multiple stakeholders he’s able to find middle ground and exceed the objectives at hand.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/courtney-hart.png" />
+						<img class="lazyload" alt="Courtney Hart" data-src="/assets/courtney-hart.png" />
 						<div class="quote-meta-label">
 							<p class="name">Courtney Hart</p>
 							<p class="title">Director @ Sumo Logic</p>
@@ -316,7 +316,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">I love working with Eli because he’s always curious and pushes those around him to consider every possible solution.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/katie-sinclair.jpg" />
+						<img class="lazyload" alt="Katie Sinclair" data-src="/assets/katie-sinclair.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Katie Sinclair</p>
 							<p class="title">Design Lead @ SmartBear</p>
@@ -327,7 +327,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">I trust Eli above all for creative branding strategy and crafting creative digital assets. He has the magic eye that turns my marketing headaches into happiness every time!</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/steve-goerger.jpg" />
+						<img class="lazyload" alt="Steve Goerger" data-src="/assets/steve-goerger.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">Steve Goerger</p>
 							<p class="title">Founder @ ProtectPress</p>
@@ -338,7 +338,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">If you watch old Bond movies, there is always a scene where Q gives Bond all these amazing gadgets. Whenever Eli presented his work to the org, it was just like that.</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/david-puckett.jpg" />
+						<img class="lazyload" alt="David Puckett" data-src="/assets/david-puckett.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">David Puckett</p>
 							<p class="title">DevOps @ Capital One</p>
@@ -349,7 +349,7 @@
 				<div class="quote-item py-2 px-2 py-sm-1 px-sm-1 mb-1">
 					<div class="quote">Eli was a great colleague to collaborate with - artistic, innovative, and passionate about delivering work that exceeds expectations!</div>
 					<div class="flex fx-align-center quote-meta">
-						<img class="lazyload" data-src="/assets/james-acero.jpg" />
+						<img class="lazyload" alt="James Acero" data-src="/assets/james-acero.jpg" />
 						<div class="quote-meta-label">
 							<p class="name">James Acero</p>
 							<p class="title">Dev @ SmartBear</p>

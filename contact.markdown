@@ -1,6 +1,6 @@
 ---
 layout: default 
-title:
+title: Contact Eli Brumley
 subtitle:
 permalink: /contact/
 ---

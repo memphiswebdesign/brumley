@@ -2,12 +2,9 @@
 	<div class="container center white">
 		<div class="flex fx-just-apart fx-align-center">
 			<div id="logo">
-				<a class="logo-link" href="/"> 
+				<a class="logo-link" rel="canonical" href="{{ site.url }}"> 
 					<div class="memoji unselectable">
-						<img class="headshot" src="/assets/eli-brumley-bw.png" alt="Eli Brumley" />
-						<!-- <img class="headshot" src="/assets/eli-brumley-circle.png" alt="Eli Brumley" /> -->
-						<!-- <img class="thumb" src="/assets/miemoji-thumbsup.png" alt="Thumbs up" /> -->
-						<!-- <img class="wave" src="/assets/miemoji-wave-right.png" alt="Wave" /> -->
+						<img class="headshot" src="/assets/eli-brumley-bw.png" alt="Eli Brumley Icon" />
 					</div>
 					<span>Eli Brumley</span>
 				</a>
@@ -16,22 +13,22 @@
 				<ul>
 					{% for item in site.data.menu %}
 					<li class="{% if item.link == page.url %} active {% endif %} {{item.class}}">
-						<a href="{{item.link}}">{{item.title}}</a></li>
-					{% endfor %}
+						<a alt="Eli Brumley {{item.title}}" href="{{item.link}}">{{item.title}}</a></li>
+					{% endfor %} 
 				</ul>
 			</nav> 
 			<div class="social">
-				<a class="social-item" href="{{ site.x_url }}" target="_blank">
+				<a class="social-item" href="{{ site.x_url }}" alt="X link" target="_blank">
 					{% include_anywhere assets/x-icon.html %}
 				</a>
-				<a class="social-item" href="{{ site.linkedin_url }}" target="_blank">
+				<a class="social-item" href="{{ site.linkedin_url }}" alt="Linkedin link" target="_blank">
 					{% include_anywhere assets/linkedin-icon.html %}
 				</a>
 			</div>
 			<div class="cta mobile-hide">
-				<a class="btn" href="/contact" >Let's Chat</a>
+				<a class="btn" alt="Contact Eli Brumley" href="/contact" >Let's Chat</a>
 			</div>
-			<button class="hamburger mobile-show">
+			<button class="hamburger mobile-show" title="Mobile Menu" aria-label="Mobile Menu">
 				<span></span>
 			</button>
 		</div>
